@@ -20,6 +20,40 @@ namespace BusinessLogicLayer.Servicios
             _usuariosRepositorio = usuariosRepositorio;
             _mapper = mapper;
         }
+
+        public async Task<CustomResponse<UsuarioDto>> ActualizarUsuarioAsync(UsuarioDto usuarioDto)
+        {
+            var respuesta = new CustomResponse<UsuarioDto>();
+            if(!await _usuariosRepositorio.ActualizarUsuarioAsync(_mapper.Map<Usuario>(usuarioDto)))
+            {
+                respuesta.EsError = true;
+                respuesta.Mensaje = "No se pudo actualizar el usuario";
+                return respuesta;
+            }
+            return respuesta;
+        }
+        public async Task<CustomResponse<UsuarioDto>> EliminarUsuarioAsync(int id)
+        {
+            var respuesta = new CustomResponse<UsuarioDto>();
+            if(!await _usuariosRepositorio.EliminarUsuarioAsync(id))
+            {
+                respuesta.EsError = true;
+                respuesta.Mensaje = "No se pudo eliminar el usuario";
+                return respuesta;
+            }
+            return respuesta;
+        }
+        public async Task<CustomResponse<UsuarioDto>> AgregarUsuarioAsync(UsuarioDto usuarioDto)
+        {
+            var respuesta = new CustomResponse<UsuarioDto>();
+            if(!await _usuariosRepositorio.AgregarUsuarioAsync(_mapper.Map<Usuario>(usuarioDto)))
+            {
+                respuesta.EsError = true;
+                respuesta.Mensaje = "No se pudo agregar el usuario";
+                return respuesta;
+            }
+            return respuesta;
+        }
         public async Task<CustomResponse<UsuarioDto>> ObtenerUsuarioPorIdAsync(int id)
         {
             var respuesta = new CustomResponse<UsuarioDto>();
@@ -38,7 +72,14 @@ namespace BusinessLogicLayer.Servicios
 
             return respuesta;
         }
-
+        public async Task<CustomResponse<List<UsuarioDto>>> ObtenerUsuariosAsync()
+        {
+            var respuesta = new CustomResponse<List<UsuarioDto>>();
+            var usuarios = await _usuariosRepositorio.ObtenerUsuariosAsync();
+            var usuariosDto = _mapper.Map<List<UsuarioDto>>(usuarios);
+            respuesta.Data = usuariosDto;
+            return respuesta;
+        }
         private CustomResponse<UsuarioDto> validar(Usuario usuario)
         {
             var respuesta = new CustomResponse<UsuarioDto>();
@@ -54,15 +95,6 @@ namespace BusinessLogicLayer.Servicios
                 respuesta.Mensaje = "Usuario menor de edad";
                 return respuesta;
             }
-            return respuesta;
-        }
-
-        public async Task<CustomResponse<List<UsuarioDto>>> ObtenerUsuariosdAsync()
-        {
-            var respuesta = new CustomResponse<List<UsuarioDto>>();
-            var usuarios = await _usuariosRepositorio.ObtenerUsuariosAsync();
-            var usuariosDto = _mapper.Map<List<UsuarioDto>>(usuarios);
-            respuesta.Data = usuariosDto;
             return respuesta;
         }
     }

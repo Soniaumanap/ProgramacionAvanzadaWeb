@@ -12,5 +12,7 @@ namespace BusinessLogicLayer.Servicios
         Task<CustomResponse<UsuarioDto>> ObtenerUsuarioPorIdAsync(int id);
         Task<CustomResponse<List<UsuarioDto>>> ObtenerUsuariosAsync();
         Task<CustomResponse<UsuarioDto>> AgregarUsuarioAsync(UsuarioDto usuarioDto);
+        Task<CustomResponse<UsuarioDto>> ActualizarUsuarioAsync(UsuarioDto usuarioDto);
+        Task<CustomResponse<UsuarioDto>> EliminarUsuarioAsync(int id);
     }
 }
