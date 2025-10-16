@@ -19,5 +19,9 @@ namespace ProyectoUsuarios.Controllers
             var respuesta = await _usuariosServicio.ObtenerUsuariosAsync();
             return View(respuesta.Data);
         }
+        public IActionResult Create()
+        {
+            return View();
+        }
     }
 }
