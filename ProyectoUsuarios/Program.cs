@@ -1,7 +1,15 @@
+using BusinessLogicLayer.Mapeos;
+using BusinessLogicLayer.Servicios;
+using DataAccesssLayer.Repositorios;
+using ProyectoUsuariosDAL.Repositorios;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddSingleton<IUsuariosRepositorio, UsuariosRepositorio>();
+builder.Services.AddSingleton<IUsuariosServicio, UsuarioServicio>();
+builder.Services.AddAutoMapper(cfg => { }, typeof(MapeoClases));
 
 var app = builder.Build();
 
@@ -23,5 +31,7 @@ app.UseAuthorization();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
-
+app.MapControllerRoute(
+    name: "Usuarios",
+    pattern: "{controller=Usuario}/{action= Index}/{id?}");
 app.Run();

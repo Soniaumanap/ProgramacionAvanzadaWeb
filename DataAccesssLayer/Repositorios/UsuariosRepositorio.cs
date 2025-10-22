@@ -56,10 +56,5 @@ namespace ProyectoUsuariosDAL.Repositorios
         {
             return usuarios;
         }
-
-        Task<List<Usuario>> IUsuariosRepositorio.ObtenerUsuarioAsync()
-        {
-            throw new NotImplementedException();
-        }
     }
 }

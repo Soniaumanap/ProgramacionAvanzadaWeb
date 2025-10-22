@@ -9,7 +9,7 @@ namespace DataAccesssLayer.Repositorios
 {
     public interface IUsuariosRepositorio
     {
-        Task<List<Usuario>> ObtenerUsuarioAsync();
+        Task<List<Usuario>> ObtenerUsuariosAsync();
         Task<Usuario> ObtenerUsuarioPorIdAsync(int id);
         Task<bool> AgregarUsuarioAsync(Usuario usuario);
         Task<bool> ActualizarUsuarioAsync(Usuario usuario);
