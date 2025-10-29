@@ -9,10 +9,12 @@ namespace DataAccesssLayer.Repositorios
 {
     public interface IUsuariosRepositorio
     {
-        Task<List<Usuario>> ObtenerUsuariosAsync();
-        Task<Usuario> ObtenerUsuarioPorIdAsync(int id);
-        Task<bool> AgregarUsuarioAsync(Usuario usuario);
-        Task<bool> ActualizarUsuarioAsync(Usuario usuario);
-        Task<bool> EliminarUsuarioAsync(int id);
+        Task<List<Usuario>> ObtenerTodosAsync();
+        Task<Usuario> ObtenerPorIdAsync(int idUsuario);
+        Task<Usuario> ObtenerPorEmailAsync(string email);
+        Task<bool> CrearAsync(Usuario usuario);
+        Task<bool> ActualizarAsync(Usuario usuario);
+        Task<bool> EliminarAsync(int idUsuario);
+        Task<Usuario?> LoginAsync(string email, string passwordHash);
     }
 }
