@@ -1,0 +1,140 @@
+﻿@model List<SGC.BLL.Dtos.UsuarioDto>
+
+<h4>Administración de Usuarios</h4>
+
+<button class="btn btn-primary mb-3" onclick="openCrear()">Nuevo usuario</button>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Identificación</th>
+            <th>Nombre</th>
+            <th>Email</th>
+            <th>Rol</th>
+            <th>Activo</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var u in Model)
+        {
+            <tr>
+                <td>@u.Id</td>
+                <td>@u.Identificacion</td>
+                <td>@u.Nombre</td>
+                <td>@u.Email</td>
+                <td>@u.Rol</td>
+                <td>@(u.Activo ? "Sí" : "No")</td>
+                <td>
+                    <button class="btn btn-sm btn-warning"
+                            onclick="openEditar(@u.Id,'@u.Identificacion','@u.Nombre','@u.Email','@u.Password','@u.Rol', @u.Activo.ToString().ToLower())">
+                        Editar
+                    </button>
+                    <button class="btn btn-sm btn-danger" onclick="eliminar(@u.Id)">Eliminar</button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@section Scripts {
+    <script>
+        // Crear
+        function openCrear() {
+            Swal.fire({
+                title: 'Nuevo usuario',
+                html: `
+              <input id="ide" class="swal2-input" placeholder="Identificación">
+              <input id="nom" class="swal2-input" placeholder="Nombre">
+              <input id="ema" class="swal2-input" placeholder="Email">
+              <input id="pas" class="swal2-input" placeholder="Password" type="password">
+              <select id="rol" class="swal2-select">
+                <option value="Admin">Admin</option>
+                <option value="Analista">Analista</option>
+                <option value="Gestor">Gestor</option>
+                <option value="ServicioCliente">ServicioCliente</option>
+              </select>
+              <div class="form-check" style="margin-left:1.5rem; text-align:left">
+                <input class="form-check-input" type="checkbox" id="act" checked>
+                <label class="form-check-label" for="act">Activo</label>
+              </div>`,
+                confirmButtonText: 'Guardar',
+                showCancelButton: true,
+                preConfirm: () => ({
+                    Identificacion: document.getElementById('ide').value,
+                    Nombre: document.getElementById('nom').value,
+                    Email: document.getElementById('ema').value,
+                    Password: document.getElementById('pas').value,
+                    Rol: document.getElementById('rol').value,
+                    Activo: document.getElementById('act').checked
+                })
+            }).then(r => {
+                if (r.value) {
+                    fetch('@Url.Action("Crear", "Usuarios")', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify(r.value)
+                    })
+                        .then(x => x.json())
+                        .then(d => d.esError ? Swal.fire('Error', d.mensaje, 'error') : location.reload());
+                }
+            });
+        }
+
+        // Editar
+        function openEditar(id, identificacion, nombre, email, password, rol, activo) {
+            Swal.fire({
+                title: 'Editar usuario',
+                html: `
+              <input id="ide" class="swal2-input" value="${identificacion}">
+              <input id="nom" class="swal2-input" value="${nombre}">
+              <input id="ema" class="swal2-input" value="${email}">
+              <input id="pas" class="swal2-input" value="${password}">
+              <select id="rol" class="swal2-select">
+                <option ${rol === 'Admin' ? 'selected' : ''}>Admin</option>
+                <option ${rol === 'Analista' ? 'selected' : ''}>Analista</option>
+                <option ${rol === 'Gestor' ? 'selected' : ''}>Gestor</option>
+                <option ${rol === 'ServicioCliente' ? 'selected' : ''}>ServicioCliente</option>
+              </select>
+              <div class="form-check" style="margin-left:1.5rem; text-align:left">
+                <input class="form-check-input" type="checkbox" id="act" ${activo ? 'checked' : ''}>
+                <label class="form-check-label" for="act">Activo</label>
+              </div>`,
+                confirmButtonText: 'Guardar cambios',
+                showCancelButton: true,
+                preConfirm: () => ({
+                    Id: id,
+                    Identificacion: document.getElementById('ide').value,
+                    Nombre: document.getElementById('nom').value,
+                    Email: document.getElementById('ema').value,
+                    Password: document.getElementById('pas').value,
+                    Rol: document.getElementById('rol').value,
+                    Activo: document.getElementById('act').checked
+                })
+            }).then(r => {
+                if (r.value) {
+                    fetch('@Url.Action("Editar", "Usuarios")', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify(r.value)
+                    })
+                        .then(x => x.json())
+                        .then(d => d.esError ? Swal.fire('Error', d.mensaje, 'error') : location.reload());
+                }
+            });
+        }
+
+        // Eliminar
+        function eliminar(id) {
+            Swal.fire({ title: '¿Eliminar usuario?', icon: 'warning', showCancelButton: true })
+                .then(s => {
+                    if (s.isConfirmed) {
+                        fetch('@Url.Action("Eliminar", "Usuarios")?id=' + id, { method: 'POST' })
+                            .then(x => x.json())
+                            .then(_ => location.reload());
+                    }
+                })
+        }
+    </script>
+}
