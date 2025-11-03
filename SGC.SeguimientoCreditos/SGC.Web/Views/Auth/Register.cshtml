@@ -1,0 +1,35 @@
+﻿@model SGC.BLL.Dtos.RegisterDto
+<div class="row justify-content-center mt-5">
+    <div class="col-md-5">
+        <h4>Crear cuenta</h4>
+        <form method="post">
+            <div class="mb-2">
+                <label>Identificación</label>
+                <input asp-for="Identificacion" class="form-control" />
+            </div>
+            <div class="mb-2">
+                <label>Nombre completo</label>
+                <input asp-for="Nombre" class="form-control" />
+            </div>
+            <div class="mb-2">
+                <label>Email</label>
+                <input asp-for="Email" class="form-control" />
+            </div>
+            <div class="mb-2">
+                <label>Contraseña</label>
+                <input asp-for="Password" type="password" class="form-control" />
+                <small class="text-muted">Mínimo 4 caracteres (demo v1)</small>
+            </div>
+            <button class="btn btn-success w-100">Registrarme</button>
+
+            @if (ViewBag.Error != null)
+            {
+                <div class="alert alert-danger mt-3">@ViewBag.Error</div>
+            }
+        </form>
+
+        <div class="mt-3 text-center">
+            ¿Ya tienes cuenta? <a asp-action="Login">Inicia sesión</a>
+        </div>
+    </div>
+</div>

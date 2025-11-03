@@ -1,0 +1,46 @@
+﻿@model List<SGC.BLL.Dtos.SolicitudDto>
+<h4>Solicitudes</h4>
+<a class="btn btn-primary mb-2" asp-action="Crear">Nueva solicitud</a>
+<table class="table table-bordered">
+    <thead><tr><th>Gestión</th><th>Identificación</th><th>Monto</th><th>Estado</th><th>Creación</th><th>Acciones</th></tr></thead>
+    <tbody>
+        @foreach (var s in Model)
+        {
+            <tr>
+                <td>@s.Id</td>
+                <td>@s.IdentificacionCliente</td>
+                <td>@s.Monto.ToString("N0")</td>
+                <td>@s.Estado</td>
+                <td>@s.FechaCreacion</td>
+                <td>
+                    @if (Context.Session.GetString("Rol") is "Analista" or "Admin")
+                    {
+                        <button class="btn btn-sm btn-info" onclick="enviar(@s.Id)">Enviar aprobación</button>
+                    }
+                    @if (Context.Session.GetString("Rol") is "Gestor" or "Admin")
+                    {
+                        <button class="btn btn-sm btn-success" onclick="aprobar(@s.Id)">Aprobar</button>
+                        <button class="btn btn-sm btn-warning" onclick="devolver(@s.Id)">Devolver</button>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<script>
+    function enviar(id) {
+        fetch('@Url.Action("EnviarAprobacion")', { method: 'POST', headers: { 'Content-Type': 'application/x-www-form-urlencoded' }, body: `id=${id}` })
+            .then(r => r.json()).then(d => d.esError ? Swal.fire('Error', d.mensaje, 'error') : location.reload());
+    }
+    function aprobar(id) {
+        fetch('@Url.Action("Aprobar")', { method: 'POST', headers: { 'Content-Type': 'application/x-www-form-urlencoded' }, body: `id=${id}` })
+            .then(r => r.json()).then(d => d.esError ? Swal.fire('Error', d.mensaje, 'error') : location.reload());
+    }
+    function devolver(id) {
+        Swal.fire({ title: 'Comentario de devolución', input: 'text', showCancelButton: true }).then(t => {
+            if (t.value) fetch('@Url.Action("Devolver")', { method: 'POST', headers: { 'Content-Type': 'application/x-www-form-urlencoded' }, body: `id=${id}&comentario=${encodeURIComponent(t.value)}` })
+                .then(r => r.json()).then(d => d.esError ? Swal.fire('Error', d.mensaje, 'error') : location.reload());
+        });
+    }
+</script>

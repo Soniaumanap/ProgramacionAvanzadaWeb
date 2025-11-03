@@ -1,0 +1,59 @@
+﻿@model List<SGC.BLL.Dtos.ClienteDto>
+<h4>Clientes</h4>
+<button class="btn btn-primary mb-2" onclick="openCrear()">Nuevo</button>
+<table class="table table-striped">
+    <thead><tr><th>Id</th><th>Identificación</th><th>Nombre</th><th>Teléfono</th><th>Email</th><th></th></tr></thead>
+    <tbody>
+        @foreach (var c in Model)
+        {
+            <tr>
+                <td>@c.Id</td>
+                <td>@c.Identificacion</td>
+                <td>@c.Nombre</td>
+                <td>@c.Telefono</td>
+                <td>@c.Email</td>
+                <td>
+                    <button class="btn btn-sm btn-warning" onclick="openEditar(@c.Id,'@c.Identificacion','@c.Nombre','@c.Telefono','@c.Email')">Editar</button>
+                    <button class="btn btn-sm btn-danger" onclick="eliminar(@c.Id)">Eliminar</button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<script>
+    function openCrear() {
+        Swal.fire({
+            title: 'Nuevo cliente',
+            html: `<input id="idc" class="swal2-input" placeholder="Identificación">
+              <input id="nom" class="swal2-input" placeholder="Nombre">
+              <input id="tel" class="swal2-input" placeholder="Teléfono">
+              <input id="ema" class="swal2-input" placeholder="Email">`,
+            showCancelButton: true,
+            preConfirm: () => ({ Identificacion: idc.value, Nombre: nom.value, Telefono: tel.value, Email: ema.value })
+        }).then(r => {
+            if (r.value) fetch('@Url.Action("Crear")', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(r.value) })
+                .then(x => x.json()).then(d => d.esError ? Swal.fire('Error', d.mensaje, 'error') : location.reload());
+        });
+    }
+    function openEditar(id, identificacion, nombre, telefono, email) {
+        Swal.fire({
+            title: 'Editar cliente',
+            html: `<input id="idc" class="swal2-input" value="${identificacion}">
+              <input id="nom" class="swal2-input" value="${nombre}">
+              <input id="tel" class="swal2-input" value="${telefono}">
+              <input id="ema" class="swal2-input" value="${email}">`,
+            showCancelButton: true,
+            preConfirm: () => ({ Id: id, Identificacion: idc.value, Nombre: nom.value, Telefono: tel.value, Email: ema.value })
+        }).then(r => {
+            if (r.value) fetch('@Url.Action("Editar")', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(r.value) })
+                .then(x => x.json()).then(d => d.esError ? Swal.fire('Error', d.mensaje, 'error') : location.reload());
+        });
+    }
+    function eliminar(id) {
+        Swal.fire({ title: '¿Eliminar?', icon: 'warning', showCancelButton: true }).then(s => {
+            if (s.isConfirmed) fetch('@Url.Action("Eliminar")?id=' + id, { method: 'POST' })
+                .then(x => x.json()).then(_ => location.reload());
+        })
+    }
+</script>
