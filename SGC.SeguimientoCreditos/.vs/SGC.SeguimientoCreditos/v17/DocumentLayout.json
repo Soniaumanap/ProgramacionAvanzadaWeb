@@ -1,178 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\",
+  "WorkspaceRootPath": "C:\\Users\\rangulo\\Documents\\ProyectoFinalProgra\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B2170296-130E-4C8F-A1C3-01BAE4C54AF4}|SGC.Web\\SGC.Web.csproj|c:\\users\\rangulo\\documents\\proyectousuarios\\sgc.seguimientocreditos\\sgc.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B2170296-130E-4C8F-A1C3-01BAE4C54AF4}|SGC.Web\\SGC.Web.csproj|solutionrelative:sgc.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2170296-130E-4C8F-A1C3-01BAE4C54AF4}|SGC.Web\\SGC.Web.csproj|c:\\users\\rangulo\\documents\\proyectousuarios\\sgc.seguimientocreditos\\sgc.web\\wwwroot\\lib\\bootstrap\\dist\\css\\proyecto_style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{B2170296-130E-4C8F-A1C3-01BAE4C54AF4}|SGC.Web\\SGC.Web.csproj|solutionrelative:sgc.web\\wwwroot\\lib\\bootstrap\\dist\\css\\proyecto_style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2170296-130E-4C8F-A1C3-01BAE4C54AF4}|SGC.Web\\SGC.Web.csproj|c:\\users\\rangulo\\documents\\proyectousuarios\\sgc.seguimientocreditos\\sgc.web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B2170296-130E-4C8F-A1C3-01BAE4C54AF4}|SGC.Web\\SGC.Web.csproj|solutionrelative:sgc.web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2170296-130E-4C8F-A1C3-01BAE4C54AF4}|SGC.Web\\SGC.Web.csproj|c:\\users\\rangulo\\documents\\proyectousuarios\\sgc.seguimientocreditos\\sgc.web\\views\\reportes\\tracking.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B2170296-130E-4C8F-A1C3-01BAE4C54AF4}|SGC.Web\\SGC.Web.csproj|solutionrelative:sgc.web\\views\\reportes\\tracking.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2170296-130E-4C8F-A1C3-01BAE4C54AF4}|SGC.Web\\SGC.Web.csproj|c:\\users\\rangulo\\documents\\proyectousuarios\\sgc.seguimientocreditos\\sgc.web\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2170296-130E-4C8F-A1C3-01BAE4C54AF4}|SGC.Web\\SGC.Web.csproj|solutionrelative:sgc.web\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2170296-130E-4C8F-A1C3-01BAE4C54AF4}|SGC.Web\\SGC.Web.csproj|c:\\users\\rangulo\\documents\\proyectousuarios\\sgc.seguimientocreditos\\sgc.web\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2170296-130E-4C8F-A1C3-01BAE4C54AF4}|SGC.Web\\SGC.Web.csproj|solutionrelative:sgc.web\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2170296-130E-4C8F-A1C3-01BAE4C54AF4}|SGC.Web\\SGC.Web.csproj|c:\\users\\rangulo\\documents\\proyectousuarios\\sgc.seguimientocreditos\\sgc.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2170296-130E-4C8F-A1C3-01BAE4C54AF4}|SGC.Web\\SGC.Web.csproj|solutionrelative:sgc.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2170296-130E-4C8F-A1C3-01BAE4C54AF4}|SGC.Web\\SGC.Web.csproj|c:\\users\\rangulo\\documents\\proyectousuarios\\sgc.seguimientocreditos\\sgc.web\\controllers\\solicitudescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2170296-130E-4C8F-A1C3-01BAE4C54AF4}|SGC.Web\\SGC.Web.csproj|solutionrelative:sgc.web\\controllers\\solicitudescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2170296-130E-4C8F-A1C3-01BAE4C54AF4}|SGC.Web\\SGC.Web.csproj|c:\\users\\rangulo\\documents\\proyectousuarios\\sgc.seguimientocreditos\\sgc.web\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B2170296-130E-4C8F-A1C3-01BAE4C54AF4}|SGC.Web\\SGC.Web.csproj|solutionrelative:sgc.web\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2170296-130E-4C8F-A1C3-01BAE4C54AF4}|SGC.Web\\SGC.Web.csproj|c:\\users\\rangulo\\documents\\proyectousuarios\\sgc.seguimientocreditos\\sgc.web\\views\\usuarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B2170296-130E-4C8F-A1C3-01BAE4C54AF4}|SGC.Web\\SGC.Web.csproj|solutionrelative:sgc.web\\views\\usuarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2170296-130E-4C8F-A1C3-01BAE4C54AF4}|SGC.Web\\SGC.Web.csproj|c:\\users\\rangulo\\documents\\proyectousuarios\\sgc.seguimientocreditos\\sgc.web\\views\\auth\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B2170296-130E-4C8F-A1C3-01BAE4C54AF4}|SGC.Web\\SGC.Web.csproj|solutionrelative:sgc.web\\views\\auth\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC3B985E-413F-43FA-8837-7FB9A3B0B38E}|SGC.BLL\\SGC.BLL.csproj|c:\\users\\rangulo\\documents\\proyectousuarios\\sgc.seguimientocreditos\\sgc.bll\\servicios\\serviciosimplementacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC3B985E-413F-43FA-8837-7FB9A3B0B38E}|SGC.BLL\\SGC.BLL.csproj|solutionrelative:sgc.bll\\servicios\\serviciosimplementacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC3B985E-413F-43FA-8837-7FB9A3B0B38E}|SGC.BLL\\SGC.BLL.csproj|c:\\users\\rangulo\\documents\\proyectousuarios\\sgc.seguimientocreditos\\sgc.bll\\servicios\\serviciosinterfaces.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC3B985E-413F-43FA-8837-7FB9A3B0B38E}|SGC.BLL\\SGC.BLL.csproj|solutionrelative:sgc.bll\\servicios\\serviciosinterfaces.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC3B985E-413F-43FA-8837-7FB9A3B0B38E}|SGC.BLL\\SGC.BLL.csproj|c:\\users\\rangulo\\documents\\proyectousuarios\\sgc.seguimientocreditos\\sgc.bll\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC3B985E-413F-43FA-8837-7FB9A3B0B38E}|SGC.BLL\\SGC.BLL.csproj|solutionrelative:sgc.bll\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC3B985E-413F-43FA-8837-7FB9A3B0B38E}|SGC.BLL\\SGC.BLL.csproj|c:\\users\\rangulo\\documents\\proyectousuarios\\sgc.seguimientocreditos\\sgc.bll\\sgc.bll.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{CC3B985E-413F-43FA-8837-7FB9A3B0B38E}|SGC.BLL\\SGC.BLL.csproj|solutionrelative:sgc.bll\\sgc.bll.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2170296-130E-4C8F-A1C3-01BAE4C54AF4}|SGC.Web\\SGC.Web.csproj|c:\\users\\rangulo\\documents\\proyectousuarios\\sgc.seguimientocreditos\\sgc.web\\views\\solicitudes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B2170296-130E-4C8F-A1C3-01BAE4C54AF4}|SGC.Web\\SGC.Web.csproj|solutionrelative:sgc.web\\views\\solicitudes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2170296-130E-4C8F-A1C3-01BAE4C54AF4}|SGC.Web\\SGC.Web.csproj|c:\\users\\rangulo\\documents\\proyectousuarios\\sgc.seguimientocreditos\\sgc.web\\views\\clientes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B2170296-130E-4C8F-A1C3-01BAE4C54AF4}|SGC.Web\\SGC.Web.csproj|solutionrelative:sgc.web\\views\\clientes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2170296-130E-4C8F-A1C3-01BAE4C54AF4}|SGC.Web\\SGC.Web.csproj|c:\\users\\rangulo\\documents\\proyectousuarios\\sgc.seguimientocreditos\\sgc.web\\views\\solicitudes\\crear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{B2170296-130E-4C8F-A1C3-01BAE4C54AF4}|SGC.Web\\SGC.Web.csproj|c:\\users\\rangulo\\documents\\proyectofinalprogra\\programacionavanzadaweb\\sgc.seguimientocreditos\\sgc.web\\views\\solicitudes\\crear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B2170296-130E-4C8F-A1C3-01BAE4C54AF4}|SGC.Web\\SGC.Web.csproj|solutionrelative:sgc.web\\views\\solicitudes\\crear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B2170296-130E-4C8F-A1C3-01BAE4C54AF4}|SGC.Web\\SGC.Web.csproj|c:\\users\\rangulo\\documents\\proyectousuarios\\sgc.seguimientocreditos\\sgc.web\\controllers\\reportescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2170296-130E-4C8F-A1C3-01BAE4C54AF4}|SGC.Web\\SGC.Web.csproj|solutionrelative:sgc.web\\controllers\\reportescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2170296-130E-4C8F-A1C3-01BAE4C54AF4}|SGC.Web\\SGC.Web.csproj|c:\\users\\rangulo\\documents\\proyectousuarios\\sgc.seguimientocreditos\\sgc.web\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2170296-130E-4C8F-A1C3-01BAE4C54AF4}|SGC.Web\\SGC.Web.csproj|solutionrelative:sgc.web\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2170296-130E-4C8F-A1C3-01BAE4C54AF4}|SGC.Web\\SGC.Web.csproj|c:\\users\\rangulo\\documents\\proyectousuarios\\sgc.seguimientocreditos\\sgc.web\\utils\\roleauthorizeattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2170296-130E-4C8F-A1C3-01BAE4C54AF4}|SGC.Web\\SGC.Web.csproj|solutionrelative:sgc.web\\utils\\roleauthorizeattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2170296-130E-4C8F-A1C3-01BAE4C54AF4}|SGC.Web\\SGC.Web.csproj|c:\\users\\rangulo\\documents\\proyectousuarios\\sgc.seguimientocreditos\\sgc.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2170296-130E-4C8F-A1C3-01BAE4C54AF4}|SGC.Web\\SGC.Web.csproj|solutionrelative:sgc.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC3B985E-413F-43FA-8837-7FB9A3B0B38E}|SGC.BLL\\SGC.BLL.csproj|c:\\users\\rangulo\\documents\\proyectousuarios\\sgc.seguimientocreditos\\sgc.bll\\mapeos\\mapeoclases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC3B985E-413F-43FA-8837-7FB9A3B0B38E}|SGC.BLL\\SGC.BLL.csproj|solutionrelative:sgc.bll\\mapeos\\mapeoclases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC3B985E-413F-43FA-8837-7FB9A3B0B38E}|SGC.BLL\\SGC.BLL.csproj|c:\\users\\rangulo\\documents\\proyectousuarios\\sgc.seguimientocreditos\\sgc.bll\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC3B985E-413F-43FA-8837-7FB9A3B0B38E}|SGC.BLL\\SGC.BLL.csproj|solutionrelative:sgc.bll\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC3B985E-413F-43FA-8837-7FB9A3B0B38E}|SGC.BLL\\SGC.BLL.csproj|c:\\users\\rangulo\\documents\\proyectousuarios\\sgc.seguimientocreditos\\sgc.bll\\dtos\\trackingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC3B985E-413F-43FA-8837-7FB9A3B0B38E}|SGC.BLL\\SGC.BLL.csproj|solutionrelative:sgc.bll\\dtos\\trackingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC3B985E-413F-43FA-8837-7FB9A3B0B38E}|SGC.BLL\\SGC.BLL.csproj|c:\\users\\rangulo\\documents\\proyectousuarios\\sgc.seguimientocreditos\\sgc.bll\\dtos\\solicituddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC3B985E-413F-43FA-8837-7FB9A3B0B38E}|SGC.BLL\\SGC.BLL.csproj|solutionrelative:sgc.bll\\dtos\\solicituddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC3B985E-413F-43FA-8837-7FB9A3B0B38E}|SGC.BLL\\SGC.BLL.csproj|c:\\users\\rangulo\\documents\\proyectousuarios\\sgc.seguimientocreditos\\sgc.bll\\dtos\\clientedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC3B985E-413F-43FA-8837-7FB9A3B0B38E}|SGC.BLL\\SGC.BLL.csproj|solutionrelative:sgc.bll\\dtos\\clientedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC3B985E-413F-43FA-8837-7FB9A3B0B38E}|SGC.BLL\\SGC.BLL.csproj|c:\\users\\rangulo\\documents\\proyectousuarios\\sgc.seguimientocreditos\\sgc.bll\\dtos\\usuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC3B985E-413F-43FA-8837-7FB9A3B0B38E}|SGC.BLL\\SGC.BLL.csproj|solutionrelative:sgc.bll\\dtos\\usuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC3B985E-413F-43FA-8837-7FB9A3B0B38E}|SGC.BLL\\SGC.BLL.csproj|c:\\users\\rangulo\\documents\\proyectousuarios\\sgc.seguimientocreditos\\sgc.bll\\dtos\\customresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC3B985E-413F-43FA-8837-7FB9A3B0B38E}|SGC.BLL\\SGC.BLL.csproj|solutionrelative:sgc.bll\\dtos\\customresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6344DCA7-79BB-4102-A64C-AAE656B69F88}|SGC.DAL\\SGC.DAL.csproj|c:\\users\\rangulo\\documents\\proyectousuarios\\sgc.seguimientocreditos\\sgc.dal\\repositorios\\trackingsrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6344DCA7-79BB-4102-A64C-AAE656B69F88}|SGC.DAL\\SGC.DAL.csproj|solutionrelative:sgc.dal\\repositorios\\trackingsrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6344DCA7-79BB-4102-A64C-AAE656B69F88}|SGC.DAL\\SGC.DAL.csproj|c:\\users\\rangulo\\documents\\proyectousuarios\\sgc.seguimientocreditos\\sgc.dal\\repositorios\\solicitudesrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6344DCA7-79BB-4102-A64C-AAE656B69F88}|SGC.DAL\\SGC.DAL.csproj|solutionrelative:sgc.dal\\repositorios\\solicitudesrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6344DCA7-79BB-4102-A64C-AAE656B69F88}|SGC.DAL\\SGC.DAL.csproj|c:\\users\\rangulo\\documents\\proyectousuarios\\sgc.seguimientocreditos\\sgc.dal\\repositorios\\clientesrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6344DCA7-79BB-4102-A64C-AAE656B69F88}|SGC.DAL\\SGC.DAL.csproj|solutionrelative:sgc.dal\\repositorios\\clientesrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6344DCA7-79BB-4102-A64C-AAE656B69F88}|SGC.DAL\\SGC.DAL.csproj|c:\\users\\rangulo\\documents\\proyectousuarios\\sgc.seguimientocreditos\\sgc.dal\\repositorios\\usuariosrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6344DCA7-79BB-4102-A64C-AAE656B69F88}|SGC.DAL\\SGC.DAL.csproj|solutionrelative:sgc.dal\\repositorios\\usuariosrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6344DCA7-79BB-4102-A64C-AAE656B69F88}|SGC.DAL\\SGC.DAL.csproj|c:\\users\\rangulo\\documents\\proyectousuarios\\sgc.seguimientocreditos\\sgc.dal\\repositorios\\itrackingsrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6344DCA7-79BB-4102-A64C-AAE656B69F88}|SGC.DAL\\SGC.DAL.csproj|solutionrelative:sgc.dal\\repositorios\\itrackingsrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6344DCA7-79BB-4102-A64C-AAE656B69F88}|SGC.DAL\\SGC.DAL.csproj|c:\\users\\rangulo\\documents\\proyectousuarios\\sgc.seguimientocreditos\\sgc.dal\\repositorios\\interface1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6344DCA7-79BB-4102-A64C-AAE656B69F88}|SGC.DAL\\SGC.DAL.csproj|solutionrelative:sgc.dal\\repositorios\\interface1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6344DCA7-79BB-4102-A64C-AAE656B69F88}|SGC.DAL\\SGC.DAL.csproj|c:\\users\\rangulo\\documents\\proyectousuarios\\sgc.seguimientocreditos\\sgc.dal\\repositorios\\iclientesrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6344DCA7-79BB-4102-A64C-AAE656B69F88}|SGC.DAL\\SGC.DAL.csproj|solutionrelative:sgc.dal\\repositorios\\iclientesrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6344DCA7-79BB-4102-A64C-AAE656B69F88}|SGC.DAL\\SGC.DAL.csproj|c:\\users\\rangulo\\documents\\proyectousuarios\\sgc.seguimientocreditos\\sgc.dal\\repositorios\\iusuariosrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6344DCA7-79BB-4102-A64C-AAE656B69F88}|SGC.DAL\\SGC.DAL.csproj|solutionrelative:sgc.dal\\repositorios\\iusuariosrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6344DCA7-79BB-4102-A64C-AAE656B69F88}|SGC.DAL\\SGC.DAL.csproj|c:\\users\\rangulo\\documents\\proyectousuarios\\sgc.seguimientocreditos\\sgc.dal\\entidades\\trackinggestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6344DCA7-79BB-4102-A64C-AAE656B69F88}|SGC.DAL\\SGC.DAL.csproj|solutionrelative:sgc.dal\\entidades\\trackinggestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6344DCA7-79BB-4102-A64C-AAE656B69F88}|SGC.DAL\\SGC.DAL.csproj|c:\\users\\rangulo\\documents\\proyectousuarios\\sgc.seguimientocreditos\\sgc.dal\\entidades\\solicitudcredito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6344DCA7-79BB-4102-A64C-AAE656B69F88}|SGC.DAL\\SGC.DAL.csproj|c:\\users\\rangulo\\documents\\proyectofinalprogra\\programacionavanzadaweb\\sgc.seguimientocreditos\\sgc.dal\\entidades\\solicitudcredito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6344DCA7-79BB-4102-A64C-AAE656B69F88}|SGC.DAL\\SGC.DAL.csproj|solutionrelative:sgc.dal\\entidades\\solicitudcredito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6344DCA7-79BB-4102-A64C-AAE656B69F88}|SGC.DAL\\SGC.DAL.csproj|c:\\users\\rangulo\\documents\\proyectousuarios\\sgc.seguimientocreditos\\sgc.dal\\entidades\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6344DCA7-79BB-4102-A64C-AAE656B69F88}|SGC.DAL\\SGC.DAL.csproj|solutionrelative:sgc.dal\\entidades\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B2170296-130E-4C8F-A1C3-01BAE4C54AF4}|SGC.Web\\SGC.Web.csproj|c:\\users\\rangulo\\documents\\proyectofinalprogra\\programacionavanzadaweb\\sgc.seguimientocreditos\\sgc.web\\controllers\\solicitudescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2170296-130E-4C8F-A1C3-01BAE4C54AF4}|SGC.Web\\SGC.Web.csproj|solutionrelative:sgc.web\\controllers\\solicitudescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6344DCA7-79BB-4102-A64C-AAE656B69F88}|SGC.DAL\\SGC.DAL.csproj|c:\\users\\rangulo\\documents\\proyectousuarios\\sgc.seguimientocreditos\\sgc.dal\\entidades\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6344DCA7-79BB-4102-A64C-AAE656B69F88}|SGC.DAL\\SGC.DAL.csproj|solutionrelative:sgc.dal\\entidades\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B2170296-130E-4C8F-A1C3-01BAE4C54AF4}|SGC.Web\\SGC.Web.csproj|c:\\users\\rangulo\\documents\\proyectofinalprogra\\programacionavanzadaweb\\sgc.seguimientocreditos\\sgc.web\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2170296-130E-4C8F-A1C3-01BAE4C54AF4}|SGC.Web\\SGC.Web.csproj|solutionrelative:sgc.web\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6344DCA7-79BB-4102-A64C-AAE656B69F88}|SGC.DAL\\SGC.DAL.csproj|c:\\users\\rangulo\\documents\\proyectousuarios\\sgc.seguimientocreditos\\sgc.dal\\entidades\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6344DCA7-79BB-4102-A64C-AAE656B69F88}|SGC.DAL\\SGC.DAL.csproj|solutionrelative:sgc.dal\\entidades\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6344DCA7-79BB-4102-A64C-AAE656B69F88}|SGC.DAL\\SGC.DAL.csproj|c:\\users\\rangulo\\documents\\proyectousuarios\\sgc.seguimientocreditos\\sgc.dal\\sgc.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{6344DCA7-79BB-4102-A64C-AAE656B69F88}|SGC.DAL\\SGC.DAL.csproj|solutionrelative:sgc.dal\\sgc.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{6344DCA7-79BB-4102-A64C-AAE656B69F88}|SGC.DAL\\SGC.DAL.csproj|c:\\users\\rangulo\\documents\\proyectofinalprogra\\programacionavanzadaweb\\sgc.seguimientocreditos\\sgc.dal\\repositorios\\usuariosrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6344DCA7-79BB-4102-A64C-AAE656B69F88}|SGC.DAL\\SGC.DAL.csproj|solutionrelative:sgc.dal\\repositorios\\usuariosrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -182,15 +30,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 16,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Bookmark",
@@ -211,519 +55,67 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Proyecto_Style.css",
-              "DocumentMoniker": "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\Proyecto_Style.css",
-              "RelativeDocumentMoniker": "SGC.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\Proyecto_Style.css",
-              "ToolTip": "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\Proyecto_Style.css",
-              "RelativeToolTip": "SGC.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\Proyecto_Style.css",
-              "ViewState": "AQIAALQ0AAAAAAAAAAAAAMY0AAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-11-03T00:16:56.761Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.Web\\Views\\Usuarios\\Index.cshtml",
-              "RelativeDocumentMoniker": "SGC.Web\\Views\\Usuarios\\Index.cshtml",
-              "ToolTip": "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.Web\\Views\\Usuarios\\Index.cshtml",
-              "RelativeToolTip": "SGC.Web\\Views\\Usuarios\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-02T23:41:02.34Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.Web\\Views\\Auth\\Register.cshtml",
-              "RelativeDocumentMoniker": "SGC.Web\\Views\\Auth\\Register.cshtml",
-              "ToolTip": "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.Web\\Views\\Auth\\Register.cshtml",
-              "RelativeToolTip": "SGC.Web\\Views\\Auth\\Register.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAABJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-02T23:31:22.159Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "RegisterDto.cs",
-              "DocumentMoniker": "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.BLL\\Dtos\\RegisterDto.cs",
-              "RelativeDocumentMoniker": "SGC.BLL\\Dtos\\RegisterDto.cs",
-              "ToolTip": "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.BLL\\Dtos\\RegisterDto.cs",
-              "RelativeToolTip": "SGC.BLL\\Dtos\\RegisterDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Title": "SolicitudCredito.cs",
+              "DocumentMoniker": "C:\\Users\\rangulo\\Documents\\ProyectoFinalProgra\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.DAL\\Entidades\\SolicitudCredito.cs",
+              "RelativeDocumentMoniker": "SGC.DAL\\Entidades\\SolicitudCredito.cs",
+              "ToolTip": "C:\\Users\\rangulo\\Documents\\ProyectoFinalProgra\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.DAL\\Entidades\\SolicitudCredito.cs",
+              "RelativeToolTip": "SGC.DAL\\Entidades\\SolicitudCredito.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-02T23:26:26.838Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Tracking.cshtml",
-              "DocumentMoniker": "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.Web\\Views\\Reportes\\Tracking.cshtml",
-              "RelativeDocumentMoniker": "SGC.Web\\Views\\Reportes\\Tracking.cshtml",
-              "ToolTip": "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.Web\\Views\\Reportes\\Tracking.cshtml",
-              "RelativeToolTip": "SGC.Web\\Views\\Reportes\\Tracking.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAABZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-02T23:20:35.831Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Crear.cshtml",
-              "DocumentMoniker": "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.Web\\Views\\Solicitudes\\Crear.cshtml",
-              "RelativeDocumentMoniker": "SGC.Web\\Views\\Solicitudes\\Crear.cshtml",
-              "ToolTip": "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.Web\\Views\\Solicitudes\\Crear.cshtml",
-              "RelativeToolTip": "SGC.Web\\Views\\Solicitudes\\Crear.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-02T23:20:04.92Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.Web\\Views\\Solicitudes\\Index.cshtml",
-              "RelativeDocumentMoniker": "SGC.Web\\Views\\Solicitudes\\Index.cshtml",
-              "ToolTip": "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.Web\\Views\\Solicitudes\\Index.cshtml",
-              "RelativeToolTip": "SGC.Web\\Views\\Solicitudes\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-02T23:19:36.599Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.Web\\Views\\Clientes\\Index.cshtml",
-              "RelativeDocumentMoniker": "SGC.Web\\Views\\Clientes\\Index.cshtml",
-              "ToolTip": "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.Web\\Views\\Clientes\\Index.cshtml",
-              "RelativeToolTip": "SGC.Web\\Views\\Clientes\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-02T23:19:02.567Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.Web\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "SGC.Web\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.Web\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "SGC.Web\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-02T23:18:35.797Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.Web\\Views\\Auth\\Login.cshtml",
-              "RelativeDocumentMoniker": "SGC.Web\\Views\\Auth\\Login.cshtml",
-              "ToolTip": "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.Web\\Views\\Auth\\Login.cshtml",
-              "RelativeToolTip": "SGC.Web\\Views\\Auth\\Login.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-02T23:18:19.788Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.Web\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "SGC.Web\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.Web\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "SGC.Web\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-02T23:17:42.643Z",
+              "WhenOpened": "2025-11-03T23:25:03.852Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "ReportesController.cs",
-              "DocumentMoniker": "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.Web\\Controllers\\ReportesController.cs",
-              "RelativeDocumentMoniker": "SGC.Web\\Controllers\\ReportesController.cs",
-              "ToolTip": "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.Web\\Controllers\\ReportesController.cs",
-              "RelativeToolTip": "SGC.Web\\Controllers\\ReportesController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-02T23:17:05.985Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "SolicitudesController.cs",
-              "DocumentMoniker": "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.Web\\Controllers\\SolicitudesController.cs",
-              "RelativeDocumentMoniker": "SGC.Web\\Controllers\\SolicitudesController.cs",
-              "ToolTip": "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.Web\\Controllers\\SolicitudesController.cs",
-              "RelativeToolTip": "SGC.Web\\Controllers\\SolicitudesController.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAAIwDkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-02T23:16:41.334Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "ClientesController.cs",
-              "DocumentMoniker": "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.Web\\Controllers\\ClientesController.cs",
-              "RelativeDocumentMoniker": "SGC.Web\\Controllers\\ClientesController.cs",
-              "ToolTip": "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.Web\\Controllers\\ClientesController.cs",
-              "RelativeToolTip": "SGC.Web\\Controllers\\ClientesController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-02T23:16:23.558Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UsuariosController.cs",
-              "DocumentMoniker": "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.Web\\Controllers\\UsuariosController.cs",
-              "RelativeDocumentMoniker": "SGC.Web\\Controllers\\UsuariosController.cs",
-              "ToolTip": "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.Web\\Controllers\\UsuariosController.cs",
-              "RelativeToolTip": "SGC.Web\\Controllers\\UsuariosController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAwAAABIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-02T23:16:04.23Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.Web\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "SGC.Web\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.Web\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "SGC.Web\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-02T23:15:48.97Z"
+              "DocumentIndex": 0,
+              "Title": "Crear.cshtml",
+              "DocumentMoniker": "C:\\Users\\rangulo\\Documents\\ProyectoFinalProgra\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.Web\\Views\\Solicitudes\\Crear.cshtml",
+              "RelativeDocumentMoniker": "SGC.Web\\Views\\Solicitudes\\Crear.cshtml",
+              "ToolTip": "C:\\Users\\rangulo\\Documents\\ProyectoFinalProgra\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.Web\\Views\\Solicitudes\\Crear.cshtml*",
+              "RelativeToolTip": "SGC.Web\\Views\\Solicitudes\\Crear.cshtml*",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-03T23:10:52.802Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.Web\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "SGC.Web\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.Web\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "SGC.Web\\Controllers\\AuthController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-02T23:15:36.459Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "RoleAuthorizeAttribute.cs",
-              "DocumentMoniker": "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.Web\\Utils\\RoleAuthorizeAttribute.cs",
-              "RelativeDocumentMoniker": "SGC.Web\\Utils\\RoleAuthorizeAttribute.cs",
-              "ToolTip": "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.Web\\Utils\\RoleAuthorizeAttribute.cs",
-              "RelativeToolTip": "SGC.Web\\Utils\\RoleAuthorizeAttribute.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAABUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-02T23:15:09.266Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.Web\\Program.cs",
-              "RelativeDocumentMoniker": "SGC.Web\\Program.cs",
-              "ToolTip": "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.Web\\Program.cs",
-              "RelativeToolTip": "SGC.Web\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-02T23:11:45.363Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ServiciosImplementacion.cs",
-              "DocumentMoniker": "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.BLL\\Servicios\\ServiciosImplementacion.cs",
-              "RelativeDocumentMoniker": "SGC.BLL\\Servicios\\ServiciosImplementacion.cs",
-              "ToolTip": "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.BLL\\Servicios\\ServiciosImplementacion.cs",
-              "RelativeToolTip": "SGC.BLL\\Servicios\\ServiciosImplementacion.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAD8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-02T23:11:15.842Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ServiciosInterfaces.cs",
-              "DocumentMoniker": "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.BLL\\Servicios\\ServiciosInterfaces.cs",
-              "RelativeDocumentMoniker": "SGC.BLL\\Servicios\\ServiciosInterfaces.cs",
-              "ToolTip": "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.BLL\\Servicios\\ServiciosInterfaces.cs",
-              "RelativeToolTip": "SGC.BLL\\Servicios\\ServiciosInterfaces.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABQAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-02T23:10:53.639Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "MapeoClases.cs",
-              "DocumentMoniker": "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.BLL\\Mapeos\\MapeoClases.cs",
-              "RelativeDocumentMoniker": "SGC.BLL\\Mapeos\\MapeoClases.cs",
-              "ToolTip": "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.BLL\\Mapeos\\MapeoClases.cs",
-              "RelativeToolTip": "SGC.BLL\\Mapeos\\MapeoClases.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-02T23:08:23.619Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "LoginDto.cs",
-              "DocumentMoniker": "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.BLL\\Dtos\\LoginDto.cs",
-              "RelativeDocumentMoniker": "SGC.BLL\\Dtos\\LoginDto.cs",
-              "ToolTip": "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.BLL\\Dtos\\LoginDto.cs",
-              "RelativeToolTip": "SGC.BLL\\Dtos\\LoginDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-02T23:08:00.349Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "TrackingDto.cs",
-              "DocumentMoniker": "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.BLL\\Dtos\\TrackingDto.cs",
-              "RelativeDocumentMoniker": "SGC.BLL\\Dtos\\TrackingDto.cs",
-              "ToolTip": "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.BLL\\Dtos\\TrackingDto.cs",
-              "RelativeToolTip": "SGC.BLL\\Dtos\\TrackingDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-02T23:07:44.16Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "SolicitudDto.cs",
-              "DocumentMoniker": "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.BLL\\Dtos\\SolicitudDto.cs",
-              "RelativeDocumentMoniker": "SGC.BLL\\Dtos\\SolicitudDto.cs",
-              "ToolTip": "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.BLL\\Dtos\\SolicitudDto.cs",
-              "RelativeToolTip": "SGC.BLL\\Dtos\\SolicitudDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-02T23:07:29.219Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "ClienteDto.cs",
-              "DocumentMoniker": "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.BLL\\Dtos\\ClienteDto.cs",
-              "RelativeDocumentMoniker": "SGC.BLL\\Dtos\\ClienteDto.cs",
-              "ToolTip": "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.BLL\\Dtos\\ClienteDto.cs",
-              "RelativeToolTip": "SGC.BLL\\Dtos\\ClienteDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-02T23:07:18.51Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "UsuarioDto.cs",
-              "DocumentMoniker": "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.BLL\\Dtos\\UsuarioDto.cs",
-              "RelativeDocumentMoniker": "SGC.BLL\\Dtos\\UsuarioDto.cs",
-              "ToolTip": "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.BLL\\Dtos\\UsuarioDto.cs",
-              "RelativeToolTip": "SGC.BLL\\Dtos\\UsuarioDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-02T23:06:30.038Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "CustomResponse.cs",
-              "DocumentMoniker": "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.BLL\\Dtos\\CustomResponse.cs",
-              "RelativeDocumentMoniker": "SGC.BLL\\Dtos\\CustomResponse.cs",
-              "ToolTip": "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.BLL\\Dtos\\CustomResponse.cs",
-              "RelativeToolTip": "SGC.BLL\\Dtos\\CustomResponse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-02T23:06:13.595Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "SGC.BLL.csproj",
-              "DocumentMoniker": "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.BLL\\SGC.BLL.csproj",
-              "RelativeDocumentMoniker": "SGC.BLL\\SGC.BLL.csproj",
-              "ToolTip": "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.BLL\\SGC.BLL.csproj",
-              "RelativeToolTip": "SGC.BLL\\SGC.BLL.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-11-02T23:05:54.174Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "TrackingsRepositorio.cs",
-              "DocumentMoniker": "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.DAL\\Repositorios\\TrackingsRepositorio.cs",
-              "RelativeDocumentMoniker": "SGC.DAL\\Repositorios\\TrackingsRepositorio.cs",
-              "ToolTip": "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.DAL\\Repositorios\\TrackingsRepositorio.cs",
-              "RelativeToolTip": "SGC.DAL\\Repositorios\\TrackingsRepositorio.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-02T23:05:38.572Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "SolicitudesRepositorio.cs",
-              "DocumentMoniker": "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.DAL\\Repositorios\\SolicitudesRepositorio.cs",
-              "RelativeDocumentMoniker": "SGC.DAL\\Repositorios\\SolicitudesRepositorio.cs",
-              "ToolTip": "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.DAL\\Repositorios\\SolicitudesRepositorio.cs",
-              "RelativeToolTip": "SGC.DAL\\Repositorios\\SolicitudesRepositorio.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-02T23:05:17.761Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "ClientesRepositorio.cs",
-              "DocumentMoniker": "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.DAL\\Repositorios\\ClientesRepositorio.cs",
-              "RelativeDocumentMoniker": "SGC.DAL\\Repositorios\\ClientesRepositorio.cs",
-              "ToolTip": "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.DAL\\Repositorios\\ClientesRepositorio.cs",
-              "RelativeToolTip": "SGC.DAL\\Repositorios\\ClientesRepositorio.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-02T23:05:02.534Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
               "Title": "UsuariosRepositorio.cs",
-              "DocumentMoniker": "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.DAL\\Repositorios\\UsuariosRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\rangulo\\Documents\\ProyectoFinalProgra\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.DAL\\Repositorios\\UsuariosRepositorio.cs",
               "RelativeDocumentMoniker": "SGC.DAL\\Repositorios\\UsuariosRepositorio.cs",
-              "ToolTip": "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.DAL\\Repositorios\\UsuariosRepositorio.cs",
+              "ToolTip": "C:\\Users\\rangulo\\Documents\\ProyectoFinalProgra\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.DAL\\Repositorios\\UsuariosRepositorio.cs",
               "RelativeToolTip": "SGC.DAL\\Repositorios\\UsuariosRepositorio.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAAAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-02T23:04:42.193Z"
+              "WhenOpened": "2025-11-03T22:56:02.275Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "ITrackingsRepositorio.cs",
-              "DocumentMoniker": "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.DAL\\Repositorios\\ITrackingsRepositorio.cs",
-              "RelativeDocumentMoniker": "SGC.DAL\\Repositorios\\ITrackingsRepositorio.cs",
-              "ToolTip": "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.DAL\\Repositorios\\ITrackingsRepositorio.cs",
-              "RelativeToolTip": "SGC.DAL\\Repositorios\\ITrackingsRepositorio.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "DocumentIndex": 3,
+              "Title": "UsuariosController.cs",
+              "DocumentMoniker": "C:\\Users\\rangulo\\Documents\\ProyectoFinalProgra\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.Web\\Controllers\\UsuariosController.cs",
+              "RelativeDocumentMoniker": "SGC.Web\\Controllers\\UsuariosController.cs",
+              "ToolTip": "C:\\Users\\rangulo\\Documents\\ProyectoFinalProgra\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.Web\\Controllers\\UsuariosController.cs",
+              "RelativeToolTip": "SGC.Web\\Controllers\\UsuariosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-02T23:04:15.053Z"
+              "WhenOpened": "2025-11-03T22:51:56.996Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "Interface1.cs",
-              "DocumentMoniker": "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.DAL\\Repositorios\\Interface1.cs",
-              "RelativeDocumentMoniker": "SGC.DAL\\Repositorios\\Interface1.cs",
-              "ToolTip": "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.DAL\\Repositorios\\Interface1.cs",
-              "RelativeToolTip": "SGC.DAL\\Repositorios\\Interface1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "DocumentIndex": 2,
+              "Title": "SolicitudesController.cs",
+              "DocumentMoniker": "C:\\Users\\rangulo\\Documents\\ProyectoFinalProgra\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.Web\\Controllers\\SolicitudesController.cs",
+              "RelativeDocumentMoniker": "SGC.Web\\Controllers\\SolicitudesController.cs",
+              "ToolTip": "C:\\Users\\rangulo\\Documents\\ProyectoFinalProgra\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.Web\\Controllers\\SolicitudesController.cs",
+              "RelativeToolTip": "SGC.Web\\Controllers\\SolicitudesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-02T23:04:00.012Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "IClientesRepositorio.cs",
-              "DocumentMoniker": "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.DAL\\Repositorios\\IClientesRepositorio.cs",
-              "RelativeDocumentMoniker": "SGC.DAL\\Repositorios\\IClientesRepositorio.cs",
-              "ToolTip": "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.DAL\\Repositorios\\IClientesRepositorio.cs",
-              "RelativeToolTip": "SGC.DAL\\Repositorios\\IClientesRepositorio.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-02T23:03:31.408Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "IUsuariosRepositorio.cs",
-              "DocumentMoniker": "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.DAL\\Repositorios\\IUsuariosRepositorio.cs",
-              "RelativeDocumentMoniker": "SGC.DAL\\Repositorios\\IUsuariosRepositorio.cs",
-              "ToolTip": "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.DAL\\Repositorios\\IUsuariosRepositorio.cs",
-              "RelativeToolTip": "SGC.DAL\\Repositorios\\IUsuariosRepositorio.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-02T23:02:52.544Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "TrackingGestion.cs",
-              "DocumentMoniker": "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.DAL\\Entidades\\TrackingGestion.cs",
-              "RelativeDocumentMoniker": "SGC.DAL\\Entidades\\TrackingGestion.cs",
-              "ToolTip": "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.DAL\\Entidades\\TrackingGestion.cs",
-              "RelativeToolTip": "SGC.DAL\\Entidades\\TrackingGestion.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-02T23:02:19.004Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "SolicitudCredito.cs",
-              "DocumentMoniker": "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.DAL\\Entidades\\SolicitudCredito.cs",
-              "RelativeDocumentMoniker": "SGC.DAL\\Entidades\\SolicitudCredito.cs",
-              "ToolTip": "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.DAL\\Entidades\\SolicitudCredito.cs",
-              "RelativeToolTip": "SGC.DAL\\Entidades\\SolicitudCredito.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-02T23:01:57.795Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "Cliente.cs",
-              "DocumentMoniker": "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.DAL\\Entidades\\Cliente.cs",
-              "RelativeDocumentMoniker": "SGC.DAL\\Entidades\\Cliente.cs",
-              "ToolTip": "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.DAL\\Entidades\\Cliente.cs",
-              "RelativeToolTip": "SGC.DAL\\Entidades\\Cliente.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-02T23:01:42.126Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.DAL\\Entidades\\Usuario.cs",
-              "RelativeDocumentMoniker": "SGC.DAL\\Entidades\\Usuario.cs",
-              "ToolTip": "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.DAL\\Entidades\\Usuario.cs",
-              "RelativeToolTip": "SGC.DAL\\Entidades\\Usuario.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-02T23:00:47.821Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "Enums.cs",
-              "DocumentMoniker": "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.DAL\\Entidades\\Enums.cs",
-              "RelativeDocumentMoniker": "SGC.DAL\\Entidades\\Enums.cs",
-              "ToolTip": "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.DAL\\Entidades\\Enums.cs",
-              "RelativeToolTip": "SGC.DAL\\Entidades\\Enums.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-02T23:00:26.451Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "SGC.DAL.csproj",
-              "DocumentMoniker": "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.DAL\\SGC.DAL.csproj",
-              "RelativeDocumentMoniker": "SGC.DAL\\SGC.DAL.csproj",
-              "ToolTip": "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.DAL\\SGC.DAL.csproj",
-              "RelativeToolTip": "SGC.DAL\\SGC.DAL.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-11-02T22:59:47.867Z"
+              "WhenOpened": "2025-11-03T22:39:07.913Z",
+              "EditorCaption": ""
             }
           ]
         }

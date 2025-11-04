@@ -467,11 +467,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.DAL\\SGC.DAL.csproj",
+      "projectUniqueName": "C:\\Users\\rangulo\\Documents\\ProyectoFinalProgra\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.DAL\\SGC.DAL.csproj",
       "projectName": "SGC.DAL",
-      "projectPath": "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.DAL\\SGC.DAL.csproj",
+      "projectPath": "C:\\Users\\rangulo\\Documents\\ProyectoFinalProgra\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.DAL\\SGC.DAL.csproj",
       "packagesPath": "C:\\Users\\rangulo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.DAL\\obj\\",
+      "outputPath": "C:\\Users\\rangulo\\Documents\\ProyectoFinalProgra\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.DAL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -15,10 +15,21 @@ namespace SGC.BLL.Servicios
 
         public async Task<CustomResponse<UsuarioDto>> CrearAsync(UsuarioDto dto)
         {
+            var ent = _mapper.Map<Usuario>(dto);
+
             if (await _repo.ObtenerPorIdentificacionAsync(dto.Identificacion) != null)
+            {
                 return CustomResponse<UsuarioDto>.Fail("Identificación ya registrada.");
-            var ent = _mapper.Map<Usuario>(dto); await _repo.AgregarAsync(ent); dto.Id = ent.Id; return CustomResponse<UsuarioDto>.Ok(dto);
+            }
+            
+            if (!await _repo.AgregarAsync(ent))
+            {
+                return CustomResponse<UsuarioDto>.Fail("Usuario no se pudo guardar.");
+            }
+            dto.Id = ent.Id;
+            return CustomResponse<UsuarioDto>.Ok(dto);
         }
+
         public async Task<CustomResponse<UsuarioDto>> ActualizarAsync(UsuarioDto dto)
             => (await _repo.ActualizarAsync(_mapper.Map<Usuario>(dto))) ? CustomResponse<UsuarioDto>.Ok(dto) : CustomResponse<UsuarioDto>.Fail("No se pudo actualizar.");
         public Task<bool> EliminarAsync(int id) => _repo.EliminarAsync(id);

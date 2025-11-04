@@ -1,8 +1,20 @@
 ﻿<h4>Nueva Solicitud</h4>
 <div class="card card-body">
     <div class="row g-2">
-        <div class="col-md-3"><label>ClienteId</label><input id="cli" class="form-control" placeholder="1" /></div>
-        <div class="col-md-3"><label>Identificación</label><input id="ide" class="form-control" placeholder="10101010" /></div>
+        <div class="col-md-3">
+            <label>Cliente</label>
+            <select id="cli" class="form-select">
+                <option value="">Seleccione un cliente</option>
+                @foreach (var c in (IEnumerable<dynamic>)ViewBag.Clientes)
+                {
+                    <option value="@c.Id" data-ident="@c.Identificacion">@c.Texto</option>
+                }
+            </select>
+        </div>
+        <div class="col-md-3">
+            <label>Identificación</label>
+            <input id="ide" class="form-control" placeholder="10101010" readonly />
+        </div>
         <div class="col-md-3"><label>Monto</label><input id="mon" class="form-control" type="number" /></div>
         <div class="col-md-12"><label>Comentarios</label><textarea id="com" class="form-control"></textarea></div>
     </div>

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.Web\\SGC.Web.csproj": {}
+    "C:\\Users\\rangulo\\Documents\\ProyectoFinalProgra\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.Web\\SGC.Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.BLL\\SGC.BLL.csproj": {
+    "C:\\Users\\rangulo\\Documents\\ProyectoFinalProgra\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.BLL\\SGC.BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.BLL\\SGC.BLL.csproj",
+        "projectUniqueName": "C:\\Users\\rangulo\\Documents\\ProyectoFinalProgra\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.BLL\\SGC.BLL.csproj",
         "projectName": "SGC.BLL",
-        "projectPath": "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.BLL\\SGC.BLL.csproj",
+        "projectPath": "C:\\Users\\rangulo\\Documents\\ProyectoFinalProgra\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.BLL\\SGC.BLL.csproj",
         "packagesPath": "C:\\Users\\rangulo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.BLL\\obj\\",
+        "outputPath": "C:\\Users\\rangulo\\Documents\\ProyectoFinalProgra\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.BLL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.DAL\\SGC.DAL.csproj": {
-                "projectPath": "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.DAL\\SGC.DAL.csproj"
+              "C:\\Users\\rangulo\\Documents\\ProyectoFinalProgra\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.DAL\\SGC.DAL.csproj": {
+                "projectPath": "C:\\Users\\rangulo\\Documents\\ProyectoFinalProgra\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.DAL\\SGC.DAL.csproj"
               }
             }
           }
@@ -79,14 +79,14 @@
         }
       }
     },
-    "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.DAL\\SGC.DAL.csproj": {
+    "C:\\Users\\rangulo\\Documents\\ProyectoFinalProgra\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.DAL\\SGC.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.DAL\\SGC.DAL.csproj",
+        "projectUniqueName": "C:\\Users\\rangulo\\Documents\\ProyectoFinalProgra\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.DAL\\SGC.DAL.csproj",
         "projectName": "SGC.DAL",
-        "projectPath": "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.DAL\\SGC.DAL.csproj",
+        "projectPath": "C:\\Users\\rangulo\\Documents\\ProyectoFinalProgra\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.DAL\\SGC.DAL.csproj",
         "packagesPath": "C:\\Users\\rangulo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.DAL\\obj\\",
+        "outputPath": "C:\\Users\\rangulo\\Documents\\ProyectoFinalProgra\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -150,14 +150,14 @@
         }
       }
     },
-    "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.Web\\SGC.Web.csproj": {
+    "C:\\Users\\rangulo\\Documents\\ProyectoFinalProgra\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.Web\\SGC.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.Web\\SGC.Web.csproj",
+        "projectUniqueName": "C:\\Users\\rangulo\\Documents\\ProyectoFinalProgra\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.Web\\SGC.Web.csproj",
         "projectName": "SGC.Web",
-        "projectPath": "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.Web\\SGC.Web.csproj",
+        "projectPath": "C:\\Users\\rangulo\\Documents\\ProyectoFinalProgra\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.Web\\SGC.Web.csproj",
         "packagesPath": "C:\\Users\\rangulo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.Web\\obj\\",
+        "outputPath": "C:\\Users\\rangulo\\Documents\\ProyectoFinalProgra\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.Web\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -178,8 +178,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.BLL\\SGC.BLL.csproj": {
-                "projectPath": "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.BLL\\SGC.BLL.csproj"
+              "C:\\Users\\rangulo\\Documents\\ProyectoFinalProgra\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.BLL\\SGC.BLL.csproj": {
+                "projectPath": "C:\\Users\\rangulo\\Documents\\ProyectoFinalProgra\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.BLL\\SGC.BLL.csproj"
               }
             }
           }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/EdZ73xm5LU=",
+  "dgSpecHash": "9Dy5TqkDj+0=",
   "success": true,
-  "projectFilePath": "C:\\Users\\rangulo\\Documents\\ProyectoUsuarios\\SGC.SeguimientoCreditos\\SGC.DAL\\SGC.DAL.csproj",
+  "projectFilePath": "C:\\Users\\rangulo\\Documents\\ProyectoFinalProgra\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.DAL\\SGC.DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rangulo\\.nuget\\packages\\automapper\\15.1.0\\automapper.15.1.0.nupkg.sha512",
     "C:\\Users\\rangulo\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
