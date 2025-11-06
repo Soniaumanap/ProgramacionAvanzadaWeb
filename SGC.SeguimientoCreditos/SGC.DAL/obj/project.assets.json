@@ -461,23 +461,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\rangulo\\.nuget\\packages\\": {},
+    "C:\\Users\\v-ronaldan\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rangulo\\Documents\\ProyectoFinalProgra\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.DAL\\SGC.DAL.csproj",
+      "projectUniqueName": "C:\\Users\\v-ronaldan\\OneDrive - Microsoft\\Documents\\PrograAvanzadaLunes\\ProyectoFinal\\SGC.SeguimientoCreditos\\SGC.DAL\\SGC.DAL.csproj",
       "projectName": "SGC.DAL",
-      "projectPath": "C:\\Users\\rangulo\\Documents\\ProyectoFinalProgra\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.DAL\\SGC.DAL.csproj",
-      "packagesPath": "C:\\Users\\rangulo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rangulo\\Documents\\ProyectoFinalProgra\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.DAL\\obj\\",
+      "projectPath": "C:\\Users\\v-ronaldan\\OneDrive - Microsoft\\Documents\\PrograAvanzadaLunes\\ProyectoFinal\\SGC.SeguimientoCreditos\\SGC.DAL\\SGC.DAL.csproj",
+      "packagesPath": "C:\\Users\\v-ronaldan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\v-ronaldan\\OneDrive - Microsoft\\Documents\\PrograAvanzadaLunes\\ProyectoFinal\\SGC.SeguimientoCreditos\\SGC.DAL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\rangulo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\v-ronaldan\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
