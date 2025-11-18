@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SGC.SeguimientoCreditos.BLL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+16154ec464d3e99de7f64b9837f3d122272a7563")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+db2a4c6d3132f72d528e4191e2acfa4cc83446c9")]
 [assembly: System.Reflection.AssemblyProductAttribute("SGC.SeguimientoCreditos.BLL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SGC.SeguimientoCreditos.BLL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
