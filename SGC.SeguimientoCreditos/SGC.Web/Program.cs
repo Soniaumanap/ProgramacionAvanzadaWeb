@@ -7,6 +7,22 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddAutoMapper(cfg => { }, typeof(MapeoClases));
 //builder.Services.AddAutoMapper(typeof(MapeoClases));
 
+builder.Services.AddHttpClient("SGCAPI", (sp, client) =>
+{
+    var cfg = sp.GetRequiredService<IConfiguration>();
+    client.BaseAddress = new Uri(cfg["ApiBaseUrl"]!);
+});
+builder.Services.AddSession();
+
+
+builder.Services.AddHttpClient<SGC.Web.Services.ApiClient>("SGCAPI", (sp, client) =>
+{
+    var cfg = sp.GetRequiredService<IConfiguration>();
+    client.BaseAddress = new Uri(cfg["ApiBaseUrl"]!);
+});
+
+
+
 // DAL (in-memory)
 builder.Services.AddSingleton<IUsuariosRepositorio, UsuariosRepositorio>();
 builder.Services.AddSingleton<IClientesRepositorio, ClientesRepositorio>();

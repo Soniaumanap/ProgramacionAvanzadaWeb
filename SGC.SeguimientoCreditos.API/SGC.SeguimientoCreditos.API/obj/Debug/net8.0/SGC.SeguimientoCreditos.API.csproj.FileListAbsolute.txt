@@ -1,0 +1,7 @@
+C:\Users\Wstov\Desktop\Programacion Avanzada Web\Proyecto_Final\ProgramacionAvanzadaWeb\SGC.SeguimientoCreditos.API\SGC.SeguimientoCreditos.API\obj\Debug\net8.0\SGC.SeguimientoCreditos.API.csproj.AssemblyReference.cache
+C:\Users\Wstov\Desktop\Programacion Avanzada Web\Proyecto_Final\ProgramacionAvanzadaWeb\SGC.SeguimientoCreditos.API\SGC.SeguimientoCreditos.API\obj\Debug\net8.0\SGC.SeguimientoCreditos.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Wstov\Desktop\Programacion Avanzada Web\Proyecto_Final\ProgramacionAvanzadaWeb\SGC.SeguimientoCreditos.API\SGC.SeguimientoCreditos.API\obj\Debug\net8.0\SGC.SeguimientoCreditos.API.AssemblyInfoInputs.cache
+C:\Users\Wstov\Desktop\Programacion Avanzada Web\Proyecto_Final\ProgramacionAvanzadaWeb\SGC.SeguimientoCreditos.API\SGC.SeguimientoCreditos.API\obj\Debug\net8.0\SGC.SeguimientoCreditos.API.AssemblyInfo.cs
+C:\Users\Wstov\Desktop\Programacion Avanzada Web\Proyecto_Final\ProgramacionAvanzadaWeb\SGC.SeguimientoCreditos.API\SGC.SeguimientoCreditos.API\obj\Debug\net8.0\SGC.SeguimientoCreditos.API.csproj.CoreCompileInputs.cache
+C:\Users\Wstov\Desktop\Programacion Avanzada Web\Proyecto_Final\ProgramacionAvanzadaWeb\SGC.SeguimientoCreditos.API\SGC.SeguimientoCreditos.API\obj\Debug\net8.0\SGC.SeguimientoCreditos.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Wstov\Desktop\Programacion Avanzada Web\Proyecto_Final\ProgramacionAvanzadaWeb\SGC.SeguimientoCreditos.API\SGC.SeguimientoCreditos.API\obj\Debug\net8.0\SGC.SeguimientoCreditos.API.sourcelink.json

@@ -89,10 +89,7 @@
           "SGC.DAL": "1.0.0"
         },
         "runtime": {
-          "SGC.BLL.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "SGC.BLL.dll": {}
         }
       },
       "SGC.DAL/1.0.0": {
@@ -100,10 +97,7 @@
           "AutoMapper": "15.1.0"
         },
         "runtime": {
-          "SGC.DAL.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "SGC.DAL.dll": {}
         }
       }
     }

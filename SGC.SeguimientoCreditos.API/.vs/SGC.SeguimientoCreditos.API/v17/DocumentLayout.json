@@ -1,0 +1,694 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos.API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D520418F-439A-4C9A-9A5E-998768489FCB}|SGC.SeguimientoCreditos.DAL\\SGC.SeguimientoCreditos.DAL.csproj|c:\\users\\wstov\\desktop\\programacion avanzada web\\proyecto_final\\programacionavanzadaweb\\sgc.seguimientocreditos.api\\sgc.seguimientocreditos.dal\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D520418F-439A-4C9A-9A5E-998768489FCB}|SGC.SeguimientoCreditos.DAL\\SGC.SeguimientoCreditos.DAL.csproj|solutionrelative:sgc.seguimientocreditos.dal\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{843F38DC-0B9A-4B91-B6BE-EC099F15DA4C}|SGC.SeguimientoCreditos.API\\SGC.SeguimientoCreditos.API.csproj|c:\\users\\wstov\\desktop\\programacion avanzada web\\proyecto_final\\programacionavanzadaweb\\sgc.seguimientocreditos.api\\sgc.seguimientocreditos.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{843F38DC-0B9A-4B91-B6BE-EC099F15DA4C}|SGC.SeguimientoCreditos.API\\SGC.SeguimientoCreditos.API.csproj|solutionrelative:sgc.seguimientocreditos.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{843F38DC-0B9A-4B91-B6BE-EC099F15DA4C}|SGC.SeguimientoCreditos.API\\SGC.SeguimientoCreditos.API.csproj|c:\\users\\wstov\\desktop\\programacion avanzada web\\proyecto_final\\programacionavanzadaweb\\sgc.seguimientocreditos.api\\sgc.seguimientocreditos.api\\sgc.seguimientocreditos.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{843F38DC-0B9A-4B91-B6BE-EC099F15DA4C}|SGC.SeguimientoCreditos.API\\SGC.SeguimientoCreditos.API.csproj|solutionrelative:sgc.seguimientocreditos.api\\sgc.seguimientocreditos.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D520418F-439A-4C9A-9A5E-998768489FCB}|SGC.SeguimientoCreditos.DAL\\SGC.SeguimientoCreditos.DAL.csproj|c:\\users\\wstov\\desktop\\programacion avanzada web\\proyecto_final\\programacionavanzadaweb\\sgc.seguimientocreditos.api\\sgc.seguimientocreditos.dal\\repositorios\\usuariorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D520418F-439A-4C9A-9A5E-998768489FCB}|SGC.SeguimientoCreditos.DAL\\SGC.SeguimientoCreditos.DAL.csproj|solutionrelative:sgc.seguimientocreditos.dal\\repositorios\\usuariorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D520418F-439A-4C9A-9A5E-998768489FCB}|SGC.SeguimientoCreditos.DAL\\SGC.SeguimientoCreditos.DAL.csproj|c:\\users\\wstov\\desktop\\programacion avanzada web\\proyecto_final\\programacionavanzadaweb\\sgc.seguimientocreditos.api\\sgc.seguimientocreditos.dal\\sgc.seguimientocreditos.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D520418F-439A-4C9A-9A5E-998768489FCB}|SGC.SeguimientoCreditos.DAL\\SGC.SeguimientoCreditos.DAL.csproj|solutionrelative:sgc.seguimientocreditos.dal\\sgc.seguimientocreditos.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D520418F-439A-4C9A-9A5E-998768489FCB}|SGC.SeguimientoCreditos.DAL\\SGC.SeguimientoCreditos.DAL.csproj|c:\\users\\wstov\\desktop\\programacion avanzada web\\proyecto_final\\programacionavanzadaweb\\sgc.seguimientocreditos.api\\sgc.seguimientocreditos.dal\\repositorios\\repositoriogenerico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D520418F-439A-4C9A-9A5E-998768489FCB}|SGC.SeguimientoCreditos.DAL\\SGC.SeguimientoCreditos.DAL.csproj|solutionrelative:sgc.seguimientocreditos.dal\\repositorios\\repositoriogenerico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{843F38DC-0B9A-4B91-B6BE-EC099F15DA4C}|SGC.SeguimientoCreditos.API\\SGC.SeguimientoCreditos.API.csproj|c:\\users\\wstov\\desktop\\programacion avanzada web\\proyecto_final\\programacionavanzadaweb\\sgc.seguimientocreditos.api\\sgc.seguimientocreditos.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{843F38DC-0B9A-4B91-B6BE-EC099F15DA4C}|SGC.SeguimientoCreditos.API\\SGC.SeguimientoCreditos.API.csproj|solutionrelative:sgc.seguimientocreditos.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0643964-4F09-43B0-803A-9D2DE53E425D}|SGC.SeguimientoCreditos.BLL\\SGC.SeguimientoCreditos.BLL.csproj|c:\\users\\wstov\\desktop\\programacion avanzada web\\proyecto_final\\programacionavanzadaweb\\sgc.seguimientocreditos.api\\sgc.seguimientocreditos.bll\\mapeos\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0643964-4F09-43B0-803A-9D2DE53E425D}|SGC.SeguimientoCreditos.BLL\\SGC.SeguimientoCreditos.BLL.csproj|solutionrelative:sgc.seguimientocreditos.bll\\mapeos\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{843F38DC-0B9A-4B91-B6BE-EC099F15DA4C}|SGC.SeguimientoCreditos.API\\SGC.SeguimientoCreditos.API.csproj|c:\\users\\wstov\\desktop\\programacion avanzada web\\proyecto_final\\programacionavanzadaweb\\sgc.seguimientocreditos.api\\sgc.seguimientocreditos.api\\controllers\\trackingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{843F38DC-0B9A-4B91-B6BE-EC099F15DA4C}|SGC.SeguimientoCreditos.API\\SGC.SeguimientoCreditos.API.csproj|solutionrelative:sgc.seguimientocreditos.api\\controllers\\trackingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{843F38DC-0B9A-4B91-B6BE-EC099F15DA4C}|SGC.SeguimientoCreditos.API\\SGC.SeguimientoCreditos.API.csproj|c:\\users\\wstov\\desktop\\programacion avanzada web\\proyecto_final\\programacionavanzadaweb\\sgc.seguimientocreditos.api\\sgc.seguimientocreditos.api\\controllers\\solicitudescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{843F38DC-0B9A-4B91-B6BE-EC099F15DA4C}|SGC.SeguimientoCreditos.API\\SGC.SeguimientoCreditos.API.csproj|solutionrelative:sgc.seguimientocreditos.api\\controllers\\solicitudescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{843F38DC-0B9A-4B91-B6BE-EC099F15DA4C}|SGC.SeguimientoCreditos.API\\SGC.SeguimientoCreditos.API.csproj|c:\\users\\wstov\\desktop\\programacion avanzada web\\proyecto_final\\programacionavanzadaweb\\sgc.seguimientocreditos.api\\sgc.seguimientocreditos.api\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{843F38DC-0B9A-4B91-B6BE-EC099F15DA4C}|SGC.SeguimientoCreditos.API\\SGC.SeguimientoCreditos.API.csproj|solutionrelative:sgc.seguimientocreditos.api\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{843F38DC-0B9A-4B91-B6BE-EC099F15DA4C}|SGC.SeguimientoCreditos.API\\SGC.SeguimientoCreditos.API.csproj|c:\\users\\wstov\\desktop\\programacion avanzada web\\proyecto_final\\programacionavanzadaweb\\sgc.seguimientocreditos.api\\sgc.seguimientocreditos.api\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{843F38DC-0B9A-4B91-B6BE-EC099F15DA4C}|SGC.SeguimientoCreditos.API\\SGC.SeguimientoCreditos.API.csproj|solutionrelative:sgc.seguimientocreditos.api\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0643964-4F09-43B0-803A-9D2DE53E425D}|SGC.SeguimientoCreditos.BLL\\SGC.SeguimientoCreditos.BLL.csproj|c:\\users\\wstov\\desktop\\programacion avanzada web\\proyecto_final\\programacionavanzadaweb\\sgc.seguimientocreditos.api\\sgc.seguimientocreditos.bll\\servicios\\trackingsservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0643964-4F09-43B0-803A-9D2DE53E425D}|SGC.SeguimientoCreditos.BLL\\SGC.SeguimientoCreditos.BLL.csproj|solutionrelative:sgc.seguimientocreditos.bll\\servicios\\trackingsservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0643964-4F09-43B0-803A-9D2DE53E425D}|SGC.SeguimientoCreditos.BLL\\SGC.SeguimientoCreditos.BLL.csproj|c:\\users\\wstov\\desktop\\programacion avanzada web\\proyecto_final\\programacionavanzadaweb\\sgc.seguimientocreditos.api\\sgc.seguimientocreditos.bll\\servicios\\solicitudesservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0643964-4F09-43B0-803A-9D2DE53E425D}|SGC.SeguimientoCreditos.BLL\\SGC.SeguimientoCreditos.BLL.csproj|solutionrelative:sgc.seguimientocreditos.bll\\servicios\\solicitudesservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0643964-4F09-43B0-803A-9D2DE53E425D}|SGC.SeguimientoCreditos.BLL\\SGC.SeguimientoCreditos.BLL.csproj|c:\\users\\wstov\\desktop\\programacion avanzada web\\proyecto_final\\programacionavanzadaweb\\sgc.seguimientocreditos.api\\sgc.seguimientocreditos.bll\\servicios\\usuariosservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0643964-4F09-43B0-803A-9D2DE53E425D}|SGC.SeguimientoCreditos.BLL\\SGC.SeguimientoCreditos.BLL.csproj|solutionrelative:sgc.seguimientocreditos.bll\\servicios\\usuariosservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0643964-4F09-43B0-803A-9D2DE53E425D}|SGC.SeguimientoCreditos.BLL\\SGC.SeguimientoCreditos.BLL.csproj|c:\\users\\wstov\\desktop\\programacion avanzada web\\proyecto_final\\programacionavanzadaweb\\sgc.seguimientocreditos.api\\sgc.seguimientocreditos.bll\\servicios\\clientesservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0643964-4F09-43B0-803A-9D2DE53E425D}|SGC.SeguimientoCreditos.BLL\\SGC.SeguimientoCreditos.BLL.csproj|solutionrelative:sgc.seguimientocreditos.bll\\servicios\\clientesservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0643964-4F09-43B0-803A-9D2DE53E425D}|SGC.SeguimientoCreditos.BLL\\SGC.SeguimientoCreditos.BLL.csproj|c:\\users\\wstov\\desktop\\programacion avanzada web\\proyecto_final\\programacionavanzadaweb\\sgc.seguimientocreditos.api\\sgc.seguimientocreditos.bll\\utilidades\\customresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0643964-4F09-43B0-803A-9D2DE53E425D}|SGC.SeguimientoCreditos.BLL\\SGC.SeguimientoCreditos.BLL.csproj|solutionrelative:sgc.seguimientocreditos.bll\\utilidades\\customresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0643964-4F09-43B0-803A-9D2DE53E425D}|SGC.SeguimientoCreditos.BLL\\SGC.SeguimientoCreditos.BLL.csproj|c:\\users\\wstov\\desktop\\programacion avanzada web\\proyecto_final\\programacionavanzadaweb\\sgc.seguimientocreditos.api\\sgc.seguimientocreditos.bll\\interfaces\\itrackingsservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0643964-4F09-43B0-803A-9D2DE53E425D}|SGC.SeguimientoCreditos.BLL\\SGC.SeguimientoCreditos.BLL.csproj|solutionrelative:sgc.seguimientocreditos.bll\\interfaces\\itrackingsservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0643964-4F09-43B0-803A-9D2DE53E425D}|SGC.SeguimientoCreditos.BLL\\SGC.SeguimientoCreditos.BLL.csproj|c:\\users\\wstov\\desktop\\programacion avanzada web\\proyecto_final\\programacionavanzadaweb\\sgc.seguimientocreditos.api\\sgc.seguimientocreditos.bll\\interfaces\\isolicitudesservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0643964-4F09-43B0-803A-9D2DE53E425D}|SGC.SeguimientoCreditos.BLL\\SGC.SeguimientoCreditos.BLL.csproj|solutionrelative:sgc.seguimientocreditos.bll\\interfaces\\isolicitudesservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0643964-4F09-43B0-803A-9D2DE53E425D}|SGC.SeguimientoCreditos.BLL\\SGC.SeguimientoCreditos.BLL.csproj|c:\\users\\wstov\\desktop\\programacion avanzada web\\proyecto_final\\programacionavanzadaweb\\sgc.seguimientocreditos.api\\sgc.seguimientocreditos.bll\\interfaces\\iusuariosservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0643964-4F09-43B0-803A-9D2DE53E425D}|SGC.SeguimientoCreditos.BLL\\SGC.SeguimientoCreditos.BLL.csproj|solutionrelative:sgc.seguimientocreditos.bll\\interfaces\\iusuariosservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0643964-4F09-43B0-803A-9D2DE53E425D}|SGC.SeguimientoCreditos.BLL\\SGC.SeguimientoCreditos.BLL.csproj|c:\\users\\wstov\\desktop\\programacion avanzada web\\proyecto_final\\programacionavanzadaweb\\sgc.seguimientocreditos.api\\sgc.seguimientocreditos.bll\\interfaces\\iclientesservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0643964-4F09-43B0-803A-9D2DE53E425D}|SGC.SeguimientoCreditos.BLL\\SGC.SeguimientoCreditos.BLL.csproj|solutionrelative:sgc.seguimientocreditos.bll\\interfaces\\iclientesservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0643964-4F09-43B0-803A-9D2DE53E425D}|SGC.SeguimientoCreditos.BLL\\SGC.SeguimientoCreditos.BLL.csproj|c:\\users\\wstov\\desktop\\programacion avanzada web\\proyecto_final\\programacionavanzadaweb\\sgc.seguimientocreditos.api\\sgc.seguimientocreditos.bll\\dtos\\trackingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0643964-4F09-43B0-803A-9D2DE53E425D}|SGC.SeguimientoCreditos.BLL\\SGC.SeguimientoCreditos.BLL.csproj|solutionrelative:sgc.seguimientocreditos.bll\\dtos\\trackingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0643964-4F09-43B0-803A-9D2DE53E425D}|SGC.SeguimientoCreditos.BLL\\SGC.SeguimientoCreditos.BLL.csproj|c:\\users\\wstov\\desktop\\programacion avanzada web\\proyecto_final\\programacionavanzadaweb\\sgc.seguimientocreditos.api\\sgc.seguimientocreditos.bll\\dtos\\solicituddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0643964-4F09-43B0-803A-9D2DE53E425D}|SGC.SeguimientoCreditos.BLL\\SGC.SeguimientoCreditos.BLL.csproj|solutionrelative:sgc.seguimientocreditos.bll\\dtos\\solicituddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0643964-4F09-43B0-803A-9D2DE53E425D}|SGC.SeguimientoCreditos.BLL\\SGC.SeguimientoCreditos.BLL.csproj|c:\\users\\wstov\\desktop\\programacion avanzada web\\proyecto_final\\programacionavanzadaweb\\sgc.seguimientocreditos.api\\sgc.seguimientocreditos.bll\\dtos\\usuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0643964-4F09-43B0-803A-9D2DE53E425D}|SGC.SeguimientoCreditos.BLL\\SGC.SeguimientoCreditos.BLL.csproj|solutionrelative:sgc.seguimientocreditos.bll\\dtos\\usuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0643964-4F09-43B0-803A-9D2DE53E425D}|SGC.SeguimientoCreditos.BLL\\SGC.SeguimientoCreditos.BLL.csproj|c:\\users\\wstov\\desktop\\programacion avanzada web\\proyecto_final\\programacionavanzadaweb\\sgc.seguimientocreditos.api\\sgc.seguimientocreditos.bll\\dtos\\clientedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0643964-4F09-43B0-803A-9D2DE53E425D}|SGC.SeguimientoCreditos.BLL\\SGC.SeguimientoCreditos.BLL.csproj|solutionrelative:sgc.seguimientocreditos.bll\\dtos\\clientedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D520418F-439A-4C9A-9A5E-998768489FCB}|SGC.SeguimientoCreditos.DAL\\SGC.SeguimientoCreditos.DAL.csproj|c:\\users\\wstov\\desktop\\programacion avanzada web\\proyecto_final\\programacionavanzadaweb\\sgc.seguimientocreditos.api\\sgc.seguimientocreditos.dal\\repositorios\\trackinggestionrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D520418F-439A-4C9A-9A5E-998768489FCB}|SGC.SeguimientoCreditos.DAL\\SGC.SeguimientoCreditos.DAL.csproj|solutionrelative:sgc.seguimientocreditos.dal\\repositorios\\trackinggestionrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D520418F-439A-4C9A-9A5E-998768489FCB}|SGC.SeguimientoCreditos.DAL\\SGC.SeguimientoCreditos.DAL.csproj|c:\\users\\wstov\\desktop\\programacion avanzada web\\proyecto_final\\programacionavanzadaweb\\sgc.seguimientocreditos.api\\sgc.seguimientocreditos.dal\\repositorios\\solicitudcreditorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D520418F-439A-4C9A-9A5E-998768489FCB}|SGC.SeguimientoCreditos.DAL\\SGC.SeguimientoCreditos.DAL.csproj|solutionrelative:sgc.seguimientocreditos.dal\\repositorios\\solicitudcreditorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D520418F-439A-4C9A-9A5E-998768489FCB}|SGC.SeguimientoCreditos.DAL\\SGC.SeguimientoCreditos.DAL.csproj|c:\\users\\wstov\\desktop\\programacion avanzada web\\proyecto_final\\programacionavanzadaweb\\sgc.seguimientocreditos.api\\sgc.seguimientocreditos.dal\\repositorios\\clienterepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D520418F-439A-4C9A-9A5E-998768489FCB}|SGC.SeguimientoCreditos.DAL\\SGC.SeguimientoCreditos.DAL.csproj|solutionrelative:sgc.seguimientocreditos.dal\\repositorios\\clienterepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D520418F-439A-4C9A-9A5E-998768489FCB}|SGC.SeguimientoCreditos.DAL\\SGC.SeguimientoCreditos.DAL.csproj|c:\\users\\wstov\\desktop\\programacion avanzada web\\proyecto_final\\programacionavanzadaweb\\sgc.seguimientocreditos.api\\sgc.seguimientocreditos.dal\\interfaces\\itrackinggestionrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D520418F-439A-4C9A-9A5E-998768489FCB}|SGC.SeguimientoCreditos.DAL\\SGC.SeguimientoCreditos.DAL.csproj|solutionrelative:sgc.seguimientocreditos.dal\\interfaces\\itrackinggestionrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D520418F-439A-4C9A-9A5E-998768489FCB}|SGC.SeguimientoCreditos.DAL\\SGC.SeguimientoCreditos.DAL.csproj|c:\\users\\wstov\\desktop\\programacion avanzada web\\proyecto_final\\programacionavanzadaweb\\sgc.seguimientocreditos.api\\sgc.seguimientocreditos.dal\\interfaces\\isolicitudcreditorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D520418F-439A-4C9A-9A5E-998768489FCB}|SGC.SeguimientoCreditos.DAL\\SGC.SeguimientoCreditos.DAL.csproj|solutionrelative:sgc.seguimientocreditos.dal\\interfaces\\isolicitudcreditorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D520418F-439A-4C9A-9A5E-998768489FCB}|SGC.SeguimientoCreditos.DAL\\SGC.SeguimientoCreditos.DAL.csproj|c:\\users\\wstov\\desktop\\programacion avanzada web\\proyecto_final\\programacionavanzadaweb\\sgc.seguimientocreditos.api\\sgc.seguimientocreditos.dal\\interfaces\\iusuariorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D520418F-439A-4C9A-9A5E-998768489FCB}|SGC.SeguimientoCreditos.DAL\\SGC.SeguimientoCreditos.DAL.csproj|solutionrelative:sgc.seguimientocreditos.dal\\interfaces\\iusuariorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D520418F-439A-4C9A-9A5E-998768489FCB}|SGC.SeguimientoCreditos.DAL\\SGC.SeguimientoCreditos.DAL.csproj|c:\\users\\wstov\\desktop\\programacion avanzada web\\proyecto_final\\programacionavanzadaweb\\sgc.seguimientocreditos.api\\sgc.seguimientocreditos.dal\\interfaces\\iclienterepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D520418F-439A-4C9A-9A5E-998768489FCB}|SGC.SeguimientoCreditos.DAL\\SGC.SeguimientoCreditos.DAL.csproj|solutionrelative:sgc.seguimientocreditos.dal\\interfaces\\iclienterepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D520418F-439A-4C9A-9A5E-998768489FCB}|SGC.SeguimientoCreditos.DAL\\SGC.SeguimientoCreditos.DAL.csproj|c:\\users\\wstov\\desktop\\programacion avanzada web\\proyecto_final\\programacionavanzadaweb\\sgc.seguimientocreditos.api\\sgc.seguimientocreditos.dal\\interfaces\\irepositoriogenerico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D520418F-439A-4C9A-9A5E-998768489FCB}|SGC.SeguimientoCreditos.DAL\\SGC.SeguimientoCreditos.DAL.csproj|solutionrelative:sgc.seguimientocreditos.dal\\interfaces\\irepositoriogenerico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D520418F-439A-4C9A-9A5E-998768489FCB}|SGC.SeguimientoCreditos.DAL\\SGC.SeguimientoCreditos.DAL.csproj|c:\\users\\wstov\\desktop\\programacion avanzada web\\proyecto_final\\programacionavanzadaweb\\sgc.seguimientocreditos.api\\sgc.seguimientocreditos.dal\\entidades\\trackinggestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D520418F-439A-4C9A-9A5E-998768489FCB}|SGC.SeguimientoCreditos.DAL\\SGC.SeguimientoCreditos.DAL.csproj|solutionrelative:sgc.seguimientocreditos.dal\\entidades\\trackinggestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D520418F-439A-4C9A-9A5E-998768489FCB}|SGC.SeguimientoCreditos.DAL\\SGC.SeguimientoCreditos.DAL.csproj|c:\\users\\wstov\\desktop\\programacion avanzada web\\proyecto_final\\programacionavanzadaweb\\sgc.seguimientocreditos.api\\sgc.seguimientocreditos.dal\\entidades\\solicitudcredito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D520418F-439A-4C9A-9A5E-998768489FCB}|SGC.SeguimientoCreditos.DAL\\SGC.SeguimientoCreditos.DAL.csproj|solutionrelative:sgc.seguimientocreditos.dal\\entidades\\solicitudcredito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D520418F-439A-4C9A-9A5E-998768489FCB}|SGC.SeguimientoCreditos.DAL\\SGC.SeguimientoCreditos.DAL.csproj|c:\\users\\wstov\\desktop\\programacion avanzada web\\proyecto_final\\programacionavanzadaweb\\sgc.seguimientocreditos.api\\sgc.seguimientocreditos.dal\\entidades\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D520418F-439A-4C9A-9A5E-998768489FCB}|SGC.SeguimientoCreditos.DAL\\SGC.SeguimientoCreditos.DAL.csproj|solutionrelative:sgc.seguimientocreditos.dal\\entidades\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D520418F-439A-4C9A-9A5E-998768489FCB}|SGC.SeguimientoCreditos.DAL\\SGC.SeguimientoCreditos.DAL.csproj|c:\\users\\wstov\\desktop\\programacion avanzada web\\proyecto_final\\programacionavanzadaweb\\sgc.seguimientocreditos.api\\sgc.seguimientocreditos.dal\\entidades\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D520418F-439A-4C9A-9A5E-998768489FCB}|SGC.SeguimientoCreditos.DAL\\SGC.SeguimientoCreditos.DAL.csproj|solutionrelative:sgc.seguimientocreditos.dal\\entidades\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0643964-4F09-43B0-803A-9D2DE53E425D}|SGC.SeguimientoCreditos.BLL\\SGC.SeguimientoCreditos.BLL.csproj|c:\\users\\wstov\\desktop\\programacion avanzada web\\proyecto_final\\programacionavanzadaweb\\sgc.seguimientocreditos.api\\sgc.seguimientocreditos.bll\\sgc.seguimientocreditos.bll.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C0643964-4F09-43B0-803A-9D2DE53E425D}|SGC.SeguimientoCreditos.BLL\\SGC.SeguimientoCreditos.BLL.csproj|solutionrelative:sgc.seguimientocreditos.bll\\sgc.seguimientocreditos.bll.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 37,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SGC.SeguimientoCreditos.API",
+              "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos.API\\SGC.SeguimientoCreditos.API\\SGC.SeguimientoCreditos.API.csproj",
+              "RelativeDocumentMoniker": "SGC.SeguimientoCreditos.API\\SGC.SeguimientoCreditos.API.csproj",
+              "ToolTip": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos.API\\SGC.SeguimientoCreditos.API\\SGC.SeguimientoCreditos.API.csproj",
+              "RelativeToolTip": "SGC.SeguimientoCreditos.API\\SGC.SeguimientoCreditos.API.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-18T02:28:00.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:11:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TrackingsController.cs",
+              "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos.API\\SGC.SeguimientoCreditos.API\\Controllers\\TrackingsController.cs",
+              "RelativeDocumentMoniker": "SGC.SeguimientoCreditos.API\\Controllers\\TrackingsController.cs",
+              "ToolTip": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos.API\\SGC.SeguimientoCreditos.API\\Controllers\\TrackingsController.cs",
+              "RelativeToolTip": "SGC.SeguimientoCreditos.API\\Controllers\\TrackingsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T01:56:46.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SolicitudesController.cs",
+              "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos.API\\SGC.SeguimientoCreditos.API\\Controllers\\SolicitudesController.cs",
+              "RelativeDocumentMoniker": "SGC.SeguimientoCreditos.API\\Controllers\\SolicitudesController.cs",
+              "ToolTip": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos.API\\SGC.SeguimientoCreditos.API\\Controllers\\SolicitudesController.cs",
+              "RelativeToolTip": "SGC.SeguimientoCreditos.API\\Controllers\\SolicitudesController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAiwCYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T01:56:33.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UsuariosController.cs",
+              "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos.API\\SGC.SeguimientoCreditos.API\\Controllers\\UsuariosController.cs",
+              "RelativeDocumentMoniker": "SGC.SeguimientoCreditos.API\\Controllers\\UsuariosController.cs",
+              "ToolTip": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos.API\\SGC.SeguimientoCreditos.API\\Controllers\\UsuariosController.cs",
+              "RelativeToolTip": "SGC.SeguimientoCreditos.API\\Controllers\\UsuariosController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAiwBwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T01:56:17.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ClientesController.cs",
+              "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos.API\\SGC.SeguimientoCreditos.API\\Controllers\\ClientesController.cs",
+              "RelativeDocumentMoniker": "SGC.SeguimientoCreditos.API\\Controllers\\ClientesController.cs",
+              "ToolTip": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos.API\\SGC.SeguimientoCreditos.API\\Controllers\\ClientesController.cs",
+              "RelativeToolTip": "SGC.SeguimientoCreditos.API\\Controllers\\ClientesController.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAiwBUAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T01:55:52.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos.API\\SGC.SeguimientoCreditos.API\\appsettings.json",
+              "RelativeDocumentMoniker": "SGC.SeguimientoCreditos.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos.API\\SGC.SeguimientoCreditos.API\\appsettings.json",
+              "RelativeToolTip": "SGC.SeguimientoCreditos.API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwAcAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-18T01:54:56.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AutoMapperProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos.API\\SGC.SeguimientoCreditos.BLL\\Mapeos\\AutoMapperProfile.cs",
+              "RelativeDocumentMoniker": "SGC.SeguimientoCreditos.BLL\\Mapeos\\AutoMapperProfile.cs",
+              "ToolTip": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos.API\\SGC.SeguimientoCreditos.BLL\\Mapeos\\AutoMapperProfile.cs",
+              "RelativeToolTip": "SGC.SeguimientoCreditos.BLL\\Mapeos\\AutoMapperProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T01:53:51.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TrackingsServicio.cs",
+              "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos.API\\SGC.SeguimientoCreditos.BLL\\Servicios\\TrackingsServicio.cs",
+              "RelativeDocumentMoniker": "SGC.SeguimientoCreditos.BLL\\Servicios\\TrackingsServicio.cs",
+              "ToolTip": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos.API\\SGC.SeguimientoCreditos.BLL\\Servicios\\TrackingsServicio.cs",
+              "RelativeToolTip": "SGC.SeguimientoCreditos.BLL\\Servicios\\TrackingsServicio.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAiwCAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T01:53:36.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SolicitudesServicio.cs",
+              "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos.API\\SGC.SeguimientoCreditos.BLL\\Servicios\\SolicitudesServicio.cs",
+              "RelativeDocumentMoniker": "SGC.SeguimientoCreditos.BLL\\Servicios\\SolicitudesServicio.cs",
+              "ToolTip": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos.API\\SGC.SeguimientoCreditos.BLL\\Servicios\\SolicitudesServicio.cs",
+              "RelativeToolTip": "SGC.SeguimientoCreditos.BLL\\Servicios\\SolicitudesServicio.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAiwDMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T01:53:26.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UsuariosServicio.cs",
+              "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos.API\\SGC.SeguimientoCreditos.BLL\\Servicios\\UsuariosServicio.cs",
+              "RelativeDocumentMoniker": "SGC.SeguimientoCreditos.BLL\\Servicios\\UsuariosServicio.cs",
+              "ToolTip": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos.API\\SGC.SeguimientoCreditos.BLL\\Servicios\\UsuariosServicio.cs",
+              "RelativeToolTip": "SGC.SeguimientoCreditos.BLL\\Servicios\\UsuariosServicio.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAxwB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T01:53:14.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ClientesServicio.cs",
+              "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos.API\\SGC.SeguimientoCreditos.BLL\\Servicios\\ClientesServicio.cs",
+              "RelativeDocumentMoniker": "SGC.SeguimientoCreditos.BLL\\Servicios\\ClientesServicio.cs",
+              "ToolTip": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos.API\\SGC.SeguimientoCreditos.BLL\\Servicios\\ClientesServicio.cs",
+              "RelativeToolTip": "SGC.SeguimientoCreditos.BLL\\Servicios\\ClientesServicio.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAiwDMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T01:53:04.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CustomResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos.API\\SGC.SeguimientoCreditos.BLL\\Utilidades\\CustomResponse.cs",
+              "RelativeDocumentMoniker": "SGC.SeguimientoCreditos.BLL\\Utilidades\\CustomResponse.cs",
+              "ToolTip": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos.API\\SGC.SeguimientoCreditos.BLL\\Utilidades\\CustomResponse.cs",
+              "RelativeToolTip": "SGC.SeguimientoCreditos.BLL\\Utilidades\\CustomResponse.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAxwAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T01:52:52.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ITrackingsServicio.cs",
+              "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos.API\\SGC.SeguimientoCreditos.BLL\\Interfaces\\ITrackingsServicio.cs",
+              "RelativeDocumentMoniker": "SGC.SeguimientoCreditos.BLL\\Interfaces\\ITrackingsServicio.cs",
+              "ToolTip": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos.API\\SGC.SeguimientoCreditos.BLL\\Interfaces\\ITrackingsServicio.cs",
+              "RelativeToolTip": "SGC.SeguimientoCreditos.BLL\\Interfaces\\ITrackingsServicio.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAABQwAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T01:52:03.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ISolicitudesServicio.cs",
+              "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos.API\\SGC.SeguimientoCreditos.BLL\\Interfaces\\ISolicitudesServicio.cs",
+              "RelativeDocumentMoniker": "SGC.SeguimientoCreditos.BLL\\Interfaces\\ISolicitudesServicio.cs",
+              "ToolTip": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos.API\\SGC.SeguimientoCreditos.BLL\\Interfaces\\ISolicitudesServicio.cs",
+              "RelativeToolTip": "SGC.SeguimientoCreditos.BLL\\Interfaces\\ISolicitudesServicio.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T01:51:46.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IUsuariosServicio.cs",
+              "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos.API\\SGC.SeguimientoCreditos.BLL\\Interfaces\\IUsuariosServicio.cs",
+              "RelativeDocumentMoniker": "SGC.SeguimientoCreditos.BLL\\Interfaces\\IUsuariosServicio.cs",
+              "ToolTip": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos.API\\SGC.SeguimientoCreditos.BLL\\Interfaces\\IUsuariosServicio.cs",
+              "RelativeToolTip": "SGC.SeguimientoCreditos.BLL\\Interfaces\\IUsuariosServicio.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T01:51:30.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IClientesServicio.cs",
+              "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos.API\\SGC.SeguimientoCreditos.BLL\\Interfaces\\IClientesServicio.cs",
+              "RelativeDocumentMoniker": "SGC.SeguimientoCreditos.BLL\\Interfaces\\IClientesServicio.cs",
+              "ToolTip": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos.API\\SGC.SeguimientoCreditos.BLL\\Interfaces\\IClientesServicio.cs",
+              "RelativeToolTip": "SGC.SeguimientoCreditos.BLL\\Interfaces\\IClientesServicio.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T01:51:17.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "TrackingDto.cs",
+              "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos.API\\SGC.SeguimientoCreditos.BLL\\Dtos\\TrackingDto.cs",
+              "RelativeDocumentMoniker": "SGC.SeguimientoCreditos.BLL\\Dtos\\TrackingDto.cs",
+              "ToolTip": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos.API\\SGC.SeguimientoCreditos.BLL\\Dtos\\TrackingDto.cs",
+              "RelativeToolTip": "SGC.SeguimientoCreditos.BLL\\Dtos\\TrackingDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T01:50:53.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "SolicitudDto.cs",
+              "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos.API\\SGC.SeguimientoCreditos.BLL\\Dtos\\SolicitudDto.cs",
+              "RelativeDocumentMoniker": "SGC.SeguimientoCreditos.BLL\\Dtos\\SolicitudDto.cs",
+              "ToolTip": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos.API\\SGC.SeguimientoCreditos.BLL\\Dtos\\SolicitudDto.cs",
+              "RelativeToolTip": "SGC.SeguimientoCreditos.BLL\\Dtos\\SolicitudDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T01:50:39.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "UsuarioDto.cs",
+              "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos.API\\SGC.SeguimientoCreditos.BLL\\Dtos\\UsuarioDto.cs",
+              "RelativeDocumentMoniker": "SGC.SeguimientoCreditos.BLL\\Dtos\\UsuarioDto.cs",
+              "ToolTip": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos.API\\SGC.SeguimientoCreditos.BLL\\Dtos\\UsuarioDto.cs",
+              "RelativeToolTip": "SGC.SeguimientoCreditos.BLL\\Dtos\\UsuarioDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T01:50:13.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ClienteDto.cs",
+              "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos.API\\SGC.SeguimientoCreditos.BLL\\Dtos\\ClienteDto.cs",
+              "RelativeDocumentMoniker": "SGC.SeguimientoCreditos.BLL\\Dtos\\ClienteDto.cs",
+              "ToolTip": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos.API\\SGC.SeguimientoCreditos.BLL\\Dtos\\ClienteDto.cs",
+              "RelativeToolTip": "SGC.SeguimientoCreditos.BLL\\Dtos\\ClienteDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T01:50:03.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "TrackingGestionRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos.API\\SGC.SeguimientoCreditos.DAL\\Repositorios\\TrackingGestionRepositorio.cs",
+              "RelativeDocumentMoniker": "SGC.SeguimientoCreditos.DAL\\Repositorios\\TrackingGestionRepositorio.cs",
+              "ToolTip": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos.API\\SGC.SeguimientoCreditos.DAL\\Repositorios\\TrackingGestionRepositorio.cs",
+              "RelativeToolTip": "SGC.SeguimientoCreditos.DAL\\Repositorios\\TrackingGestionRepositorio.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T01:48:15.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "SolicitudCreditoRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos.API\\SGC.SeguimientoCreditos.DAL\\Repositorios\\SolicitudCreditoRepositorio.cs",
+              "RelativeDocumentMoniker": "SGC.SeguimientoCreditos.DAL\\Repositorios\\SolicitudCreditoRepositorio.cs",
+              "ToolTip": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos.API\\SGC.SeguimientoCreditos.DAL\\Repositorios\\SolicitudCreditoRepositorio.cs",
+              "RelativeToolTip": "SGC.SeguimientoCreditos.DAL\\Repositorios\\SolicitudCreditoRepositorio.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T01:47:56.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UsuarioRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos.API\\SGC.SeguimientoCreditos.DAL\\Repositorios\\UsuarioRepositorio.cs",
+              "RelativeDocumentMoniker": "SGC.SeguimientoCreditos.DAL\\Repositorios\\UsuarioRepositorio.cs",
+              "ToolTip": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos.API\\SGC.SeguimientoCreditos.DAL\\Repositorios\\UsuarioRepositorio.cs",
+              "RelativeToolTip": "SGC.SeguimientoCreditos.DAL\\Repositorios\\UsuarioRepositorio.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T01:47:24.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ClienteRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos.API\\SGC.SeguimientoCreditos.DAL\\Repositorios\\ClienteRepositorio.cs",
+              "RelativeDocumentMoniker": "SGC.SeguimientoCreditos.DAL\\Repositorios\\ClienteRepositorio.cs",
+              "ToolTip": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos.API\\SGC.SeguimientoCreditos.DAL\\Repositorios\\ClienteRepositorio.cs",
+              "RelativeToolTip": "SGC.SeguimientoCreditos.DAL\\Repositorios\\ClienteRepositorio.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T01:47:08.053Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RepositorioGenerico.cs",
+              "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos.API\\SGC.SeguimientoCreditos.DAL\\Repositorios\\RepositorioGenerico.cs",
+              "RelativeDocumentMoniker": "SGC.SeguimientoCreditos.DAL\\Repositorios\\RepositorioGenerico.cs",
+              "ToolTip": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos.API\\SGC.SeguimientoCreditos.DAL\\Repositorios\\RepositorioGenerico.cs",
+              "RelativeToolTip": "SGC.SeguimientoCreditos.DAL\\Repositorios\\RepositorioGenerico.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T01:46:41.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ITrackingGestionRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos.API\\SGC.SeguimientoCreditos.DAL\\Interfaces\\ITrackingGestionRepositorio.cs",
+              "RelativeDocumentMoniker": "SGC.SeguimientoCreditos.DAL\\Interfaces\\ITrackingGestionRepositorio.cs",
+              "ToolTip": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos.API\\SGC.SeguimientoCreditos.DAL\\Interfaces\\ITrackingGestionRepositorio.cs",
+              "RelativeToolTip": "SGC.SeguimientoCreditos.DAL\\Interfaces\\ITrackingGestionRepositorio.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T01:46:22.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ISolicitudCreditoRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos.API\\SGC.SeguimientoCreditos.DAL\\Interfaces\\ISolicitudCreditoRepositorio.cs",
+              "RelativeDocumentMoniker": "SGC.SeguimientoCreditos.DAL\\Interfaces\\ISolicitudCreditoRepositorio.cs",
+              "ToolTip": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos.API\\SGC.SeguimientoCreditos.DAL\\Interfaces\\ISolicitudCreditoRepositorio.cs",
+              "RelativeToolTip": "SGC.SeguimientoCreditos.DAL\\Interfaces\\ISolicitudCreditoRepositorio.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T01:46:06.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "IUsuarioRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos.API\\SGC.SeguimientoCreditos.DAL\\Interfaces\\IUsuarioRepositorio.cs",
+              "RelativeDocumentMoniker": "SGC.SeguimientoCreditos.DAL\\Interfaces\\IUsuarioRepositorio.cs",
+              "ToolTip": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos.API\\SGC.SeguimientoCreditos.DAL\\Interfaces\\IUsuarioRepositorio.cs",
+              "RelativeToolTip": "SGC.SeguimientoCreditos.DAL\\Interfaces\\IUsuarioRepositorio.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T01:45:43.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "IClienteRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos.API\\SGC.SeguimientoCreditos.DAL\\Interfaces\\IClienteRepositorio.cs",
+              "RelativeDocumentMoniker": "SGC.SeguimientoCreditos.DAL\\Interfaces\\IClienteRepositorio.cs",
+              "ToolTip": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos.API\\SGC.SeguimientoCreditos.DAL\\Interfaces\\IClienteRepositorio.cs",
+              "RelativeToolTip": "SGC.SeguimientoCreditos.DAL\\Interfaces\\IClienteRepositorio.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T01:45:23.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "IRepositorioGenerico.cs",
+              "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos.API\\SGC.SeguimientoCreditos.DAL\\Interfaces\\IRepositorioGenerico.cs",
+              "RelativeDocumentMoniker": "SGC.SeguimientoCreditos.DAL\\Interfaces\\IRepositorioGenerico.cs",
+              "ToolTip": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos.API\\SGC.SeguimientoCreditos.DAL\\Interfaces\\IRepositorioGenerico.cs",
+              "RelativeToolTip": "SGC.SeguimientoCreditos.DAL\\Interfaces\\IRepositorioGenerico.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T01:45:03.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos.API\\SGC.SeguimientoCreditos.DAL\\Context\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "SGC.SeguimientoCreditos.DAL\\Context\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos.API\\SGC.SeguimientoCreditos.DAL\\Context\\ApplicationDbContext.cs",
+              "RelativeToolTip": "SGC.SeguimientoCreditos.DAL\\Context\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAIA3wBoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T01:43:59.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "TrackingGestion.cs",
+              "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos.API\\SGC.SeguimientoCreditos.DAL\\Entidades\\TrackingGestion.cs",
+              "RelativeDocumentMoniker": "SGC.SeguimientoCreditos.DAL\\Entidades\\TrackingGestion.cs",
+              "ToolTip": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos.API\\SGC.SeguimientoCreditos.DAL\\Entidades\\TrackingGestion.cs",
+              "RelativeToolTip": "SGC.SeguimientoCreditos.DAL\\Entidades\\TrackingGestion.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T01:43:41.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "SolicitudCredito.cs",
+              "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos.API\\SGC.SeguimientoCreditos.DAL\\Entidades\\SolicitudCredito.cs",
+              "RelativeDocumentMoniker": "SGC.SeguimientoCreditos.DAL\\Entidades\\SolicitudCredito.cs",
+              "ToolTip": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos.API\\SGC.SeguimientoCreditos.DAL\\Entidades\\SolicitudCredito.cs",
+              "RelativeToolTip": "SGC.SeguimientoCreditos.DAL\\Entidades\\SolicitudCredito.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T01:43:10.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos.API\\SGC.SeguimientoCreditos.DAL\\Entidades\\Usuario.cs",
+              "RelativeDocumentMoniker": "SGC.SeguimientoCreditos.DAL\\Entidades\\Usuario.cs",
+              "ToolTip": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos.API\\SGC.SeguimientoCreditos.DAL\\Entidades\\Usuario.cs",
+              "RelativeToolTip": "SGC.SeguimientoCreditos.DAL\\Entidades\\Usuario.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T01:42:57.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos.API\\SGC.SeguimientoCreditos.DAL\\Entidades\\Cliente.cs",
+              "RelativeDocumentMoniker": "SGC.SeguimientoCreditos.DAL\\Entidades\\Cliente.cs",
+              "ToolTip": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos.API\\SGC.SeguimientoCreditos.DAL\\Entidades\\Cliente.cs",
+              "RelativeToolTip": "SGC.SeguimientoCreditos.DAL\\Entidades\\Cliente.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T01:42:39.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SGC.SeguimientoCreditos.DAL.csproj",
+              "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos.API\\SGC.SeguimientoCreditos.DAL\\SGC.SeguimientoCreditos.DAL.csproj",
+              "RelativeDocumentMoniker": "SGC.SeguimientoCreditos.DAL\\SGC.SeguimientoCreditos.DAL.csproj",
+              "ToolTip": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos.API\\SGC.SeguimientoCreditos.DAL\\SGC.SeguimientoCreditos.DAL.csproj",
+              "RelativeToolTip": "SGC.SeguimientoCreditos.DAL\\SGC.SeguimientoCreditos.DAL.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-18T01:42:06.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "SGC.SeguimientoCreditos.BLL.csproj",
+              "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos.API\\SGC.SeguimientoCreditos.BLL\\SGC.SeguimientoCreditos.BLL.csproj",
+              "RelativeDocumentMoniker": "SGC.SeguimientoCreditos.BLL\\SGC.SeguimientoCreditos.BLL.csproj",
+              "ToolTip": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos.API\\SGC.SeguimientoCreditos.BLL\\SGC.SeguimientoCreditos.BLL.csproj",
+              "RelativeToolTip": "SGC.SeguimientoCreditos.BLL\\SGC.SeguimientoCreditos.BLL.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-18T01:41:10.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos.API\\SGC.SeguimientoCreditos.API\\Program.cs",
+              "RelativeDocumentMoniker": "SGC.SeguimientoCreditos.API\\Program.cs",
+              "ToolTip": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos.API\\SGC.SeguimientoCreditos.API\\Program.cs",
+              "RelativeToolTip": "SGC.SeguimientoCreditos.API\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T01:31:04.343Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
