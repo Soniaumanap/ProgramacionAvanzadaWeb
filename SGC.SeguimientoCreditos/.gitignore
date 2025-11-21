@@ -1,0 +1,45 @@
+# === Visual Studio / .NET ===
+.vs/
+bin/
+obj/
+**/bin/
+**/obj/
+*.user
+*.suo
+*.dbmdl
+*.log
+*.vspx
+*.pdb
+*.cache
+*.vspscc
+*.vssscc
+*.psess
+*.ncb
+*.aps
+*.ilk
+*.tmp
+*.bak
+*.Backup
+*.old
+*.swp
+
+# === Visual Studio Code ===
+.vscode/
+
+# === System files ===
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# === Build / Publish ===
+*.Publish.xml
+*.publishproj
+*.pubxml
+*.pubxml.user
+
+# === Packages ===
+packages/
+*.nupkg
+*.snupkg
