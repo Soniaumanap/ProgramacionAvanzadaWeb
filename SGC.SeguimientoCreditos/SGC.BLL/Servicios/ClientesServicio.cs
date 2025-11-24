@@ -19,6 +19,19 @@ namespace SGC.BLL.Servicios
 
         public async Task<CustomResponse<ClienteDto>> CrearAsync(ClienteDto dto)
         {
+            // Validar que no venga ningún dato vacío
+            if (string.IsNullOrWhiteSpace(dto.Identificacion) ||
+                string.IsNullOrWhiteSpace(dto.Nombre) ||
+                string.IsNullOrWhiteSpace(dto.Telefono) ||
+                string.IsNullOrWhiteSpace(dto.Email))
+            {
+                return CustomResponse<ClienteDto>.Fail("El formulario no puede estar vacio");
+            }
+
+            // Normalizar campos opcionales para evitar NULL en BD
+            dto.Telefono = dto.Telefono.Trim();
+            dto.Email = dto.Email.Trim();
+
             var existe = await _repo.ObtenerPorIdentificacionAsync(dto.Identificacion);
             if (existe != null)
                 return CustomResponse<ClienteDto>.Fail("Ya existe un cliente con esa identificación.");
@@ -33,6 +46,7 @@ namespace SGC.BLL.Servicios
 
             return CustomResponse<ClienteDto>.Success(dto, "Cliente registrado correctamente.");
         }
+
 
         public async Task<CustomResponse<bool>> ActualizarAsync(ClienteDto dto)
         {

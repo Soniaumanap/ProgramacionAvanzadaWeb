@@ -3,6 +3,58 @@
   "WorkspaceRootPath": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{452CB0DB-139F-443D-AD84-D11D715AB554}|SGC.MVC\\SGC.MVC.csproj|c:\\users\\wstov\\desktop\\programacion avanzada web\\proyecto_final\\programacionavanzadaweb\\sgc.seguimientocreditos\\sgc.mvc\\wwwroot\\js\\solicitudes.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{452CB0DB-139F-443D-AD84-D11D715AB554}|SGC.MVC\\SGC.MVC.csproj|solutionrelative:sgc.mvc\\wwwroot\\js\\solicitudes.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{452CB0DB-139F-443D-AD84-D11D715AB554}|SGC.MVC\\SGC.MVC.csproj|c:\\users\\wstov\\desktop\\programacion avanzada web\\proyecto_final\\programacionavanzadaweb\\sgc.seguimientocreditos\\sgc.mvc\\controllers\\solicitudescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{452CB0DB-139F-443D-AD84-D11D715AB554}|SGC.MVC\\SGC.MVC.csproj|solutionrelative:sgc.mvc\\controllers\\solicitudescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6344DCA7-79BB-4102-A64C-AAE656B69F88}|SGC.DAL\\SGC.DAL.csproj|c:\\users\\wstov\\desktop\\programacion avanzada web\\proyecto_final\\programacionavanzadaweb\\sgc.seguimientocreditos\\sgc.dal\\sgc.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6344DCA7-79BB-4102-A64C-AAE656B69F88}|SGC.DAL\\SGC.DAL.csproj|solutionrelative:sgc.dal\\sgc.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{452CB0DB-139F-443D-AD84-D11D715AB554}|SGC.MVC\\SGC.MVC.csproj|c:\\users\\wstov\\desktop\\programacion avanzada web\\proyecto_final\\programacionavanzadaweb\\sgc.seguimientocreditos\\sgc.mvc\\views\\solicitudes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{452CB0DB-139F-443D-AD84-D11D715AB554}|SGC.MVC\\SGC.MVC.csproj|solutionrelative:sgc.mvc\\views\\solicitudes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{452CB0DB-139F-443D-AD84-D11D715AB554}|SGC.MVC\\SGC.MVC.csproj|c:\\users\\wstov\\desktop\\programacion avanzada web\\proyecto_final\\programacionavanzadaweb\\sgc.seguimientocreditos\\sgc.mvc\\wwwroot\\js\\clientes.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{452CB0DB-139F-443D-AD84-D11D715AB554}|SGC.MVC\\SGC.MVC.csproj|solutionrelative:sgc.mvc\\wwwroot\\js\\clientes.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6689CA3-6215-4954-94B3-0B1D74E27BDC}|SGC.BLL\\SGC.BLL.csproj|c:\\users\\wstov\\desktop\\programacion avanzada web\\proyecto_final\\programacionavanzadaweb\\sgc.seguimientocreditos\\sgc.bll\\servicios\\clientesservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6689CA3-6215-4954-94B3-0B1D74E27BDC}|SGC.BLL\\SGC.BLL.csproj|solutionrelative:sgc.bll\\servicios\\clientesservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF626837-B746-41F0-A0EC-E63EE95DD796}|SGC.API\\SGC.API.csproj|c:\\users\\wstov\\desktop\\programacion avanzada web\\proyecto_final\\programacionavanzadaweb\\sgc.seguimientocreditos\\sgc.api\\controllers\\solicitudescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF626837-B746-41F0-A0EC-E63EE95DD796}|SGC.API\\SGC.API.csproj|solutionrelative:sgc.api\\controllers\\solicitudescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF626837-B746-41F0-A0EC-E63EE95DD796}|SGC.API\\SGC.API.csproj|c:\\users\\wstov\\desktop\\programacion avanzada web\\proyecto_final\\programacionavanzadaweb\\sgc.seguimientocreditos\\sgc.api\\controllers\\gestionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF626837-B746-41F0-A0EC-E63EE95DD796}|SGC.API\\SGC.API.csproj|solutionrelative:sgc.api\\controllers\\gestionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF626837-B746-41F0-A0EC-E63EE95DD796}|SGC.API\\SGC.API.csproj|c:\\users\\wstov\\desktop\\programacion avanzada web\\proyecto_final\\programacionavanzadaweb\\sgc.seguimientocreditos\\sgc.api\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF626837-B746-41F0-A0EC-E63EE95DD796}|SGC.API\\SGC.API.csproj|solutionrelative:sgc.api\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF626837-B746-41F0-A0EC-E63EE95DD796}|SGC.API\\SGC.API.csproj|c:\\users\\wstov\\desktop\\programacion avanzada web\\proyecto_final\\programacionavanzadaweb\\sgc.seguimientocreditos\\sgc.api\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF626837-B746-41F0-A0EC-E63EE95DD796}|SGC.API\\SGC.API.csproj|solutionrelative:sgc.api\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF626837-B746-41F0-A0EC-E63EE95DD796}|SGC.API\\SGC.API.csproj|c:\\users\\wstov\\desktop\\programacion avanzada web\\proyecto_final\\programacionavanzadaweb\\sgc.seguimientocreditos\\sgc.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF626837-B746-41F0-A0EC-E63EE95DD796}|SGC.API\\SGC.API.csproj|solutionrelative:sgc.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{452CB0DB-139F-443D-AD84-D11D715AB554}|SGC.MVC\\SGC.MVC.csproj|c:\\users\\wstov\\desktop\\programacion avanzada web\\proyecto_final\\programacionavanzadaweb\\sgc.seguimientocreditos\\sgc.mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{452CB0DB-139F-443D-AD84-D11D715AB554}|SGC.MVC\\SGC.MVC.csproj|solutionrelative:sgc.mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF626837-B746-41F0-A0EC-E63EE95DD796}|SGC.API\\SGC.API.csproj|c:\\users\\wstov\\desktop\\programacion avanzada web\\proyecto_final\\programacionavanzadaweb\\sgc.seguimientocreditos\\sgc.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DF626837-B746-41F0-A0EC-E63EE95DD796}|SGC.API\\SGC.API.csproj|solutionrelative:sgc.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{452CB0DB-139F-443D-AD84-D11D715AB554}|SGC.MVC\\SGC.MVC.csproj|c:\\users\\wstov\\desktop\\programacion avanzada web\\proyecto_final\\programacionavanzadaweb\\sgc.seguimientocreditos\\sgc.mvc\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{452CB0DB-139F-443D-AD84-D11D715AB554}|SGC.MVC\\SGC.MVC.csproj|solutionrelative:sgc.mvc\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -23,10 +75,6 @@
       "RelativeMoniker": "D:0:0:{D6689CA3-6215-4954-94B3-0B1D74E27BDC}|SGC.BLL\\SGC.BLL.csproj|solutionrelative:sgc.bll\\utilidades\\customresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{452CB0DB-139F-443D-AD84-D11D715AB554}|SGC.MVC\\SGC.MVC.csproj|c:\\users\\wstov\\desktop\\programacion avanzada web\\proyecto_final\\programacionavanzadaweb\\sgc.seguimientocreditos\\sgc.mvc\\controllers\\solicitudescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{452CB0DB-139F-443D-AD84-D11D715AB554}|SGC.MVC\\SGC.MVC.csproj|solutionrelative:sgc.mvc\\controllers\\solicitudescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{452CB0DB-139F-443D-AD84-D11D715AB554}|SGC.MVC\\SGC.MVC.csproj|c:\\users\\wstov\\desktop\\programacion avanzada web\\proyecto_final\\programacionavanzadaweb\\sgc.seguimientocreditos\\sgc.mvc\\controllers\\reportecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{452CB0DB-139F-443D-AD84-D11D715AB554}|SGC.MVC\\SGC.MVC.csproj|solutionrelative:sgc.mvc\\controllers\\reportecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -45,10 +93,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{452CB0DB-139F-443D-AD84-D11D715AB554}|SGC.MVC\\SGC.MVC.csproj|c:\\users\\wstov\\desktop\\programacion avanzada web\\proyecto_final\\programacionavanzadaweb\\sgc.seguimientocreditos\\sgc.mvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{452CB0DB-139F-443D-AD84-D11D715AB554}|SGC.MVC\\SGC.MVC.csproj|solutionrelative:sgc.mvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{452CB0DB-139F-443D-AD84-D11D715AB554}|SGC.MVC\\SGC.MVC.csproj|c:\\users\\wstov\\desktop\\programacion avanzada web\\proyecto_final\\programacionavanzadaweb\\sgc.seguimientocreditos\\sgc.mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{452CB0DB-139F-443D-AD84-D11D715AB554}|SGC.MVC\\SGC.MVC.csproj|solutionrelative:sgc.mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{452CB0DB-139F-443D-AD84-D11D715AB554}|SGC.MVC\\SGC.MVC.csproj|c:\\users\\wstov\\desktop\\programacion avanzada web\\proyecto_final\\programacionavanzadaweb\\sgc.seguimientocreditos\\sgc.mvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -83,20 +127,8 @@
       "RelativeMoniker": "D:0:0:{452CB0DB-139F-443D-AD84-D11D715AB554}|SGC.MVC\\SGC.MVC.csproj|solutionrelative:sgc.mvc\\views\\gestiones\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{452CB0DB-139F-443D-AD84-D11D715AB554}|SGC.MVC\\SGC.MVC.csproj|c:\\users\\wstov\\desktop\\programacion avanzada web\\proyecto_final\\programacionavanzadaweb\\sgc.seguimientocreditos\\sgc.mvc\\wwwroot\\js\\solicitudes.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{452CB0DB-139F-443D-AD84-D11D715AB554}|SGC.MVC\\SGC.MVC.csproj|solutionrelative:sgc.mvc\\wwwroot\\js\\solicitudes.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{452CB0DB-139F-443D-AD84-D11D715AB554}|SGC.MVC\\SGC.MVC.csproj|c:\\users\\wstov\\desktop\\programacion avanzada web\\proyecto_final\\programacionavanzadaweb\\sgc.seguimientocreditos\\sgc.mvc\\views\\solicitudes\\_createmodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{452CB0DB-139F-443D-AD84-D11D715AB554}|SGC.MVC\\SGC.MVC.csproj|solutionrelative:sgc.mvc\\views\\solicitudes\\_createmodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{452CB0DB-139F-443D-AD84-D11D715AB554}|SGC.MVC\\SGC.MVC.csproj|c:\\users\\wstov\\desktop\\programacion avanzada web\\proyecto_final\\programacionavanzadaweb\\sgc.seguimientocreditos\\sgc.mvc\\views\\solicitudes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{452CB0DB-139F-443D-AD84-D11D715AB554}|SGC.MVC\\SGC.MVC.csproj|solutionrelative:sgc.mvc\\views\\solicitudes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{452CB0DB-139F-443D-AD84-D11D715AB554}|SGC.MVC\\SGC.MVC.csproj|c:\\users\\wstov\\desktop\\programacion avanzada web\\proyecto_final\\programacionavanzadaweb\\sgc.seguimientocreditos\\sgc.mvc\\wwwroot\\js\\clientes.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{452CB0DB-139F-443D-AD84-D11D715AB554}|SGC.MVC\\SGC.MVC.csproj|solutionrelative:sgc.mvc\\wwwroot\\js\\clientes.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{452CB0DB-139F-443D-AD84-D11D715AB554}|SGC.MVC\\SGC.MVC.csproj|c:\\users\\wstov\\desktop\\programacion avanzada web\\proyecto_final\\programacionavanzadaweb\\sgc.seguimientocreditos\\sgc.mvc\\views\\clientes\\_editmodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -137,10 +169,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{D6689CA3-6215-4954-94B3-0B1D74E27BDC}|SGC.BLL\\SGC.BLL.csproj|c:\\users\\wstov\\desktop\\programacion avanzada web\\proyecto_final\\programacionavanzadaweb\\sgc.seguimientocreditos\\sgc.bll\\servicios\\solicitudesservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D6689CA3-6215-4954-94B3-0B1D74E27BDC}|SGC.BLL\\SGC.BLL.csproj|solutionrelative:sgc.bll\\servicios\\solicitudesservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6689CA3-6215-4954-94B3-0B1D74E27BDC}|SGC.BLL\\SGC.BLL.csproj|c:\\users\\wstov\\desktop\\programacion avanzada web\\proyecto_final\\programacionavanzadaweb\\sgc.seguimientocreditos\\sgc.bll\\servicios\\clientesservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6689CA3-6215-4954-94B3-0B1D74E27BDC}|SGC.BLL\\SGC.BLL.csproj|solutionrelative:sgc.bll\\servicios\\clientesservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D6689CA3-6215-4954-94B3-0B1D74E27BDC}|SGC.BLL\\SGC.BLL.csproj|c:\\users\\wstov\\desktop\\programacion avanzada web\\proyecto_final\\programacionavanzadaweb\\sgc.seguimientocreditos\\sgc.bll\\mapeos\\mapeoclases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -219,10 +247,6 @@
       "RelativeMoniker": "D:0:0:{6344DCA7-79BB-4102-A64C-AAE656B69F88}|SGC.DAL\\SGC.DAL.csproj|solutionrelative:sgc.dal\\entidades\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6344DCA7-79BB-4102-A64C-AAE656B69F88}|SGC.DAL\\SGC.DAL.csproj|c:\\users\\wstov\\desktop\\programacion avanzada web\\proyecto_final\\programacionavanzadaweb\\sgc.seguimientocreditos\\sgc.dal\\sgc.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{6344DCA7-79BB-4102-A64C-AAE656B69F88}|SGC.DAL\\SGC.DAL.csproj|solutionrelative:sgc.dal\\sgc.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Wstov\\AppData\\Local\\Temp\\.vsdbgsrc\\13bf4daee0917368e00f165ef41e144925d26cc2bd515137743d73786f6b0609\\RazorView.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -233,7 +257,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 17,
           "Children": [
             {
               "$type": "Bookmark",
@@ -265,7 +289,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.API\\appsettings.json",
+              "RelativeDocumentMoniker": "SGC.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.API\\appsettings.json",
+              "RelativeToolTip": "SGC.API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-24T03:19:35.726Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.MVC\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "SGC.MVC\\Views\\_ViewImports.cshtml",
@@ -273,12 +309,11 @@
               "RelativeToolTip": "SGC.MVC\\Views\\_ViewImports.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-24T03:08:49.314Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-24T03:08:49.314Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 24,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.MVC\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "SGC.MVC\\Views\\Home\\Index.cshtml",
@@ -286,12 +321,11 @@
               "RelativeToolTip": "SGC.MVC\\Views\\Home\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-24T02:38:44.732Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-24T02:38:44.732Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 22,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.MVC\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "SGC.MVC\\Controllers\\HomeController.cs",
@@ -299,12 +333,11 @@
               "RelativeToolTip": "SGC.MVC\\Controllers\\HomeController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T02:38:16.751Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-24T02:38:16.751Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 18,
               "Title": "ReporteController.cs",
               "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.MVC\\Controllers\\ReporteController.cs",
               "RelativeDocumentMoniker": "SGC.MVC\\Controllers\\ReporteController.cs",
@@ -312,12 +345,11 @@
               "RelativeToolTip": "SGC.MVC\\Controllers\\ReporteController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T02:29:38.922Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-24T02:29:38.922Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 14,
               "Title": "GestionesController.cs",
               "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.MVC\\Controllers\\GestionesController.cs",
               "RelativeDocumentMoniker": "SGC.MVC\\Controllers\\GestionesController.cs",
@@ -325,25 +357,144 @@
               "RelativeToolTip": "SGC.MVC\\Controllers\\GestionesController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAABKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T02:26:30.964Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-24T02:26:30.964Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "ClientesServicio.cs",
+              "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.BLL\\Servicios\\ClientesServicio.cs",
+              "RelativeDocumentMoniker": "SGC.BLL\\Servicios\\ClientesServicio.cs",
+              "ToolTip": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.BLL\\Servicios\\ClientesServicio.cs",
+              "RelativeToolTip": "SGC.BLL\\Servicios\\ClientesServicio.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAADwvyMAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T23:49:57.934Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "SolicitudesController.cs",
               "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.MVC\\Controllers\\SolicitudesController.cs",
               "RelativeDocumentMoniker": "SGC.MVC\\Controllers\\SolicitudesController.cs",
               "ToolTip": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.MVC\\Controllers\\SolicitudesController.cs",
               "RelativeToolTip": "SGC.MVC\\Controllers\\SolicitudesController.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABwAAAAAAAAA",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAUwGkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T02:23:18.569Z",
+              "WhenOpened": "2025-11-24T02:23:18.569Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "clientes.js",
+              "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.MVC\\wwwroot\\js\\clientes.js",
+              "RelativeDocumentMoniker": "SGC.MVC\\wwwroot\\js\\clientes.js",
+              "ToolTip": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.MVC\\wwwroot\\js\\clientes.js",
+              "RelativeToolTip": "SGC.MVC\\wwwroot\\js\\clientes.js",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAQwBUAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-11-24T02:13:32.727Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.MVC\\Views\\Solicitudes\\Index.cshtml",
+              "RelativeDocumentMoniker": "SGC.MVC\\Views\\Solicitudes\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.MVC\\Views\\Solicitudes\\Index.cshtml",
+              "RelativeToolTip": "SGC.MVC\\Views\\Solicitudes\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-24T02:23:35.683Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "solicitudes.js",
+              "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.MVC\\wwwroot\\js\\solicitudes.js",
+              "RelativeDocumentMoniker": "SGC.MVC\\wwwroot\\js\\solicitudes.js",
+              "ToolTip": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.MVC\\wwwroot\\js\\solicitudes.js",
+              "RelativeToolTip": "SGC.MVC\\wwwroot\\js\\solicitudes.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAwAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-11-24T02:24:46.73Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 6,
+              "Title": "SolicitudesController.cs",
+              "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.API\\Controllers\\SolicitudesController.cs",
+              "RelativeDocumentMoniker": "SGC.API\\Controllers\\SolicitudesController.cs",
+              "ToolTip": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.API\\Controllers\\SolicitudesController.cs",
+              "RelativeToolTip": "SGC.API\\Controllers\\SolicitudesController.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAiwB8AAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T03:24:35.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SGC.DAL.csproj",
+              "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.DAL\\SGC.DAL.csproj",
+              "RelativeDocumentMoniker": "SGC.DAL\\SGC.DAL.csproj",
+              "ToolTip": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.DAL\\SGC.DAL.csproj",
+              "RelativeToolTip": "SGC.DAL\\SGC.DAL.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-22T23:24:19.188Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.API\\Program.cs",
+              "RelativeDocumentMoniker": "SGC.API\\Program.cs",
+              "ToolTip": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.API\\Program.cs",
+              "RelativeToolTip": "SGC.API\\Program.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T03:19:52.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GestionesController.cs",
+              "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.API\\Controllers\\GestionesController.cs",
+              "RelativeDocumentMoniker": "SGC.API\\Controllers\\GestionesController.cs",
+              "ToolTip": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.API\\Controllers\\GestionesController.cs",
+              "RelativeToolTip": "SGC.API\\Controllers\\GestionesController.cs",
+              "ViewState": "AQIAADQAAAAAAAAAAAAiwEYAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T03:24:52.472Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UsuariosController.cs",
+              "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.API\\Controllers\\UsuariosController.cs",
+              "RelativeDocumentMoniker": "SGC.API\\Controllers\\UsuariosController.cs",
+              "ToolTip": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.API\\Controllers\\UsuariosController.cs",
+              "RelativeToolTip": "SGC.API\\Controllers\\UsuariosController.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAiwFgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T03:23:14.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ClientesController.cs",
+              "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.API\\Controllers\\ClientesController.cs",
+              "RelativeDocumentMoniker": "SGC.API\\Controllers\\ClientesController.cs",
+              "ToolTip": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.API\\Controllers\\ClientesController.cs",
+              "RelativeToolTip": "SGC.API\\Controllers\\ClientesController.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAiwDUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T03:23:38.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.MVC\\appsettings.json",
               "RelativeDocumentMoniker": "SGC.MVC\\appsettings.json",
@@ -351,8 +502,7 @@
               "RelativeToolTip": "SGC.MVC\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-11-23T00:37:01.804Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-23T00:37:01.804Z"
             },
             {
               "$type": "Document",
@@ -362,14 +512,13 @@
               "RelativeDocumentMoniker": "SGC.MVC\\Program.cs",
               "ToolTip": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.MVC\\Program.cs",
               "RelativeToolTip": "SGC.MVC\\Program.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAABUAAABIAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T00:37:44.115Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-23T00:37:44.115Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 19,
               "Title": "UsuariosController.cs",
               "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.MVC\\Controllers\\UsuariosController.cs",
               "RelativeDocumentMoniker": "SGC.MVC\\Controllers\\UsuariosController.cs",
@@ -377,12 +526,11 @@
               "RelativeToolTip": "SGC.MVC\\Controllers\\UsuariosController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAEUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T02:05:13.616Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-24T02:05:13.616Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 21,
               "Title": "ClientesController.cs",
               "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.MVC\\Controllers\\ClientesController.cs",
               "RelativeDocumentMoniker": "SGC.MVC\\Controllers\\ClientesController.cs",
@@ -390,12 +538,11 @@
               "RelativeToolTip": "SGC.MVC\\Controllers\\ClientesController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAEUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T02:11:21.353Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-24T02:11:21.353Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 20,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.MVC\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "SGC.MVC\\Controllers\\AuthController.cs",
@@ -403,12 +550,11 @@
               "RelativeToolTip": "SGC.MVC\\Controllers\\AuthController.cs",
               "ViewState": "AQIAACwAAAAAAAAAAAAIwEQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T00:40:53.513Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-23T00:40:53.513Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 15,
               "Title": "TrackingsRepositorio.cs",
               "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.DAL\\Repositorios\\Implementaciones\\TrackingsRepositorio.cs",
               "RelativeDocumentMoniker": "SGC.DAL\\Repositorios\\Implementaciones\\TrackingsRepositorio.cs",
@@ -416,12 +562,11 @@
               "RelativeToolTip": "SGC.DAL\\Repositorios\\Implementaciones\\TrackingsRepositorio.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T17:38:36.22Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-20T17:38:36.22Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 17,
               "Title": "CustomResponse.cs",
               "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.BLL\\Utilidades\\CustomResponse.cs",
               "RelativeDocumentMoniker": "SGC.BLL\\Utilidades\\CustomResponse.cs",
@@ -429,12 +574,11 @@
               "RelativeToolTip": "SGC.BLL\\Utilidades\\CustomResponse.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T23:50:14.839Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-22T23:50:14.839Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 16,
               "Title": "SgcDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.DAL\\Contexto\\SgcDbContext.cs",
               "RelativeDocumentMoniker": "SGC.DAL\\Contexto\\SgcDbContext.cs",
@@ -442,12 +586,11 @@
               "RelativeToolTip": "SGC.DAL\\Contexto\\SgcDbContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T22:53:07.433Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-22T22:53:07.433Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 26,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.MVC\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "SGC.MVC\\Views\\_ViewStart.cshtml",
@@ -455,12 +598,11 @@
               "RelativeToolTip": "SGC.MVC\\Views\\_ViewStart.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-24T02:37:15.289Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-24T02:37:15.289Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 27,
               "Title": "reporte.js",
               "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.MVC\\wwwroot\\js\\reporte.js",
               "RelativeDocumentMoniker": "SGC.MVC\\wwwroot\\js\\reporte.js",
@@ -468,12 +610,11 @@
               "RelativeToolTip": "SGC.MVC\\wwwroot\\js\\reporte.js",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAADEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-11-24T02:30:09.504Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-24T02:30:09.504Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 28,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.MVC\\Views\\Reporte\\Index.cshtml",
               "RelativeDocumentMoniker": "SGC.MVC\\Views\\Reporte\\Index.cshtml",
@@ -481,12 +622,11 @@
               "RelativeToolTip": "SGC.MVC\\Views\\Reporte\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-24T02:29:52.52Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-24T02:29:52.52Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 30,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.MVC\\Views\\Gestiones\\Index.cshtml",
               "RelativeDocumentMoniker": "SGC.MVC\\Views\\Gestiones\\Index.cshtml",
@@ -494,25 +634,11 @@
               "RelativeToolTip": "SGC.MVC\\Views\\Gestiones\\Index.cshtml",
               "ViewState": "AQIAABwAAAAAAAAAAAAswEsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-24T02:27:03.946Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-24T02:27:03.946Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "solicitudes.js",
-              "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.MVC\\wwwroot\\js\\solicitudes.js",
-              "RelativeDocumentMoniker": "SGC.MVC\\wwwroot\\js\\solicitudes.js",
-              "ToolTip": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.MVC\\wwwroot\\js\\solicitudes.js",
-              "RelativeToolTip": "SGC.MVC\\wwwroot\\js\\solicitudes.js",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-11-24T02:24:46.73Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 31,
               "Title": "_CreateModal.cshtml",
               "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.MVC\\Views\\Solicitudes\\_CreateModal.cshtml",
               "RelativeDocumentMoniker": "SGC.MVC\\Views\\Solicitudes\\_CreateModal.cshtml",
@@ -520,38 +646,11 @@
               "RelativeToolTip": "SGC.MVC\\Views\\Solicitudes\\_CreateModal.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-24T02:23:46.095Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-24T02:23:46.095Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.MVC\\Views\\Solicitudes\\Index.cshtml",
-              "RelativeDocumentMoniker": "SGC.MVC\\Views\\Solicitudes\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.MVC\\Views\\Solicitudes\\Index.cshtml",
-              "RelativeToolTip": "SGC.MVC\\Views\\Solicitudes\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-24T02:23:35.683Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "clientes.js",
-              "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.MVC\\wwwroot\\js\\clientes.js",
-              "RelativeDocumentMoniker": "SGC.MVC\\wwwroot\\js\\clientes.js",
-              "ToolTip": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.MVC\\wwwroot\\js\\clientes.js",
-              "RelativeToolTip": "SGC.MVC\\wwwroot\\js\\clientes.js",
-              "ViewState": "AQIAABwAAAAAAAAAAAAswEsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-11-24T02:13:32.727Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 32,
               "Title": "_EditModal.cshtml",
               "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.MVC\\Views\\Clientes\\_EditModal.cshtml",
               "RelativeDocumentMoniker": "SGC.MVC\\Views\\Clientes\\_EditModal.cshtml",
@@ -559,12 +658,11 @@
               "RelativeToolTip": "SGC.MVC\\Views\\Clientes\\_EditModal.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-24T02:12:59.642Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-24T02:12:59.642Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 33,
               "Title": "_CreateModal.cshtml",
               "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.MVC\\Views\\Clientes\\_CreateModal.cshtml",
               "RelativeDocumentMoniker": "SGC.MVC\\Views\\Clientes\\_CreateModal.cshtml",
@@ -572,12 +670,11 @@
               "RelativeToolTip": "SGC.MVC\\Views\\Clientes\\_CreateModal.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-24T02:12:38.582Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-24T02:12:38.582Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 25,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.MVC\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "SGC.MVC\\Views\\Shared\\_Layout.cshtml",
@@ -585,12 +682,11 @@
               "RelativeToolTip": "SGC.MVC\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AQIAADsAAAAAAAAAAAAswGoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-23T00:41:49.048Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-23T00:41:49.048Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 34,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.MVC\\Views\\Clientes\\Index.cshtml",
               "RelativeDocumentMoniker": "SGC.MVC\\Views\\Clientes\\Index.cshtml",
@@ -598,12 +694,11 @@
               "RelativeToolTip": "SGC.MVC\\Views\\Clientes\\Index.cshtml",
               "ViewState": "AQIAABEAAAAAAAAAAAAswDAAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-24T02:12:07.65Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-24T02:12:07.65Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 29,
               "Title": "usuarios.js",
               "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.MVC\\wwwroot\\js\\usuarios.js",
               "RelativeDocumentMoniker": "SGC.MVC\\wwwroot\\js\\usuarios.js",
@@ -611,12 +706,11 @@
               "RelativeToolTip": "SGC.MVC\\wwwroot\\js\\usuarios.js",
               "ViewState": "AQIAAEUAAAAAAAAAAAAswHQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-11-24T02:07:15.05Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-24T02:07:15.05Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 35,
               "Title": "_EditModal.cshtml",
               "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.MVC\\Views\\Usuarios\\_EditModal.cshtml",
               "RelativeDocumentMoniker": "SGC.MVC\\Views\\Usuarios\\_EditModal.cshtml",
@@ -624,12 +718,11 @@
               "RelativeToolTip": "SGC.MVC\\Views\\Usuarios\\_EditModal.cshtml",
               "ViewState": "AQIAABEAAAAAAAAAAAAswC0AAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-24T02:06:11.485Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-24T02:06:11.485Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 36,
               "Title": "_CreateModal.cshtml",
               "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.MVC\\Views\\Usuarios\\_CreateModal.cshtml",
               "RelativeDocumentMoniker": "SGC.MVC\\Views\\Usuarios\\_CreateModal.cshtml",
@@ -637,12 +730,11 @@
               "RelativeToolTip": "SGC.MVC\\Views\\Usuarios\\_CreateModal.cshtml",
               "ViewState": "AQIAAAcAAAAAAAAAAAAswCMAAABJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-24T02:06:02.7Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-24T02:06:02.7Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 37,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.MVC\\Views\\Usuarios\\Index.cshtml",
               "RelativeDocumentMoniker": "SGC.MVC\\Views\\Usuarios\\Index.cshtml",
@@ -650,12 +742,11 @@
               "RelativeToolTip": "SGC.MVC\\Views\\Usuarios\\Index.cshtml",
               "ViewState": "AQIAABMAAAAAAAAAAAAswDEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-24T02:05:52.961Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-24T02:05:52.961Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 38,
               "Title": "Register.cshtml",
               "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.MVC\\Views\\Auth\\Register.cshtml",
               "RelativeDocumentMoniker": "SGC.MVC\\Views\\Auth\\Register.cshtml",
@@ -663,12 +754,11 @@
               "RelativeToolTip": "SGC.MVC\\Views\\Auth\\Register.cshtml",
               "ViewState": "AQIAAC0AAAAAAAAAAAAswFkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-24T01:46:44.307Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-24T01:46:44.307Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 39,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.MVC\\Views\\Auth\\Login.cshtml",
               "RelativeDocumentMoniker": "SGC.MVC\\Views\\Auth\\Login.cshtml",
@@ -676,12 +766,11 @@
               "RelativeToolTip": "SGC.MVC\\Views\\Auth\\Login.cshtml",
               "ViewState": "AQIAAA0AAAAAAAAAAAAswDwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-24T01:46:36.386Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-24T01:46:36.386Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 46,
               "Title": "UsuarioDto.cs",
               "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.BLL\\Dtos\\UsuarioDto.cs",
               "RelativeDocumentMoniker": "SGC.BLL\\Dtos\\UsuarioDto.cs",
@@ -689,12 +778,11 @@
               "RelativeToolTip": "SGC.BLL\\Dtos\\UsuarioDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T23:47:36.514Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-22T23:47:36.514Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 49,
               "Title": "ClienteDto.cs",
               "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.BLL\\Dtos\\ClienteDto.cs",
               "RelativeDocumentMoniker": "SGC.BLL\\Dtos\\ClienteDto.cs",
@@ -702,12 +790,11 @@
               "RelativeToolTip": "SGC.BLL\\Dtos\\ClienteDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T23:47:57.622Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-22T23:47:57.622Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 48,
               "Title": "SolicitudDto.cs",
               "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.BLL\\Dtos\\SolicitudDto.cs",
               "RelativeDocumentMoniker": "SGC.BLL\\Dtos\\SolicitudDto.cs",
@@ -715,12 +802,11 @@
               "RelativeToolTip": "SGC.BLL\\Dtos\\SolicitudDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T23:48:16.247Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-22T23:48:16.247Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 47,
               "Title": "TrackingDto.cs",
               "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.BLL\\Dtos\\TrackingDto.cs",
               "RelativeDocumentMoniker": "SGC.BLL\\Dtos\\TrackingDto.cs",
@@ -728,12 +814,11 @@
               "RelativeToolTip": "SGC.BLL\\Dtos\\TrackingDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T23:49:07.325Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-22T23:49:07.325Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 44,
               "Title": "IUsuariosServicio.cs",
               "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.BLL\\Servicios\\IUsuariosServicio.cs",
               "RelativeDocumentMoniker": "SGC.BLL\\Servicios\\IUsuariosServicio.cs",
@@ -741,12 +826,11 @@
               "RelativeToolTip": "SGC.BLL\\Servicios\\IUsuariosServicio.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T23:49:20.386Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-22T23:49:20.386Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 45,
               "Title": "IClientesServicio.cs",
               "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.BLL\\Servicios\\IClientesServicio.cs",
               "RelativeDocumentMoniker": "SGC.BLL\\Servicios\\IClientesServicio.cs",
@@ -754,12 +838,11 @@
               "RelativeToolTip": "SGC.BLL\\Servicios\\IClientesServicio.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T23:49:30.25Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-22T23:49:30.25Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 43,
               "Title": "ISolicitudesServicio.cs",
               "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.BLL\\Servicios\\ISolicitudesServicio.cs",
               "RelativeDocumentMoniker": "SGC.BLL\\Servicios\\ISolicitudesServicio.cs",
@@ -767,12 +850,11 @@
               "RelativeToolTip": "SGC.BLL\\Servicios\\ISolicitudesServicio.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T23:49:38.886Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-22T23:49:38.886Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 40,
               "Title": "UsuariosServicio.cs",
               "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.BLL\\Servicios\\UsuariosServicio.cs",
               "RelativeDocumentMoniker": "SGC.BLL\\Servicios\\UsuariosServicio.cs",
@@ -780,25 +862,11 @@
               "RelativeToolTip": "SGC.BLL\\Servicios\\UsuariosServicio.cs",
               "ViewState": "AQIAACcAAAAAAAAAAAAwwDAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T23:49:50.959Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-22T23:49:50.959Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "ClientesServicio.cs",
-              "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.BLL\\Servicios\\ClientesServicio.cs",
-              "RelativeDocumentMoniker": "SGC.BLL\\Servicios\\ClientesServicio.cs",
-              "ToolTip": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.BLL\\Servicios\\ClientesServicio.cs",
-              "RelativeToolTip": "SGC.BLL\\Servicios\\ClientesServicio.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAAwwE8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T23:49:57.934Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 41,
               "Title": "SolicitudesServicio.cs",
               "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.BLL\\Servicios\\SolicitudesServicio.cs",
               "RelativeDocumentMoniker": "SGC.BLL\\Servicios\\SolicitudesServicio.cs",
@@ -806,12 +874,11 @@
               "RelativeToolTip": "SGC.BLL\\Servicios\\SolicitudesServicio.cs",
               "ViewState": "AQIAAN8AAAAAAAAAAAAwwPIAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T23:50:06.401Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-22T23:50:06.401Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 42,
               "Title": "MapeoClases.cs",
               "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.BLL\\Mapeos\\MapeoClases.cs",
               "RelativeDocumentMoniker": "SGC.BLL\\Mapeos\\MapeoClases.cs",
@@ -819,12 +886,11 @@
               "RelativeToolTip": "SGC.BLL\\Mapeos\\MapeoClases.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T23:50:25.09Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-22T23:50:25.09Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 50,
               "Title": "SolicitudesRepositorio.cs",
               "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.DAL\\Repositorios\\Implementaciones\\SolicitudesRepositorio.cs",
               "RelativeDocumentMoniker": "SGC.DAL\\Repositorios\\Implementaciones\\SolicitudesRepositorio.cs",
@@ -832,12 +898,11 @@
               "RelativeToolTip": "SGC.DAL\\Repositorios\\Implementaciones\\SolicitudesRepositorio.cs",
               "ViewState": "AQIAAAUAAAAAAAAAAAAwwDQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T19:19:22.282Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-06T19:19:22.282Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 51,
               "Title": "ClientesRepositorio.cs",
               "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.DAL\\Repositorios\\Implementaciones\\ClientesRepositorio.cs",
               "RelativeDocumentMoniker": "SGC.DAL\\Repositorios\\Implementaciones\\ClientesRepositorio.cs",
@@ -845,12 +910,11 @@
               "RelativeToolTip": "SGC.DAL\\Repositorios\\Implementaciones\\ClientesRepositorio.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAAAwwDcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T18:30:28.31Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-06T18:30:28.31Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 52,
               "Title": "UsuariosRepositorio.cs",
               "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.DAL\\Repositorios\\Implementaciones\\UsuariosRepositorio.cs",
               "RelativeDocumentMoniker": "SGC.DAL\\Repositorios\\Implementaciones\\UsuariosRepositorio.cs",
@@ -858,12 +922,11 @@
               "RelativeToolTip": "SGC.DAL\\Repositorios\\Implementaciones\\UsuariosRepositorio.cs",
               "ViewState": "AQIAAA4AAAAAAAAAAAAwwD0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T22:56:02.275Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-03T22:56:02.275Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 53,
               "Title": "ITrackingsRepositorio.cs",
               "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.DAL\\Repositorios\\Interfaces\\ITrackingsRepositorio.cs",
               "RelativeDocumentMoniker": "SGC.DAL\\Repositorios\\Interfaces\\ITrackingsRepositorio.cs",
@@ -871,12 +934,11 @@
               "RelativeToolTip": "SGC.DAL\\Repositorios\\Interfaces\\ITrackingsRepositorio.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T19:19:25.917Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-06T19:19:25.917Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 54,
               "Title": "ISolicitudesRepositorio.cs",
               "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.DAL\\Repositorios\\Interfaces\\ISolicitudesRepositorio.cs",
               "RelativeDocumentMoniker": "SGC.DAL\\Repositorios\\Interfaces\\ISolicitudesRepositorio.cs",
@@ -884,12 +946,11 @@
               "RelativeToolTip": "SGC.DAL\\Repositorios\\Interfaces\\ISolicitudesRepositorio.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T19:26:25.481Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-06T19:26:25.481Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 55,
               "Title": "IClientesRepositorio.cs",
               "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.DAL\\Repositorios\\Interfaces\\IClientesRepositorio.cs",
               "RelativeDocumentMoniker": "SGC.DAL\\Repositorios\\Interfaces\\IClientesRepositorio.cs",
@@ -897,12 +958,11 @@
               "RelativeToolTip": "SGC.DAL\\Repositorios\\Interfaces\\IClientesRepositorio.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T18:30:21.21Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-06T18:30:21.21Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 56,
               "Title": "IUsuariosRepositorio.cs",
               "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.DAL\\Repositorios\\Interfaces\\IUsuariosRepositorio.cs",
               "RelativeDocumentMoniker": "SGC.DAL\\Repositorios\\Interfaces\\IUsuariosRepositorio.cs",
@@ -910,12 +970,11 @@
               "RelativeToolTip": "SGC.DAL\\Repositorios\\Interfaces\\IUsuariosRepositorio.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T19:52:07.618Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-22T19:52:07.618Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 57,
               "Title": "TrackingGestion.cs",
               "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.DAL\\Entidades\\TrackingGestion.cs",
               "RelativeDocumentMoniker": "SGC.DAL\\Entidades\\TrackingGestion.cs",
@@ -923,12 +982,11 @@
               "RelativeToolTip": "SGC.DAL\\Entidades\\TrackingGestion.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T19:51:48.026Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-22T19:51:48.026Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 58,
               "Title": "SolicitudCredito.cs",
               "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.DAL\\Entidades\\SolicitudCredito.cs",
               "RelativeDocumentMoniker": "SGC.DAL\\Entidades\\SolicitudCredito.cs",
@@ -936,12 +994,11 @@
               "RelativeToolTip": "SGC.DAL\\Entidades\\SolicitudCredito.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T23:25:03.852Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-03T23:25:03.852Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 59,
               "Title": "Cliente.cs",
               "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.DAL\\Entidades\\Cliente.cs",
               "RelativeDocumentMoniker": "SGC.DAL\\Entidades\\Cliente.cs",
@@ -949,12 +1006,11 @@
               "RelativeToolTip": "SGC.DAL\\Entidades\\Cliente.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T19:50:51.153Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-22T19:50:51.153Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 60,
               "Title": "Usuario.cs",
               "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.DAL\\Entidades\\Usuario.cs",
               "RelativeDocumentMoniker": "SGC.DAL\\Entidades\\Usuario.cs",
@@ -962,25 +1018,11 @@
               "RelativeToolTip": "SGC.DAL\\Entidades\\Usuario.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T19:50:17.074Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-22T19:50:17.074Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
-              "Title": "SGC.DAL.csproj",
-              "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.DAL\\SGC.DAL.csproj",
-              "RelativeDocumentMoniker": "SGC.DAL\\SGC.DAL.csproj",
-              "ToolTip": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.DAL\\SGC.DAL.csproj",
-              "RelativeToolTip": "SGC.DAL\\SGC.DAL.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-11-22T23:24:19.188Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 61,
               "Title": "RazorView.cs",
               "DocumentMoniker": "C:\\Users\\Wstov\\AppData\\Local\\Temp\\.vsdbgsrc\\13bf4daee0917368e00f165ef41e144925d26cc2bd515137743d73786f6b0609\\RazorView.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\13bf4daee0917368e00f165ef41e144925d26cc2bd515137743d73786f6b0609\\RazorView.cs",
@@ -988,8 +1030,7 @@
               "RelativeToolTip": "..\\..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\13bf4daee0917368e00f165ef41e144925d26cc2bd515137743d73786f6b0609\\RazorView.cs",
               "ViewState": "AQIAAFMAAAAAAAAAAAASwGMAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T20:16:58.937Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-22T20:16:58.937Z"
             }
           ]
         }

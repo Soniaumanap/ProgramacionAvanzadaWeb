@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SGC.BLL", "SGC.BLL\SGC.BLL.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SGC.MVC", "SGC.MVC\SGC.MVC.csproj", "{452CB0DB-139F-443D-AD84-D11D715AB554}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SGC.API", "SGC.API\SGC.API.csproj", "{DF626837-B746-41F0-A0EC-E63EE95DD796}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{452CB0DB-139F-443D-AD84-D11D715AB554}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{452CB0DB-139F-443D-AD84-D11D715AB554}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{452CB0DB-139F-443D-AD84-D11D715AB554}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF626837-B746-41F0-A0EC-E63EE95DD796}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF626837-B746-41F0-A0EC-E63EE95DD796}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF626837-B746-41F0-A0EC-E63EE95DD796}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF626837-B746-41F0-A0EC-E63EE95DD796}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -6,6 +6,16 @@
 $("#formCreateCliente").submit(function (e) {
     e.preventDefault();
 
+    const ident = $("[name='Identificacion']").val().trim();
+    const nombre = $("[name='Nombre']").val().trim();
+    const telefono = $("[name='Telefono']").val().trim();
+    const email = $("[name='Email']").val().trim();
+
+    if (!ident || !nombre || !telefono || !email) {
+        Swal.fire("Error", "El formulario no puede estar vacio", "error");
+        return;
+    }
+
     $.ajax({
         url: "/Clientes/Create",
         type: "POST",
@@ -20,6 +30,7 @@ $("#formCreateCliente").submit(function (e) {
         }
     });
 });
+
 
 function editarCliente(id) {
     $.get("/Clientes/Get/" + id, function (data) {

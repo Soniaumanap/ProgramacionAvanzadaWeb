@@ -30,34 +30,76 @@ namespace SGC.MVC.Controllers
             return View();
         }
 
-        [HttpPost]
-        public async Task<IActionResult> Crear(
-            string identificacionCliente,
-            decimal monto,
-            string comentarios)
+        // Clase interna SOLO para esta acción (no es un Model global)
+        public class CrearSolicitudRequest
         {
-            if (!UsuarioServicio())
-                return Unauthorized();
+            public string IdentificacionCliente { get; set; } = string.Empty;
+            public string Monto { get; set; } = string.Empty;
+            public string? Comentarios { get; set; }
+        }
 
-            var usuario = HttpContext.Session.GetString("UsuarioNombre");
-            var rol = HttpContext.Session.GetString("UsuarioRol");
-
-            var cliente = await _clientesServicio.ObtenerPorIdentificacionAsync(identificacionCliente);
-            if (cliente == null)
+        [HttpPost]
+        public async Task<IActionResult> Crear([FromForm] CrearSolicitudRequest req)
+        {
+            try
             {
-                return Json(new { ok = false, mensaje = "El cliente no está registrado." });
+                var usuario = HttpContext.Session.GetString("UsuarioNombre");
+                var rol = HttpContext.Session.GetString("UsuarioRol");
+
+                if (string.IsNullOrEmpty(usuario) || string.IsNullOrEmpty(rol))
+                {
+                    return Ok(new { ok = false, mensaje = "Debe iniciar sesión." });
+                }
+
+                if (!UsuarioServicio())
+                {
+                    return Ok(new { ok = false, mensaje = "No tiene permisos para crear solicitudes." });
+                }
+
+                // Validar datos mínimos
+                if (string.IsNullOrWhiteSpace(req.IdentificacionCliente) ||
+                    string.IsNullOrWhiteSpace(req.Monto))
+                {
+                    return Ok(new { ok = false, mensaje = "Los datos de la solicitud son obligatorios." });
+                }
+
+                // Convertir monto manualmente
+                if (!decimal.TryParse(req.Monto, out var montoDecimal))
+                {
+                    return Ok(new { ok = false, mensaje = "El monto ingresado no es válido." });
+                }
+
+                var cliente = await _clientesServicio.ObtenerPorIdentificacionAsync(req.IdentificacionCliente);
+                if (cliente == null)
+                {
+                    return Ok(new { ok = false, mensaje = "El cliente no está registrado." });
+                }
+
+                var resp = await _solicitudesServicio.CrearAsync(
+                    cliente.Id,
+                    req.IdentificacionCliente,
+                    montoDecimal,
+                    req.Comentarios ?? string.Empty,
+                    usuario,
+                    rol
+                );
+
+                // AQUÍ: si resp.Ok == true → Éxito, si false → error de negocio
+                return Ok(new
+                {
+                    ok = resp.Ok,
+                    mensaje = resp.Mensaje
+                });
             }
-
-            var resp = await _solicitudesServicio.CrearAsync(
-                cliente.Id,
-                identificacionCliente,
-                monto,
-                comentarios,
-                usuario!,
-                rol!
-            );
-
-            return Json(resp);
+            catch (Exception)
+            {
+                // Si pasa cualquier cosa rara, devolvemos ok=false pero SIEMPRE 200
+                return Ok(new
+                {
+                    ok = false,
+                    mensaje = "Ocurrió un error interno al crear la solicitud."
+                });
+            }
         }
     }
 }
