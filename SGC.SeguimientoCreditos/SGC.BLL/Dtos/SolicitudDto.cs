@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using SGC.DAL.Entidades;
 
 namespace SGC.BLL.Dtos
 {
@@ -8,11 +6,11 @@ namespace SGC.BLL.Dtos
     {
         public int Id { get; set; }
         public int ClienteId { get; set; }
-        public string IdentificacionCliente { get; set; } = "";
+        public string IdentificacionCliente { get; set; } = null!;
         public decimal Monto { get; set; }
-        public string Comentarios { get; set; } = "";
-        public EstadoSolicitud Estado { get; set; }
-        public List<string> Documentos { get; set; } = new();
-        public DateTime FechaCreacion { get; set; }
+        public string? Comentarios { get; set; }
+        public string Estado { get; set; } = null!;
+        public string? Documentos { get; set; }
+        public DateTime Fecha { get; set; }
     }
 }

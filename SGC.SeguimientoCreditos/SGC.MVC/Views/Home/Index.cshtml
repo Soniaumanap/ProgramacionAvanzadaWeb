@@ -1,0 +1,21 @@
+﻿@{
+    ViewData["Title"] = "Inicio";
+    var nombre = ViewBag.Nombre as string ?? "";
+    var rol = ViewBag.Rol as string ?? "";
+}
+
+<div class="mt-4">
+    <h2>Bienvenido @nombre</h2>
+    <p>Rol: @rol</p>
+
+    <hr />
+
+    <p>Utilice el menú superior para acceder a los módulos del sistema:</p>
+    <ul>
+        <li>Clientes</li>
+        <li>Solicitudes de crédito</li>
+        <li>Gestiones</li>
+        <li>Reporte de Tracking</li>
+        <li>Usuarios (solo Admin)</li>
+    </ul>
+</div>

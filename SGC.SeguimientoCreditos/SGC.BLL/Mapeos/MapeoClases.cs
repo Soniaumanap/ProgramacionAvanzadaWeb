@@ -1,7 +1,6 @@
 ﻿using AutoMapper;
 using SGC.BLL.Dtos;
 using SGC.DAL.Entidades;
-using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace SGC.BLL.Mapeos
 {
@@ -9,9 +8,17 @@ namespace SGC.BLL.Mapeos
     {
         public MapeoClases()
         {
+            // Usuario
             CreateMap<Usuario, UsuarioDto>().ReverseMap();
+
+            // Cliente
             CreateMap<Cliente, ClienteDto>().ReverseMap();
+
+            // SolicitudCredito
             CreateMap<SolicitudCredito, SolicitudDto>().ReverseMap();
+
+            // TrackingGestion
+            CreateMap<TrackingGestion, TrackingDto>().ReverseMap();
         }
     }
 }

@@ -8,19 +8,27 @@ namespace SGC.SeguimientoCreditos.API.Controllers
     [Route("api/[controller]")]
     public class TrackingsController : ControllerBase
     {
-        private readonly ITrackingsServicio _service;
+        private readonly ITrackingsServicio _trackingsServicio;
 
-        public TrackingsController(ITrackingsServicio service)
+        public TrackingsController(ITrackingsServicio trackingsServicio)
         {
-            _service = service;
+            _trackingsServicio = trackingsServicio;
         }
 
-        [HttpGet("solicitud/{solicitudId}")]
-        public async Task<ActionResult> GetBySolicitud(int solicitudId) =>
-            Ok(await _service.ObtenerPorSolicitudAsync(solicitudId));
+        // GET: api/trackings/gestion/
+        [HttpGet("gestion/{gestionId:int}")]
+        public async Task<ActionResult<List<TrackingGestionDto>>> GetPorGestion(int gestionId)
+        {
+            var lista = await _trackingsServicio.ObtenerPorGestionAsync(gestionId);
+            return Ok(lista);
+        }
 
+        // POST: api/trackings
         [HttpPost]
-        public async Task<ActionResult> Create(TrackingDto dto) =>
-            Ok(await _service.CrearAsync(dto));
+        public async Task<ActionResult> Post([FromBody] TrackingGestionDto dto)
+        {
+            await _trackingsServicio.CrearAsync(dto);
+            return Ok();
+        }
     }
 }

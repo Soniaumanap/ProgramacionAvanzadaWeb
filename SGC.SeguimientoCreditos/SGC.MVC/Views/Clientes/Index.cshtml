@@ -1,0 +1,64 @@
+﻿@model List<SGC.BLL.Dtos.ClienteDto>
+
+@{
+    ViewData["Title"] = "Administración de Clientes";
+}
+
+<link href="https://cdn.datatables.net/1.13.5/css/jquery.dataTables.min.css" rel="stylesheet" />
+<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+<script src="https://cdn.datatables.net/1.13.5/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<div class="container mt-4">
+
+    <h2 class="mb-4">Administración de Clientes</h2>
+
+    <button class="btn btn-primary mb-3" onclick="abrirModalCrearCliente()">Crear Cliente</button>
+
+    <table id="tablaClientes" class="table table-striped">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Identificación</th>
+                <th>Nombre</th>
+                <th>Teléfono</th>
+                <th>Email</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            @foreach (var c in Model)
+            {
+                <tr>
+                    <td>@c.Id</td>
+                    <td>@c.Identificacion</td>
+                    <td>@c.Nombre</td>
+                    <td>@c.Telefono</td>
+                    <td>@c.Email</td>
+                    <td>
+                        <button class="btn btn-sm btn-warning" onclick="editarCliente(@c.Id)">Editar</button>
+                        <button class="btn btn-sm btn-danger" onclick="eliminarCliente(@c.Id)">Eliminar</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<!-- Modales -->
+<div id="modalCreateClienteContainer">
+    @Html.Partial("_CreateModal")
+</div>
+
+<div id="modalEditClienteContainer">
+    @Html.Partial("_EditModal")
+</div>
+
+<script src="~/js/clientes.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $('#tablaClientes').DataTable();
+    });
+</script>

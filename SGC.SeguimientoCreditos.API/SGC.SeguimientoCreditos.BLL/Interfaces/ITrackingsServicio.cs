@@ -4,7 +4,7 @@ namespace SGC.SeguimientoCreditos.BLL.Interfaces
 {
     public interface ITrackingsServicio
     {
-        Task<List<TrackingDto>> ObtenerPorSolicitudAsync(int solicitudId);
-        Task<TrackingDto> CrearAsync(TrackingDto dto);
+        Task<List<TrackingGestionDto>> ObtenerPorGestionAsync(int gestionId);
+        Task CrearAsync(TrackingGestionDto dto);
     }
 }

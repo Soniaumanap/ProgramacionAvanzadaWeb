@@ -2,10 +2,10 @@
 {
     public class ClienteDto
     {
-        public int ClienteId { get; set; }
-        public string Identificacion { get; set; }
-        public string Nombre { get; set; }
-        public string Apellidos { get; set; }
-        public string Telefono { get; set; }
+        public int Id { get; set; }
+        public string Identificacion { get; set; } = null!;
+        public string Nombre { get; set; } = null!;
+        public string? Telefono { get; set; }
+        public string? Email { get; set; }
     }
 }

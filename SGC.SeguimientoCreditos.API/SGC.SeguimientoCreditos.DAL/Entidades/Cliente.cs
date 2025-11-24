@@ -2,12 +2,13 @@
 {
     public class Cliente
     {
-        public int ClienteId { get; set; }
-        public string Identificacion { get; set; }
-        public string Nombre { get; set; }
-        public string Apellidos { get; set; }
-        public string Telefono { get; set; }
+        public int Id { get; set; }
+        public string Identificacion { get; set; } = null!;
+        public string Nombre { get; set; } = null!;
+        public string? Telefono { get; set; }
+        public string? Email { get; set; }
 
-        public ICollection<SolicitudCredito> SolicitudesCredito { get; set; }
+        // Navegación
+        public ICollection<SolicitudCredito> Solicitudes { get; set; } = new List<SolicitudCredito>();
     }
 }

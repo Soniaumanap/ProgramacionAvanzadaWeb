@@ -1,0 +1,40 @@
+﻿<div class="modal fade" id="modalSolicitud" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+
+            <form id="formSolicitud">
+
+                <div class="modal-header">
+                    <h5 class="modal-title">Nueva Solicitud de Crédito</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+
+                <div class="modal-body">
+
+                    <div class="mb-3">
+                        <label>Identificación del Cliente:</label>
+                        <input class="form-control" name="IdentificacionCliente" required />
+                    </div>
+
+                    <div class="mb-3">
+                        <label>Monto del Crédito:</label>
+                        <input class="form-control" name="Monto" type="number" required />
+                    </div>
+
+                    <div class="mb-3">
+                        <label>Comentarios:</label>
+                        <textarea class="form-control" name="Comentarios"></textarea>
+                    </div>
+
+                </div>
+
+                <div class="modal-footer">
+                    <button class="btn btn-primary">Crear Solicitud</button>
+                    <button class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+
+            </form>
+
+        </div>
+    </div>
+</div>

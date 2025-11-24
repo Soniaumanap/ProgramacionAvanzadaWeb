@@ -1,9 +1,0 @@
-﻿<h5>Hola @ViewBag.Nombre (@ViewBag.Rol)</h5>
-<a class="btn btn-secondary" asp-controller="Clientes" asp-action="Index">Clientes</a>
-<a class="btn btn-secondary" asp-controller="Solicitudes" asp-action="Index">Solicitudes</a>
-<a class="btn btn-secondary" asp-controller="Reportes" asp-action="Tracking">Reporte Tracking</a>
-@if ((string)ViewBag.Rol == "Admin")
-{
-    <a class="btn btn-secondary" asp-controller="Usuarios" asp-action="Index">Usuarios</a>
-}
-<a class="btn btn-outline-danger" asp-controller="Auth" asp-action="Logout">Salir</a>

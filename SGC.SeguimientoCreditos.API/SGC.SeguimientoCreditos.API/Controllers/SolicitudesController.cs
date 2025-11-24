@@ -8,31 +8,49 @@ namespace SGC.SeguimientoCreditos.API.Controllers
     [Route("api/[controller]")]
     public class SolicitudesController : ControllerBase
     {
-        private readonly ISolicitudesServicio _service;
+        private readonly ISolicitudesServicio _solicitudesServicio;
 
-        public SolicitudesController(ISolicitudesServicio service)
+        public SolicitudesController(ISolicitudesServicio solicitudesServicio)
         {
-            _service = service;
+            _solicitudesServicio = solicitudesServicio;
         }
 
+        // GET: api/solicitudes
         [HttpGet]
-        public async Task<ActionResult> GetAll() =>
-            Ok(await _service.ObtenerTodosAsync());
+        public async Task<ActionResult<List<SolicitudCreditoDto>>> Get()
+        {
+            var lista = await _solicitudesServicio.ObtenerTodasAsync();
+            return Ok(lista);
+        }
 
-        [HttpGet("{id}")]
-        public async Task<ActionResult> GetById(int id) =>
-            Ok(await _service.ObtenerPorIdAsync(id));
+        // GET: api/solicitudes/11550
+        [HttpGet("{id:int}")]
+        public async Task<ActionResult<SolicitudCreditoDto>> Get(int id)
+        {
+            var solicitud = await _solicitudesServicio.ObtenerPorIdAsync(id);
+            if (solicitud is null) return NotFound();
+            return Ok(solicitud);
+        }
 
+        // POST: api/solicitudes
         [HttpPost]
-        public async Task<ActionResult> Create(SolicitudDto dto) =>
-            Ok(await _service.CrearAsync(dto));
+        public async Task<ActionResult> Post([FromBody] SolicitudCreditoDto dto)
+        {
+            var ok = await _solicitudesServicio.CrearAsync(dto);
+            if (!ok) return BadRequest("No se pudo crear la solicitud.");
+            return Ok();
+        }
 
-        [HttpPut("{id}")]
-        public async Task<ActionResult> Update(int id, SolicitudDto dto) =>
-            Ok(await _service.ActualizarAsync(id, dto));
+        // PUT: api/solicitudes/11550
+        [HttpPut("{id:int}")]
+        public async Task<ActionResult> Put(int id, [FromBody] SolicitudCreditoDto dto)
+        {
+            if (id != dto.Id)
+                return BadRequest("El id de la ruta no coincide con el del cuerpo.");
 
-        [HttpDelete("{id}")]
-        public async Task<ActionResult> Delete(int id) =>
-            Ok(await _service.EliminarAsync(id));
+            var ok = await _solicitudesServicio.ActualizarAsync(dto);
+            if (!ok) return NotFound("Solicitud no encontrada.");
+            return Ok();
+        }
     }
 }

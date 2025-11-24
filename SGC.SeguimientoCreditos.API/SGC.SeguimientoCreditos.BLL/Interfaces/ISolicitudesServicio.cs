@@ -4,10 +4,9 @@ namespace SGC.SeguimientoCreditos.BLL.Interfaces
 {
     public interface ISolicitudesServicio
     {
-        Task<List<SolicitudDto>> ObtenerTodosAsync();
-        Task<SolicitudDto> ObtenerPorIdAsync(int id);
-        Task<SolicitudDto> CrearAsync(SolicitudDto dto);
-        Task<SolicitudDto> ActualizarAsync(int id, SolicitudDto dto);
-        Task<bool> EliminarAsync(int id);
+        Task<List<SolicitudCreditoDto>> ObtenerTodasAsync();
+        Task<SolicitudCreditoDto?> ObtenerPorIdAsync(int id);
+        Task<bool> CrearAsync(SolicitudCreditoDto dto);
+        Task<bool> ActualizarAsync(SolicitudCreditoDto dto);
     }
 }

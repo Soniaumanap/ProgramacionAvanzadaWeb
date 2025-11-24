@@ -4,11 +4,12 @@ namespace SGC.SeguimientoCreditos.DAL.Entidades
 {
     public class TrackingGestion
     {
-        public int TrackingGestionId { get; set; }
+        public int Id { get; set; }
+        public int GestionId { get; set; }
         public DateTime Fecha { get; set; }
-        public string Comentario { get; set; }
+        public string? Comentario { get; set; }
 
-        public int SolicitudCreditoId { get; set; }
-        public SolicitudCredito SolicitudCredito { get; set; }
+        public int UsuarioId { get; set; }
+        public Usuario? Usuario { get; set; }
     }
 }

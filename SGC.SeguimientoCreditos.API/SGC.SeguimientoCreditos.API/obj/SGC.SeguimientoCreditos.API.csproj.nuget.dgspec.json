@@ -56,7 +56,7 @@
           "dependencies": {
             "AutoMapper": {
               "target": "Package",
-              "version": "[15.1.0, )"
+              "version": "[12.0.1, )"
             },
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
@@ -143,7 +143,7 @@
           "dependencies": {
             "AutoMapper": {
               "target": "Package",
-              "version": "[15.1.0, )"
+              "version": "[12.0.1, )"
             },
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
@@ -218,6 +218,10 @@
           "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[9.0.11, )"
             },

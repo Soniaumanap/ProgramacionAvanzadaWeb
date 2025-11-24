@@ -8,31 +8,62 @@ namespace SGC.SeguimientoCreditos.API.Controllers
     [Route("api/[controller]")]
     public class ClientesController : ControllerBase
     {
-        private readonly IClientesServicio _service;
+        private readonly IClientesServicio _clientesServicio;
 
-        public ClientesController(IClientesServicio service)
+        public ClientesController(IClientesServicio clientesServicio)
         {
-            _service = service;
+            _clientesServicio = clientesServicio;
         }
 
+        // GET: api/clientes
         [HttpGet]
-        public async Task<ActionResult> GetAll() =>
-            Ok(await _service.ObtenerTodosAsync());
+        public async Task<ActionResult<List<ClienteDto>>> Get()
+        {
+            var lista = await _clientesServicio.ObtenerTodosAsync();
+            return Ok(lista);
+        }
 
-        [HttpGet("{id}")]
-        public async Task<ActionResult> GetById(int id) =>
-            Ok(await _service.ObtenerPorIdAsync(id));
+        // GET: api/clientes/5
+        [HttpGet("{id:int}")]
+        public async Task<ActionResult<ClienteDto>> Get(int id)
+        {
+            var cliente = await _clientesServicio.ObtenerPorIdAsync(id);
+            if (cliente is null) return NotFound();
+            return Ok(cliente);
+        }
 
+        // POST: api/clientes
         [HttpPost]
-        public async Task<ActionResult> Create(ClienteDto dto) =>
-            Ok(await _service.CrearAsync(dto));
+        public async Task<ActionResult> Post([FromBody] ClienteDto dto)
+        {
+            var ok = await _clientesServicio.CrearAsync(dto);
+            if (!ok) return BadRequest("No se pudo crear el cliente.");
 
-        [HttpPut("{id}")]
-        public async Task<ActionResult> Update(int id, ClienteDto dto) =>
-            Ok(await _service.ActualizarAsync(id, dto));
+            // Podrías retornar CreatedAtAction si quieres incluir la URL del recurso
+            return Ok();
+        }
 
-        [HttpDelete("{id}")]
-        public async Task<ActionResult> Delete(int id) =>
-            Ok(await _service.EliminarAsync(id));
+        // PUT: api/clientes/5
+        [HttpPut("{id:int}")]
+        public async Task<ActionResult> Put(int id, [FromBody] ClienteDto dto)
+        {
+            if (id != dto.Id)
+                return BadRequest("El id de la ruta no coincide con el del cuerpo.");
+
+            var ok = await _clientesServicio.ActualizarAsync(dto);
+            if (!ok) return NotFound("Cliente no encontrado.");
+
+            return Ok();
+        }
+
+        // DELETE: api/clientes/5
+        [HttpDelete("{id:int}")]
+        public async Task<ActionResult> Delete(int id)
+        {
+            var ok = await _clientesServicio.EliminarAsync(id);
+            if (!ok) return NotFound("Cliente no encontrado.");
+
+            return Ok();
+        }
     }
 }

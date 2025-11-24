@@ -1,16 +1,17 @@
 ﻿using AutoMapper;
 using SGC.SeguimientoCreditos.BLL.Dtos;
 using SGC.SeguimientoCreditos.BLL.Interfaces;
-using SGC.SeguimientoCreditos.DAL.Interfaces;
+using SGC.SeguimientoCreditos.DAL.Entidades;
+using SGC.SeguimientoCreditos.DAL.Repositorios.Interfaces;
 
 namespace SGC.SeguimientoCreditos.BLL.Servicios
 {
     public class ClientesServicio : IClientesServicio
     {
-        private readonly IClienteRepositorio _repo;
+        private readonly IClientesRepositorio _repo;
         private readonly IMapper _mapper;
 
-        public ClientesServicio(IClienteRepositorio repo, IMapper mapper)
+        public ClientesServicio(IClientesRepositorio repo, IMapper mapper)
         {
             _repo = repo;
             _mapper = mapper;
@@ -22,25 +23,28 @@ namespace SGC.SeguimientoCreditos.BLL.Servicios
             return _mapper.Map<List<ClienteDto>>(lista);
         }
 
-        public async Task<ClienteDto> ObtenerPorIdAsync(int id)
-        {
-            var obj = await _repo.ObtenerPorIdAsync(id);
-            return _mapper.Map<ClienteDto>(obj);
-        }
-
-        public async Task<ClienteDto> CrearAsync(ClienteDto dto)
-        {
-            var entidad = _mapper.Map<SGC.SeguimientoCreditos.DAL.Entidades.Cliente>(dto);
-            await _repo.AgregarAsync(entidad);
-            return _mapper.Map<ClienteDto>(entidad);
-        }
-
-        public async Task<ClienteDto> ActualizarAsync(int id, ClienteDto dto)
+        public async Task<ClienteDto?> ObtenerPorIdAsync(int id)
         {
             var entidad = await _repo.ObtenerPorIdAsync(id);
-            _mapper.Map(dto, entidad);
-            await _repo.ActualizarAsync(entidad);
-            return _mapper.Map<ClienteDto>(entidad);
+            return _mapper.Map<ClienteDto?>(entidad);
+        }
+
+        public async Task<ClienteDto?> ObtenerPorIdentificacionAsync(string identificacion)
+        {
+            var entidad = await _repo.ObtenerPorIdentificacionAsync(identificacion);
+            return _mapper.Map<ClienteDto?>(entidad);
+        }
+
+        public async Task<bool> CrearAsync(ClienteDto dto)
+        {
+            var entidad = _mapper.Map<Cliente>(dto);
+            return await _repo.AgregarAsync(entidad);
+        }
+
+        public async Task<bool> ActualizarAsync(ClienteDto dto)
+        {
+            var entidad = _mapper.Map<Cliente>(dto);
+            return await _repo.ActualizarAsync(entidad);
         }
 
         public async Task<bool> EliminarAsync(int id)
