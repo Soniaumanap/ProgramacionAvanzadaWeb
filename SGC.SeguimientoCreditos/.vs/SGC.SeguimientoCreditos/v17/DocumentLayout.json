@@ -305,8 +305,7 @@
               "RelativeToolTip": "SGC.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap5.min.css",
               "ViewState": "AQIAALc0AAAAAAAAAAAqwOI0AAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-11-25T00:21:10.554Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-25T00:21:10.554Z"
             },
             {
               "$type": "Document",
@@ -318,8 +317,7 @@
               "RelativeToolTip": "SGC.BLL\\Mapeos\\MapeoClases.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T23:50:25.09Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-22T23:50:25.09Z"
             },
             {
               "$type": "Document",
@@ -331,8 +329,7 @@
               "RelativeToolTip": "SGC.BLL\\Servicios\\ClientesServicio.cs",
               "ViewState": "AQIAAA0AAAAAAAAAAAAswCMAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T23:49:57.934Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-22T23:49:57.934Z"
             },
             {
               "$type": "Document",
@@ -344,8 +341,7 @@
               "RelativeToolTip": "SGC.MVC\\Controllers\\AuthController.cs",
               "ViewState": "AQIAAAwAAAAAAAAAAAAowBgAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T00:40:53.513Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-23T00:40:53.513Z"
             },
             {
               "$type": "Document",
@@ -357,8 +353,7 @@
               "RelativeToolTip": "SGC.BLL\\Servicios\\SolicitudesServicio.cs",
               "ViewState": "AQIAAGIAAAAAAAAAAAAowM4AAAA+AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T23:50:06.401Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-22T23:50:06.401Z"
             },
             {
               "$type": "Document",
@@ -370,8 +365,7 @@
               "RelativeToolTip": "SGC.MVC\\Views\\Auth\\Register.cshtml",
               "ViewState": "AQIAAB4AAAAAAAAAAAAswC4AAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-24T01:46:44.307Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-24T01:46:44.307Z"
             },
             {
               "$type": "Document",
@@ -383,8 +377,7 @@
               "RelativeToolTip": "SGC.MVC\\Controllers\\UsuariosController.cs",
               "ViewState": "AQIAAFMAAAAAAAAAAAAYwGwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T02:05:13.616Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-24T02:05:13.616Z"
             },
             {
               "$type": "Document",
@@ -396,8 +389,7 @@
               "RelativeToolTip": "SGC.MVC\\Views\\Usuarios\\Index.cshtml",
               "ViewState": "AQIAAKQAAAAAAAAAAAAYwL0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-24T02:05:52.961Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-24T02:05:52.961Z"
             },
             {
               "$type": "Document",
@@ -409,8 +401,7 @@
               "RelativeToolTip": "SGC.MVC\\wwwroot\\js\\usuarios.js",
               "ViewState": "AQIAAGYAAAAAAAAAAAAYwH8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-11-24T02:07:15.05Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-24T02:07:15.05Z"
             },
             {
               "$type": "Document",
@@ -422,8 +413,7 @@
               "RelativeToolTip": "SGC.API\\Controllers\\UsuariosController.cs",
               "ViewState": "AQIAAEoAAAAAAAAAAAAswGMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T03:23:14.695Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-24T03:23:14.695Z"
             },
             {
               "$type": "Document",
@@ -435,8 +425,7 @@
               "RelativeToolTip": "SGC.BLL\\Servicios\\UsuariosServicio.cs",
               "ViewState": "AQIAADMAAAAAAAAAAAAYwDsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T23:49:50.959Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-22T23:49:50.959Z"
             },
             {
               "$type": "Document",
@@ -448,8 +437,7 @@
               "RelativeToolTip": "SGC.BLL\\Servicios\\IUsuariosServicio.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T23:49:20.386Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-22T23:49:20.386Z"
             },
             {
               "$type": "Document",
@@ -461,8 +449,7 @@
               "RelativeToolTip": "SGC.MVC\\wwwroot\\js\\solicitudes.js",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAUAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-11-24T02:24:46.73Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-24T02:24:46.73Z"
             },
             {
               "$type": "Document",
@@ -472,7 +459,7 @@
               "RelativeDocumentMoniker": "SGC.MVC\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos\\SGC.MVC\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "SGC.MVC\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGoAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-11-23T00:41:49.048Z",
               "EditorCaption": ""
@@ -487,8 +474,7 @@
               "RelativeToolTip": "SGC.BLL\\Utilidades\\CustomResponse.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T23:50:14.839Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-22T23:50:14.839Z"
             },
             {
               "$type": "Document",
@@ -500,8 +486,7 @@
               "RelativeToolTip": "SGC.DAL\\Contexto\\SgcDbContext.cs",
               "ViewState": "AQIAAAUAAAAAAAAAAAAkwBgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T22:53:07.433Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-22T22:53:07.433Z"
             },
             {
               "$type": "Document",
@@ -513,8 +498,7 @@
               "RelativeToolTip": "SGC.DAL\\Repositorios\\Interfaces\\ISolicitudesRepositorio.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T19:26:25.481Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-06T19:26:25.481Z"
             },
             {
               "$type": "Document",
@@ -526,8 +510,7 @@
               "RelativeToolTip": "SGC.MVC\\wwwroot\\js\\gestiones.js",
               "ViewState": "AQIAABsAAAAAAAAAAAAiwD4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-11-24T18:13:59.162Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-24T18:13:59.162Z"
             },
             {
               "$type": "Document",
@@ -539,8 +522,7 @@
               "RelativeToolTip": "SGC.DAL\\Repositorios\\Implementaciones\\SolicitudesRepositorio.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T19:19:22.282Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-06T19:19:22.282Z"
             },
             {
               "$type": "Document",
@@ -552,8 +534,7 @@
               "RelativeToolTip": "SGC.MVC\\Views\\Gestiones\\Index.cshtml",
               "ViewState": "AQIAAG8AAAAAAAAAAAAAAIUAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-24T02:27:03.946Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-24T02:27:03.946Z"
             },
             {
               "$type": "Document",
@@ -577,8 +558,7 @@
               "RelativeToolTip": "SGC.DAL\\SGC.DAL.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-11-22T23:24:19.188Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-22T23:24:19.188Z"
             },
             {
               "$type": "Document",
@@ -602,8 +582,7 @@
               "RelativeToolTip": "SGC.BLL\\Servicios\\ISolicitudesServicio.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAAAYwCYAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T23:49:38.886Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-22T23:49:38.886Z"
             },
             {
               "$type": "Document",
@@ -615,8 +594,7 @@
               "RelativeToolTip": "SGC.API\\Controllers\\ClientesController.cs",
               "ViewState": "AQIAACkAAAAAAAAAAAAmwEEAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T03:23:38.893Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-24T03:23:38.893Z"
             },
             {
               "$type": "Document",
@@ -628,8 +606,7 @@
               "RelativeToolTip": "SGC.MVC\\Controllers\\ReporteController.cs",
               "ViewState": "AQIAAAEAAAAAAAAAAAAUwCoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T02:29:38.922Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-24T02:29:38.922Z"
             },
             {
               "$type": "Document",
@@ -641,8 +618,7 @@
               "RelativeToolTip": "SGC.MVC\\Views\\Reporte\\Index.cshtml",
               "ViewState": "AQIAABIAAAAAAAAAAAAIwDAAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-24T02:29:52.52Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-24T02:29:52.52Z"
             },
             {
               "$type": "Document",
@@ -678,8 +654,7 @@
               "RelativeToolTip": "SGC.API\\Controllers\\GestionesController.cs",
               "ViewState": "AQIAAHsAAAAAAAAAAAAAAHwAAABnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T03:24:52.472Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-24T03:24:52.472Z"
             },
             {
               "$type": "Document",
@@ -691,8 +666,7 @@
               "RelativeToolTip": "SGC.MVC\\Controllers\\GestionesController.cs",
               "ViewState": "AQIAAEEAAAAAAAAAAAAcwFwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T02:26:30.964Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-24T02:26:30.964Z"
             },
             {
               "$type": "Document",
@@ -704,8 +678,7 @@
               "RelativeToolTip": "SGC.MVC\\Controllers\\SolicitudesController.cs",
               "ViewState": "AQIAAEYAAAAAAAAAAAAwwGkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T02:23:18.569Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-24T02:23:18.569Z"
             },
             {
               "$type": "Document",
