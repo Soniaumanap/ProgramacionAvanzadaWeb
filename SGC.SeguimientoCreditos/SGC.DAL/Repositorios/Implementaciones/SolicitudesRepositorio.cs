@@ -48,5 +48,16 @@ namespace SGC.DAL.Repositorios
                 .OrderByDescending(x => x.Id)
                 .FirstOrDefaultAsync();
         }
+
+        public async Task<bool> EliminarAsync(int id)
+        {
+            var sol = await _context.SolicitudesCredito.FindAsync(id);
+            if (sol == null) return false;
+
+            _context.SolicitudesCredito.Remove(sol);
+            await _context.SaveChangesAsync();
+            return true;
+        }
+
     }
 }

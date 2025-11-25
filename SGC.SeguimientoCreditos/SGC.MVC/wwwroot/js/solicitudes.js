@@ -10,7 +10,7 @@ $("#formSolicitud").submit(function (e) {
         url: "/Solicitudes/Crear",
         type: "POST",
         data: $(this).serialize(),
-        dataType: "json", // esperamos JSON sí o sí
+        dataType: "json", 
         success: function (resp) {
             console.log("Respuesta Crear Solicitud:", resp);
 

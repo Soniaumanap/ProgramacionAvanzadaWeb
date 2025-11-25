@@ -32,5 +32,8 @@ namespace SGC.BLL.Servicios
             string rol);
 
         Task<List<TrackingDto>> ObtenerTrackingAsync(int gestionId);
+
+        Task<CustomResponse<bool>> EliminarAsync(int gestionId, string usuarioNombre, string rol);
+
     }
 }

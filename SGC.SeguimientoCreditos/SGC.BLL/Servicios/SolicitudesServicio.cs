@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using AutoMapper;
+﻿using AutoMapper;
 using SGC.BLL.Dtos;
 using SGC.DAL.Entidades;
 using SGC.DAL.Repositorios;
@@ -19,16 +15,6 @@ namespace SGC.BLL.Servicios
 
         private const decimal MONTO_MAXIMO = 10000000m;
 
-        private const string ROL_ADMIN = "Admin";
-        private const string ROL_ANALISTA = "Analista";
-        private const string ROL_GESTOR = "Gestor";
-        private const string ROL_SERVICIO = "ServicioCliente";
-
-        private const string ESTADO_INGRESADO = "Ingresado";
-        private const string ESTADO_DEVOLUCION = "Devolucion";
-        private const string ESTADO_ENVIADO_APROBACION = "Enviado aprobacion";
-        private const string ESTADO_APROBADO = "Aprobado";
-
         public SolicitudesServicio(
             ISolicitudesRepositorio repo,
             IClientesRepositorio clientes,
@@ -41,230 +27,240 @@ namespace SGC.BLL.Servicios
             _mapper = mapper;
         }
 
+        // ===================== LISTAR POR ROL =====================
         public async Task<List<SolicitudDto>> ListarPorRolAsync(string rol)
         {
             var lista = await _repo.ListarAsync();
 
             IEnumerable<SolicitudCredito> filtrada = lista;
 
-            if (rol == ROL_ANALISTA)
+            switch (rol)
             {
-                filtrada = lista.Where(x =>
-                    x.Estado == ESTADO_INGRESADO ||
-                    x.Estado == ESTADO_DEVOLUCION);
+                case "Analista":
+                    filtrada = lista.Where(s =>
+                        s.Estado == "Ingresado" ||
+                        s.Estado == "Devolucion" ||
+                        s.Estado == "Devolución");
+                    break;
+
+                case "Gestor":
+                    filtrada = lista.Where(s =>
+                        s.Estado == "Enviado aprobacion" ||
+                        s.Estado == "Enviado aprobación");
+                    break;
+
+                case "Admin":
+                default:
+                    // Admin ve todas
+                    break;
             }
-            else if (rol == ROL_GESTOR)
-            {
-                filtrada = lista.Where(x =>
-                    x.Estado == ESTADO_ENVIADO_APROBACION);
-            }
-            else if (rol == ROL_ADMIN)
-            {
-                filtrada = lista; // todas
-            }
-            else
-            {
-                filtrada = Enumerable.Empty<SolicitudCredito>();
-            }
+
+            filtrada = filtrada.OrderByDescending(s => s.Fecha);
 
             return _mapper.Map<List<SolicitudDto>>(filtrada.ToList());
         }
 
+        // ===================== CREAR =====================
         public async Task<CustomResponse<SolicitudDto>> CrearAsync(
             int clienteId,
             string identificacionCliente,
             decimal monto,
-            string? comentarios,
+            string comentarios,
             string usuarioNombre,
             string rol)
         {
-            if (rol != ROL_SERVICIO && rol != ROL_ADMIN)
-            {
-                return CustomResponse<SolicitudDto>.Fail("No tiene permisos para crear solicitudes.");
-            }
-
             if (monto > MONTO_MAXIMO)
-            {
-                return CustomResponse<SolicitudDto>.Fail("No puede ingresar un monto mayor a 10.000.000 colones.");
-            }
+                return CustomResponse<SolicitudDto>.Fail("No se permiten solicitudes por un monto mayor a 10.000.000 colones.");
 
-            var cliente = await _clientes.ObtenerPorIdentificacionAsync(identificacionCliente);
+            // Validar que el cliente exista (por si llaman directo desde API)
+            var cliente = await _clientes.ObtenerAsync(clienteId);
             if (cliente == null)
+                return CustomResponse<SolicitudDto>.Fail("El cliente no existe.");
+
+            // Validar que no exista otra solicitud activa (Ingresado o Devolución)
+            var existentes = await _repo.ListarAsync();
+            var conActiva = existentes.FirstOrDefault(s =>
+                s.IdentificacionCliente == identificacionCliente &&
+                (s.Estado == "Ingresado" || s.Estado == "Devolucion" || s.Estado == "Devolución"));
+
+            if (conActiva != null)
             {
-                return CustomResponse<SolicitudDto>.Fail("El cliente no está registrado.");
+                return CustomResponse<SolicitudDto>.Fail(
+                    $"El usuario con identificación {identificacionCliente} ya cuenta con la solicitud de crédito {conActiva.Id}, " +
+                    "por favor resolver la gestión antes de ingresar otra nueva."
+                );
             }
 
-            var solicitudExistente = await _repo.ObtenerPorClienteActivo(identificacionCliente);
-            if (solicitudExistente != null &&
-                (solicitudExistente.Estado == ESTADO_INGRESADO ||
-                 solicitudExistente.Estado == ESTADO_DEVOLUCION))
+            var nueva = new SolicitudCredito
             {
-                string msg = $"El usuario con identificación {identificacionCliente} ya cuenta con la solicitud de crédito {solicitudExistente.Id}, " +
-                             "por favor resolver la gestión antes de ingresar otra nueva";
-                return CustomResponse<SolicitudDto>.Fail(msg);
-            }
-
-            var ent = new SolicitudCredito
-            {
-                ClienteId = cliente.Id,
+                ClienteId = clienteId,
                 IdentificacionCliente = identificacionCliente,
                 Monto = monto,
                 Comentarios = comentarios,
-                Estado = ESTADO_INGRESADO,
-                Documentos = null,
+                Estado = "Ingresado",
                 Fecha = DateTime.Now
             };
 
-            var ok = await _repo.AgregarAsync(ent);
+            var ok = await _repo.AgregarAsync(nueva);
             if (!ok)
-            {
-                return CustomResponse<SolicitudDto>.Fail("No se pudo crear la solicitud de crédito.");
-            }
+                return CustomResponse<SolicitudDto>.Fail("No se pudo crear la solicitud.");
 
+            // Tracking: Crear
             await _track.AgregarAsync(new TrackingGestion
             {
-                GestionId = ent.Id,
+                GestionId = nueva.Id,
                 Accion = "Crear",
-                Comentario = comentarios ?? "Se crea la gestión",
+                Comentario = $"Se crea la gestión para el cliente {cliente.Nombre}.",
                 UsuarioNombre = usuarioNombre,
                 Fecha = DateTime.Now
             });
 
-            var dto = _mapper.Map<SolicitudDto>(ent);
+            var dto = _mapper.Map<SolicitudDto>(nueva);
             return CustomResponse<SolicitudDto>.Success(dto, "Solicitud creada correctamente.");
         }
 
+        // ===================== ENVIAR A APROBACIÓN =====================
         public async Task<CustomResponse<SolicitudDto>> EnviarAprobacionAsync(
-            int gestionId,
-            string usuarioNombre,
-            string rol)
+            int gestionId, string usuarioNombre, string rol)
         {
-            if (rol != ROL_ANALISTA && rol != ROL_ADMIN)
+            if (rol != "Analista" && rol != "Admin")
+                return CustomResponse<SolicitudDto>.Fail("No tiene permisos para enviar solicitudes a aprobación.");
+
+            var sol = await _repo.ObtenerAsync(gestionId);
+            if (sol == null)
+                return CustomResponse<SolicitudDto>.Fail("Gestión no encontrada.");
+
+            if (sol.Estado != "Ingresado" &&
+                sol.Estado != "Devolucion" &&
+                sol.Estado != "Devolución")
             {
-                return CustomResponse<SolicitudDto>.Fail("No tiene permisos para enviar a aprobación.");
+                return CustomResponse<SolicitudDto>.Fail("Solo se pueden enviar a aprobación gestiones en estado Ingresado o Devolución.");
             }
 
-            var s = await _repo.ObtenerAsync(gestionId);
-            if (s == null)
-            {
-                return CustomResponse<SolicitudDto>.Fail("Solicitud no encontrada.");
-            }
+            sol.Estado = "Enviado aprobación";
 
-            if (s.Estado != ESTADO_INGRESADO && s.Estado != ESTADO_DEVOLUCION)
-            {
-                return CustomResponse<SolicitudDto>.Fail("La solicitud no está en un estado válido para enviar a aprobación.");
-            }
-
-            s.Estado = ESTADO_ENVIADO_APROBACION;
-
-            var ok = await _repo.ActualizarAsync(s);
-            if (!ok)
-            {
-                return CustomResponse<SolicitudDto>.Fail("No se pudo actualizar la solicitud.");
-            }
+            if (!await _repo.ActualizarAsync(sol))
+                return CustomResponse<SolicitudDto>.Fail("No se pudo actualizar la gestión.");
 
             await _track.AgregarAsync(new TrackingGestion
             {
-                GestionId = s.Id,
+                GestionId = sol.Id,
                 Accion = "Enviada aprobación",
-                Comentario = "Se envía a aprobación",
+                Comentario = "Se realiza el análisis y se envía a aprobación.",
                 UsuarioNombre = usuarioNombre,
                 Fecha = DateTime.Now
             });
 
-            var dto = _mapper.Map<SolicitudDto>(s);
-            return CustomResponse<SolicitudDto>.Success(dto, "Solicitud enviada a aprobación.");
+            var dto = _mapper.Map<SolicitudDto>(sol);
+            return CustomResponse<SolicitudDto>.Success(dto, "La gestión fue enviada a aprobación correctamente.");
         }
 
+        // ===================== APROBAR =====================
         public async Task<CustomResponse<SolicitudDto>> AprobarAsync(
-            int gestionId,
-            string usuarioNombre,
-            string rol)
+            int gestionId, string usuarioNombre, string rol)
         {
-            if (rol != ROL_GESTOR && rol != ROL_ADMIN)
+            if (rol != "Gestor" && rol != "Admin")
+                return CustomResponse<SolicitudDto>.Fail("No tiene permisos para aprobar gestiones.");
+
+            var sol = await _repo.ObtenerAsync(gestionId);
+            if (sol == null)
+                return CustomResponse<SolicitudDto>.Fail("Gestión no encontrada.");
+
+            if (sol.Estado != "Enviado aprobacion" &&
+                sol.Estado != "Enviado aprobación")
             {
-                return CustomResponse<SolicitudDto>.Fail("No tiene permisos para aprobar.");
+                return CustomResponse<SolicitudDto>.Fail("Solo se pueden aprobar gestiones en estado Enviado aprobación.");
             }
 
-            var s = await _repo.ObtenerAsync(gestionId);
-            if (s == null)
-            {
-                return CustomResponse<SolicitudDto>.Fail("Solicitud no encontrada.");
-            }
+            sol.Estado = "Aprobado";
 
-            if (s.Estado != ESTADO_ENVIADO_APROBACION)
-            {
-                return CustomResponse<SolicitudDto>.Fail("La solicitud no está en estado 'Enviado aprobación'.");
-            }
-
-            s.Estado = ESTADO_APROBADO;
-
-            var ok = await _repo.ActualizarAsync(s);
-            if (!ok)
-            {
-                return CustomResponse<SolicitudDto>.Fail("No se pudo actualizar la solicitud.");
-            }
+            if (!await _repo.ActualizarAsync(sol))
+                return CustomResponse<SolicitudDto>.Fail("No se pudo actualizar la gestión.");
 
             await _track.AgregarAsync(new TrackingGestion
             {
-                GestionId = s.Id,
+                GestionId = sol.Id,
                 Accion = "Aprobada",
-                Comentario = "Se acepta la gestión",
+                Comentario = "Se acepta la gestión.",
                 UsuarioNombre = usuarioNombre,
                 Fecha = DateTime.Now
             });
 
-            var dto = _mapper.Map<SolicitudDto>(s);
-            return CustomResponse<SolicitudDto>.Success(dto, "Solicitud aprobada.");
+            var dto = _mapper.Map<SolicitudDto>(sol);
+            return CustomResponse<SolicitudDto>.Success(dto, "La gestión fue aprobada correctamente.");
         }
 
+        // ===================== DEVOLVER =====================
         public async Task<CustomResponse<SolicitudDto>> DevolverAsync(
-            int gestionId,
-            string comentario,
-            string usuarioNombre,
-            string rol)
+            int gestionId, string comentario, string usuarioNombre, string rol)
         {
-            if (rol != ROL_GESTOR && rol != ROL_ADMIN)
+            if (rol != "Gestor" && rol != "Admin")
+                return CustomResponse<SolicitudDto>.Fail("No tiene permisos para devolver gestiones.");
+
+            var sol = await _repo.ObtenerAsync(gestionId);
+            if (sol == null)
+                return CustomResponse<SolicitudDto>.Fail("Gestión no encontrada.");
+
+            if (sol.Estado != "Enviado aprobacion" &&
+                sol.Estado != "Enviado aprobación")
             {
-                return CustomResponse<SolicitudDto>.Fail("No tiene permisos para devolver.");
+                return CustomResponse<SolicitudDto>.Fail("Solo se pueden devolver gestiones en estado Enviado aprobación.");
             }
 
-            var s = await _repo.ObtenerAsync(gestionId);
-            if (s == null)
-            {
-                return CustomResponse<SolicitudDto>.Fail("Solicitud no encontrada.");
-            }
+            sol.Estado = "Devolucion";
 
-            if (s.Estado != ESTADO_ENVIADO_APROBACION)
-            {
-                return CustomResponse<SolicitudDto>.Fail("La solicitud no está en estado 'Enviado aprobación'.");
-            }
-
-            s.Estado = ESTADO_DEVOLUCION;
-
-            var ok = await _repo.ActualizarAsync(s);
-            if (!ok)
-            {
-                return CustomResponse<SolicitudDto>.Fail("No se pudo actualizar la solicitud.");
-            }
+            if (!await _repo.ActualizarAsync(sol))
+                return CustomResponse<SolicitudDto>.Fail("No se pudo actualizar la gestión.");
 
             await _track.AgregarAsync(new TrackingGestion
             {
-                GestionId = s.Id,
+                GestionId = sol.Id,
                 Accion = "Devolución",
                 Comentario = comentario,
                 UsuarioNombre = usuarioNombre,
                 Fecha = DateTime.Now
             });
 
-            var dto = _mapper.Map<SolicitudDto>(s);
-            return CustomResponse<SolicitudDto>.Success(dto, "Solicitud devuelta.");
+            var dto = _mapper.Map<SolicitudDto>(sol);
+            return CustomResponse<SolicitudDto>.Success(dto, "La gestión fue devuelta para reproceso.");
         }
 
+        // ===================== TRACKING =====================
         public async Task<List<TrackingDto>> ObtenerTrackingAsync(int gestionId)
         {
             var lista = await _track.ListarPorGestionAsync(gestionId);
             return _mapper.Map<List<TrackingDto>>(lista);
         }
+
+        // ===================== Eliminar Gestion =====================
+        public async Task<CustomResponse<bool>> EliminarAsync(int id, string usuarioNombre, string rol)
+        {
+            if (rol != "ServicioCliente" && rol != "Analista" && rol != "Admin" && rol != "Gestor")
+                return CustomResponse<bool>.Fail("No tiene permisos para eliminar gestiones.");
+
+            var gestion = await _repo.ObtenerAsync(id);
+            if (gestion == null)
+                return CustomResponse<bool>.Fail("La gestión no existe.");
+
+            // Solo se permite eliminar gestiones NO aprobadas
+            if (gestion.Estado == "Aprobado")
+                return CustomResponse<bool>.Fail("No se puede eliminar una gestión aprobada.");
+
+            var ok = await _repo.EliminarAsync(id);
+            if (!ok)
+                return CustomResponse<bool>.Fail("No se pudo eliminar la gestión.");
+
+            await _track.AgregarAsync(new TrackingGestion
+            {
+                GestionId = id,
+                Accion = "Eliminar",
+                Comentario = "Gestión eliminada",
+                UsuarioNombre = usuarioNombre,
+                Fecha = DateTime.Now
+            });
+
+            return CustomResponse<bool>.Success(true, "Gestión eliminada correctamente.");
+        }
+
     }
 }

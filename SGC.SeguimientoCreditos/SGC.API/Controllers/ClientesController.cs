@@ -8,71 +8,90 @@ namespace SGC.API.Controllers
     [Route("api/[controller]")]
     public class ClientesController : ControllerBase
     {
-        private readonly IClientesServicio _clientes;
+        private readonly IClientesServicio _clientesServicio;
 
-        public ClientesController(IClientesServicio clientes)
+        public ClientesController(IClientesServicio clientesServicio)
         {
-            _clientes = clientes;
+            _clientesServicio = clientesServicio;
         }
 
         // GET: api/clientes
         [HttpGet]
-        public async Task<IActionResult> GetAll()
+        public async Task<IActionResult> GetTodos()
         {
-            var lista = await _clientes.ListarAsync();
-            return Ok(lista);
+            var lista = await _clientesServicio.ListarAsync();
+            return Ok(lista); // List<ClienteDto>
         }
 
         // GET: api/clientes/5
         [HttpGet("{id:int}")]
-        public async Task<IActionResult> Get(int id)
+        public async Task<IActionResult> GetPorId(int id)
         {
-            var c = await _clientes.ObtenerAsync(id);
-            if (c == null) return NotFound();
-            return Ok(c);
+            var cli = await _clientesServicio.ObtenerAsync(id);
+            if (cli == null)
+                return NotFound(new { ok = false, mensaje = "Cliente no encontrado." });
+
+            return Ok(cli);
         }
 
-        // GET: api/clientes/identificacion/115500000
+        // GET: api/clientes/identificacion/123456789
         [HttpGet("identificacion/{identificacion}")]
         public async Task<IActionResult> GetPorIdentificacion(string identificacion)
         {
-            var c = await _clientes.ObtenerPorIdentificacionAsync(identificacion);
-            if (c == null) return NotFound();
-            return Ok(c);
+            var cli = await _clientesServicio.ObtenerPorIdentificacionAsync(identificacion);
+            if (cli == null)
+                return NotFound(new { ok = false, mensaje = "Cliente no encontrado." });
+
+            return Ok(cli);
         }
 
         // POST: api/clientes
         [HttpPost]
-        public async Task<IActionResult> Create([FromBody] ClienteDto dto)
+        public async Task<IActionResult> Crear([FromBody] ClienteDto dto)
         {
-            var resp = await _clientes.CrearAsync(dto);
-            if (!resp.Ok)
-                return BadRequest(resp);
+            if (!ModelState.IsValid)
+                return BadRequest(new { ok = false, mensaje = "Datos inválidos." });
 
-            return Ok(resp);
+            var resp = await _clientesServicio.CrearAsync(dto);
+
+            if (!resp.Ok)
+                return BadRequest(new { ok = false, mensaje = resp.Mensaje });
+
+            // Devolvemos solo el estado y el mensaje
+            return Ok(new
+            {
+                ok = true,
+                mensaje = resp.Mensaje
+            });
         }
 
         // PUT: api/clientes/5
         [HttpPut("{id:int}")]
-        public async Task<IActionResult> Update(int id, [FromBody] ClienteDto dto)
+        public async Task<IActionResult> Actualizar(int id, [FromBody] ClienteDto dto)
         {
-            dto.Id = id;
-            var resp = await _clientes.ActualizarAsync(dto);
-            if (!resp.Ok)
-                return BadRequest(resp);
+            if (!ModelState.IsValid)
+                return BadRequest(new { ok = false, mensaje = "Datos inválidos." });
 
-            return Ok(resp);
+            dto.Id = id;
+
+            var resp = await _clientesServicio.ActualizarAsync(dto);
+
+            if (!resp.Ok)
+                return BadRequest(new { ok = false, mensaje = resp.Mensaje });
+
+            return Ok(new { ok = true, mensaje = resp.Mensaje });
         }
 
         // DELETE: api/clientes/5
         [HttpDelete("{id:int}")]
-        public async Task<IActionResult> Delete(int id)
+        public async Task<IActionResult> Eliminar(int id)
         {
-            var resp = await _clientes.EliminarAsync(id);
-            if (!resp.Ok)
-                return BadRequest(resp);
+            var resp = await _clientesServicio.EliminarAsync(id);
 
-            return Ok(resp);
+            if (!resp.Ok)
+                return BadRequest(new { ok = false, mensaje = resp.Mensaje });
+
+            return Ok(new { ok = true, mensaje = resp.Mensaje });
         }
     }
 }

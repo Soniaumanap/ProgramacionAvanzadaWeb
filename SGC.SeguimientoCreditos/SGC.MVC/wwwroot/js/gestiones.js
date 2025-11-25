@@ -1,74 +1,58 @@
-﻿function abrirModalCrear() {
-    $("#modalCreate").modal("show");
-}
-
-$("#formCreate").submit(function (e) {
-    e.preventDefault();
-
-    $.ajax({
-        url: "/Usuarios/Create",
-        type: "POST",
-        data: $(this).serialize(),
-        success: function (resp) {
-            if (resp.ok) {
-                Swal.fire("Éxito", resp.mensaje, "success")
-                    .then(() => location.reload());
-            } else {
-                Swal.fire("Error", resp.mensaje, "error");
-            }
+﻿function enviarAprobacion(id) {
+    $.post("/Gestiones/EnviarAprobacion", { id }, function (resp) {
+        if (resp.ok) {
+            Swal.fire("Éxito", resp.mensaje, "success").then(() => location.reload());
+        } else {
+            Swal.fire("Error", resp.mensaje, "error");
         }
-    });
-});
-
-
-function editar(id) {
-    $.get("/Usuarios/Get/" + id, function (data) {
-        if (data == null) return;
-
-        $("#formEdit [name='Id']").val(data.id);
-        $("#formEdit [name='Identificacion']").val(data.identificacion);
-        $("#formEdit [name='Nombre']").val(data.nombre);
-        $("#formEdit [name='Email']").val(data.email);
-        $("#formEdit [name='Password']").val(data.password);
-        $("#formEdit [name='Rol']").val(data.rol);
-        $("#formEdit [name='Activo']").val(data.activo.toString());
-
-        $("#modalEdit").modal("show");
     });
 }
 
-$("#formEdit").submit(function (e) {
-    e.preventDefault();
-
-    $.ajax({
-        url: "/Usuarios/Edit",
-        type: "POST",
-        data: $(this).serialize(),
-        success: function (resp) {
-            if (resp.ok) {
-                Swal.fire("Éxito", resp.mensaje, "success")
-                    .then(() => location.reload());
-            } else {
-                Swal.fire("Error", resp.mensaje, "error");
-            }
+function aprobar(id) {
+    $.post("/Gestiones/Aprobar", { id }, function (resp) {
+        if (resp.ok) {
+            Swal.fire("Éxito", resp.mensaje, "success").then(() => location.reload());
+        } else {
+            Swal.fire("Error", resp.mensaje, "error");
         }
     });
-});
+}
 
-
-function eliminar(id) {
+function devolver(id) {
     Swal.fire({
-        title: "¿Eliminar usuario?",
-        text: "Esta acción es irreversible",
-        icon: "warning",
+        title: "Comentario de devolución",
+        input: "textarea",
         showCancelButton: true,
-        confirmButtonText: "Sí, eliminar"
+        confirmButtonText: "Devolver",
+        preConfirm: v => {
+            if (!v) Swal.showValidationMessage("Debe ingresar un comentario");
+            return v;
+        }
     }).then(res => {
         if (res.isConfirmed) {
-            $.post("/Usuarios/Delete", { id }, function (resp) {
+            $.post("/Gestiones/Devolver", { id, comentario: res.value }, function (resp) {
                 if (resp.ok) {
-                    Swal.fire("Eliminado", resp.mensaje, "success")
-                        .then(() => location.reload());
+                    Swal.fire("Éxito", resp.mensaje, "success").then(() => location.reload());
+                } else {
+                    Swal.fire("Error", resp.mensaje, "error");
+                }
+            });
+        }
+    });
+}
+
+function eliminarGestion(id) {
+    Swal.fire({
+        title: "Eliminar gestión",
+        text: "¿Está seguro que desea eliminar esta gestión?",
+        icon: "warning",
+        showCancelButton: true,
+        confirmButtonText: "Eliminar"
+    }).then(res => {
+        if (res.isConfirmed) {
+            $.post("/Gestiones/Eliminar", { id }, function (resp) {
+                if (resp.ok) {
+                    Swal.fire("Eliminado", resp.mensaje, "success").then(() => location.reload());
                 } else {
                     Swal.fire("Error", resp.mensaje, "error");
                 }

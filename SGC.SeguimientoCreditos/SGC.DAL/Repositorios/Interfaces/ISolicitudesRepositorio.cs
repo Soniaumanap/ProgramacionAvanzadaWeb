@@ -9,5 +9,7 @@ namespace SGC.DAL.Repositorios.Interfaces
         Task<SolicitudCredito?> ObtenerAsync(int id);
         Task<List<SolicitudCredito>> ListarAsync();
         Task<SolicitudCredito?> ObtenerPorClienteActivo(string identificacion);
+        Task<bool> EliminarAsync(int id);
+
     }
 }

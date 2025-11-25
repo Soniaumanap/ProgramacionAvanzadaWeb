@@ -8,81 +8,92 @@ namespace SGC.API.Controllers
     [Route("api/[controller]")]
     public class UsuariosController : ControllerBase
     {
-        private readonly IUsuariosServicio _usuarios;
+        private readonly IUsuariosServicio _servicio;
 
-        public UsuariosController(IUsuariosServicio usuarios)
+        public UsuariosController(IUsuariosServicio servicio)
         {
-            _usuarios = usuarios;
+            _servicio = servicio;
         }
 
-        // POST: api/usuarios/login
-        [HttpPost("login")]
-        public async Task<IActionResult> Login([FromBody] LoginRequest request)
-        {
-            var user = await _usuarios.LoginAsync(request.Email, request.Password);
-            if (user == null)
-                return Unauthorized(new { mensaje = "Credenciales inválidas" });
-
-            return Ok(user);
-        }
-
-        // GET: api/usuarios
+        // ================== LISTAR ==================
         [HttpGet]
-        public async Task<IActionResult> GetAll()
+        public async Task<IActionResult> Listar()
         {
-            var lista = await _usuarios.ListarAsync();
+            var lista = await _servicio.ListarAsync();
             return Ok(lista);
         }
 
-        // GET: api/usuarios/5
+        // ================== OBTENER POR ID ==================
         [HttpGet("{id:int}")]
-        public async Task<IActionResult> Get(int id)
+        public async Task<IActionResult> Obtener(int id)
         {
-            var u = await _usuarios.ObtenerAsync(id);
-            if (u == null) return NotFound();
+            var usuario = await _servicio.ObtenerAsync(id);
+            if (usuario == null)
+                return NotFound(new { ok = false, mensaje = "Usuario no encontrado." });
 
-            return Ok(u);
+            return Ok(usuario);
         }
 
-        // POST: api/usuarios
+        // ================== CREAR ==================
         [HttpPost]
-        public async Task<IActionResult> Create([FromBody] UsuarioDto dto)
+        public async Task<IActionResult> Crear([FromBody] UsuarioDto dto)
         {
-            var resp = await _usuarios.RegistrarAsync(dto);
-            if (!resp.Ok)
-                return BadRequest(resp);
+            var resp = await _servicio.CrearAsync(dto);
 
-            return Ok(resp);
+            if (!resp.Ok)
+                return BadRequest(new { ok = false, mensaje = resp.Mensaje });
+
+            return Ok(new
+            {
+                ok = true,
+                mensaje = resp.Mensaje,
+                usuario = resp // <- incluye el DTO con el nuevo Id
+            });
         }
 
-        // PUT: api/usuarios/5
+        // ================== ACTUALIZAR ==================
         [HttpPut("{id:int}")]
-        public async Task<IActionResult> Update(int id, [FromBody] UsuarioDto dto)
+        public async Task<IActionResult> Actualizar(int id, [FromBody] UsuarioDto dto)
         {
             dto.Id = id;
-            var resp = await _usuarios.ActualizarAsync(dto);
+
+            var resp = await _servicio.ActualizarAsync(dto);
 
             if (!resp.Ok)
-                return BadRequest(resp);
+                return BadRequest(new { ok = false, mensaje = resp.Mensaje });
 
-            return Ok(resp);
+            return Ok(new { ok = true, mensaje = resp.Mensaje });
         }
 
-        // DELETE: api/usuarios/5
+        // ================== ELIMINAR ==================
         [HttpDelete("{id:int}")]
-        public async Task<IActionResult> Delete(int id)
+        public async Task<IActionResult> Eliminar(int id)
         {
-            var resp = await _usuarios.EliminarAsync(id);
-            if (!resp.Ok)
-                return BadRequest(resp);
+            var resp = await _servicio.EliminarAsync(id);
 
-            return Ok(resp);
+            if (!resp.Ok)
+                return BadRequest(new { ok = false, mensaje = resp.Mensaje });
+
+            return Ok(new { ok = true, mensaje = resp.Mensaje });
+        }
+
+        // ================== LOGIN (Opcional API) ==================
+        [HttpPost("login")]
+        public async Task<IActionResult> Login([FromBody] LoginRequest model)
+        {
+            var usuario = await _servicio.LoginAsync(model.Email, model.Password);
+
+            if (usuario == null)
+                return Unauthorized(new { ok = false, mensaje = "Credenciales incorrectas" });
+
+            return Ok(new { ok = true, usuario });
         }
     }
 
+    // DTO de Login para API
     public class LoginRequest
     {
-        public string Email { get; set; } = null!;
-        public string Password { get; set; } = null!;
+        public string Email { get; set; } = "";
+        public string Password { get; set; } = "";
     }
 }

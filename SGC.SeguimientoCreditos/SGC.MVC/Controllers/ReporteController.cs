@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using SGC.BLL.Servicios;
+using SGC.BLL.Dtos;
 
 namespace SGC.MVC.Controllers
 {
@@ -17,22 +18,25 @@ namespace SGC.MVC.Controllers
             return !string.IsNullOrEmpty(HttpContext.Session.GetString("UsuarioId"));
         }
 
-        public IActionResult Index()
+        // GET: /Reporte/Index?id=11550
+        public async Task<IActionResult> Index(int? id)
         {
             if (!EstaLogueado())
                 return RedirectToAction("Login", "Auth");
 
-            return View();
-        }
+            var lista = new List<TrackingDto>();
 
-        [HttpGet]
-        public async Task<IActionResult> Buscar(int gestionId)
-        {
-            if (!EstaLogueado())
-                return Unauthorized();
+            if (id.HasValue)
+            {
+                lista = await _solicitudesServicio.ObtenerTrackingAsync(id.Value);
+                ViewBag.GestionId = id.Value;
+            }
+            else
+            {
+                ViewBag.GestionId = null;
+            }
 
-            var lista = await _solicitudesServicio.ObtenerTrackingAsync(gestionId);
-            return Json(lista);
+            return View(lista);
         }
     }
 }
