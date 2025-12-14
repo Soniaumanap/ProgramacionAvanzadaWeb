@@ -149,10 +149,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{D520418F-439A-4C9A-9A5E-998768489FCB}|SGC.SeguimientoCreditos.DAL\\SGC.SeguimientoCreditos.DAL.csproj|c:\\users\\wstov\\desktop\\programacion avanzada web\\proyecto_final\\programacionavanzadaweb\\sgc.seguimientocreditos.api\\sgc.seguimientocreditos.dal\\sgc.seguimientocreditos.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{D520418F-439A-4C9A-9A5E-998768489FCB}|SGC.SeguimientoCreditos.DAL\\SGC.SeguimientoCreditos.DAL.csproj|solutionrelative:sgc.seguimientocreditos.dal\\sgc.seguimientocreditos.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0643964-4F09-43B0-803A-9D2DE53E425D}|SGC.SeguimientoCreditos.BLL\\SGC.SeguimientoCreditos.BLL.csproj|c:\\users\\wstov\\desktop\\programacion avanzada web\\proyecto_final\\programacionavanzadaweb\\sgc.seguimientocreditos.api\\sgc.seguimientocreditos.bll\\bd\\scriptbd.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
-      "RelativeMoniker": "D:0:0:{C0643964-4F09-43B0-803A-9D2DE53E425D}|SGC.SeguimientoCreditos.BLL\\SGC.SeguimientoCreditos.BLL.csproj|solutionrelative:sgc.seguimientocreditos.bll\\bd\\scriptbd.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
     }
   ],
   "DocumentGroupContainers": [
@@ -195,14 +191,13 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ScriptBD.sql ",
+              "Title": "ScriptBD.sql",
               "DocumentMoniker": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos.API\\SGC.SeguimientoCreditos.BLL\\BD\\ScriptBD.sql",
               "RelativeDocumentMoniker": "SGC.SeguimientoCreditos.BLL\\BD\\ScriptBD.sql",
               "ToolTip": "C:\\Users\\Wstov\\Desktop\\Programacion Avanzada Web\\Proyecto_Final\\ProgramacionAvanzadaWeb\\SGC.SeguimientoCreditos.API\\SGC.SeguimientoCreditos.BLL\\BD\\ScriptBD.sql",
               "RelativeToolTip": "SGC.SeguimientoCreditos.BLL\\BD\\ScriptBD.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-11-23T17:32:30.158Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-23T17:32:30.158Z"
             },
             {
               "$type": "Document",
@@ -238,8 +233,7 @@
               "RelativeToolTip": "SGC.SeguimientoCreditos.DAL\\Contexto\\SgcDbContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAGcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T18:24:55.448Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-20T18:24:55.448Z"
             },
             {
               "$type": "Document",
@@ -311,8 +305,7 @@
               "RelativeToolTip": "SGC.SeguimientoCreditos.BLL\\Mappings\\MappingProfile.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-18T01:53:51.17Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-18T01:53:51.17Z"
             },
             {
               "$type": "Document",
@@ -324,8 +317,7 @@
               "RelativeToolTip": "SGC.SeguimientoCreditos.BLL\\SGC.SeguimientoCreditos.BLL.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-11-18T01:41:10.585Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-18T01:41:10.585Z"
             },
             {
               "$type": "Document",
